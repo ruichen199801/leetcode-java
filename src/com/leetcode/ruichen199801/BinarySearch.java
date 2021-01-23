@@ -4,6 +4,7 @@ public class BinarySearch {
 
 	class Solution {
 
+		// #704 https://leetcode-cn.com/problems/binary-search/
 		// Binary Search
 		// TC = O(n), SC = O(1)
 
