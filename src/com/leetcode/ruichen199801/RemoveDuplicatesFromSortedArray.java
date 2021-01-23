@@ -4,7 +4,7 @@ public class RemoveDuplicatesFromSortedArray {
 
 	class Solution {
         
-        // #26 https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
+                // #26 https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
 		// Array, Two Pointers
 		// TC = O(n), SC = O(1)
 
