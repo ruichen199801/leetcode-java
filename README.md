@@ -11,4 +11,4 @@ My own solutions to LeetCode questions in Java (will keep updating)
 
 Jan 24, 2021
 
-Ruichen
+Ruichen Zhang
