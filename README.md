@@ -1,10 +1,11 @@
 ## LeetCode Solutions
 
 <ul>
-<li>My own solutions to LeetCode questions in <strong>Java</strong> programming language.</li>
-<li>All solutions have been accepted on LeetCode, and most of them have the best performance in terms of time and space complexity.</li> 
-<li>My current email address is ruichen199801@gmail.com. It would be great if you could share better solutions or kindly point out the mistakes that escaped my notice.</li>
-<li>I will be updating new questions and their solutions weekly. Wish you a happy journey on learning algorithms!</li>
+<li>My own solutions to LeetCode questions in <strong>Java</strong> programming language</li>
+<li>All solutions have been accepted on LeetCode, and most of them have the best performance in terms of time and space complexity</li> 
+<li>I will be updating new questions and their solutions weekly (hopefully)</li>
+<li>It would be great if you could share better solutions or kindly point out any mistake that escaped my notice</li>
+<li>Wish you a happy journey on learning algorithms!</li>
 </ul>
 
 ### Progress Chart
@@ -19,8 +20,8 @@
 | Feb 27 | 27, 132, 283, 1047, 1209 |
 
 ### Question List
-Click <p><strong>No.:</strong> the original question link on [LeetCode]((https://leetcode-cn.com/))<br>
-Click <strong>Question Name:</strong> my solution link on GitHub (including time and space complexity analysis)</p>
+Click <strong>No.</strong> : the original question link on [LeetCode]((https://leetcode-cn.com/))<br>
+Click <strong>Question Name</strong> : my solution link on GitHub (including time and space complexity analysis)
 
 | No. | Question Name | Difficulty | Tag |
 | :----: | :----: | :----: | :----: |
