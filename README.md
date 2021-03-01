@@ -1,6 +1,7 @@
 ## LeetCode Solutions
 
-<p>My own solutions to [LeetCode questions](https://leetcode-cn.com/) in <strong>Java</strong> <br>(will keep updating)</p>
+My own solutions to [LeetCode questions](https://leetcode-cn.com/) in <strong>Java</strong><br>
+(will keep updating)
 
 ### Progress Chart
 
@@ -14,9 +15,12 @@
 | Feb 27 | 27, 132, 283, 1047, 1209 |
 
 ### Question List
+<p><strong>No.:</strong>Original question link on LeetCode<br>
+<strong>Question Name:</strong>My solution link on GitHub (including time and space complexity analysis)</p>
 
-| No. | Question | Difficulty | Tag |
+| No. | Question Name | Difficulty | Tag |
 | :----: | :----: | :----: | :----: |
 | [2](https://leetcode-cn.com/problems/add-two-numbers/) | [Add Two Numbers](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/AddTwoNumbers.java) | Medium | Linked List |
 
-<p>Contributed by <em>Ruichen Zhang</em> <br> Jan 24, 2021</p>
+<br><p>Contributed by <em>Ruichen Zhang</em>
+<br><br>Jan 24, 2021</p>
