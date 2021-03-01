@@ -1,6 +1,6 @@
 ## LeetCode Solutions
 
-My own solutions to [LeetCode questions](https://leetcode-cn.com/) in <strong>Java</strong><br> programming language
+My own solutions to [LeetCode questions](https://leetcode-cn.com/) in <strong>Java</strong> programming language<br>
 (will keep updating weekly)
 
 ### Progress Chart
@@ -15,13 +15,17 @@ My own solutions to [LeetCode questions](https://leetcode-cn.com/) in <strong>Ja
 | Feb 27 | 27, 132, 283, 1047, 1209 |
 
 ### Question List
-<p><strong>No.:</strong> the original question link on LeetCode<br>
-<strong>Question Name:</strong> my solution link on GitHub (including time and space complexity analysis)</p>
+<p><strong>Click No.:</strong> the original question link on LeetCode<br>
+<strong>Click Question Name:</strong> my solution link on GitHub (including time and space complexity analysis)</p>
 
 | No. | Question Name | Difficulty | Tag |
 | :----: | :----: | :----: | :----: |
 | [2](https://leetcode-cn.com/problems/add-two-numbers/) | [Add Two Numbers](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/AddTwoNumbers.java) | Medium | Linked List |
 | [110](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
+| [124](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | [ Binary Tree Maximum Path Sum](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BinaryTreeMaximumPathSum.java) | Hard | Tree, Depth-first Search, Recursion |
+| [226](https://leetcode-cn.com/problems/invert-binary-tree/) | [Invert Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/InvertBinaryTree.java) | Easy | Tree |
+| [704](https://leetcode-cn.com/problems/binary-search/) | [Binary Search](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BinarySearch.java) | Easy | Binary Search |
+| [872](https://leetcode-cn.com/problems/leaf-similar-trees/) | [Leaf-Similar Trees](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/LeafSimilarTrees.java) | Easy | Tree, Depth-first Search |
 
 <br><p>Contributed by <em>Ruichen Zhang</em>
 <br><br>Jan 24, 2021</p>
