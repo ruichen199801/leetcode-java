@@ -19,4 +19,4 @@
 | :----: | :----: | :----: | :----: |
 | [2](https://leetcode-cn.com/problems/add-two-numbers/) | [Add Two Numbers](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/AddTwoNumbers.java) | Medium | Linked List |
 
-<p>Contributed by Ruichen Zhang <br> Jan 24, 2021</p>
+<p>Contributed by <em>Ruichen Zhang</em> <br> Jan 24, 2021</p>
