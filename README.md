@@ -1,7 +1,7 @@
 ## LeetCode Solutions
 
-My own solutions to [LeetCode questions](https://leetcode-cn.com/) in <strong>Java</strong><br>
-(will keep updating)
+My own solutions to [LeetCode questions](https://leetcode-cn.com/) in <strong>Java</strong><br> programming language
+(will keep updating weekly)
 
 ### Progress Chart
 
@@ -15,12 +15,13 @@ My own solutions to [LeetCode questions](https://leetcode-cn.com/) in <strong>Ja
 | Feb 27 | 27, 132, 283, 1047, 1209 |
 
 ### Question List
-<p><strong>No.:</strong>Original question link on LeetCode<br>
-<strong>Question Name:</strong>My solution link on GitHub (including time and space complexity analysis)</p>
+<p><strong>No.:</strong> the original question link on LeetCode<br>
+<strong>Question Name:</strong> my solution link on GitHub (including time and space complexity analysis)</p>
 
 | No. | Question Name | Difficulty | Tag |
 | :----: | :----: | :----: | :----: |
 | [2](https://leetcode-cn.com/problems/add-two-numbers/) | [Add Two Numbers](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/AddTwoNumbers.java) | Medium | Linked List |
+| [110](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
 
 <br><p>Contributed by <em>Ruichen Zhang</em>
 <br><br>Jan 24, 2021</p>
