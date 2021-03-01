@@ -26,7 +26,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | No. | Question Name | Difficulty | Tag |
 | :----: | :----: | :----: | :----: |
 | [2](https://leetcode-cn.com/problems/add-two-numbers/) | [Add Two Numbers](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/AddTwoNumbers.java) | Medium | Linked List |
-| [21](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Merge Two Sorted Lists](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/MergeTwoSortedLists.java) | Easy | Linked List, Recursion |
+| [21](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Merge Two Sorted Lists](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/MergeTwoSortedLists.java) | Easy | Linked List |
 | [26](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Remove Duplicates from Sorted Array](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/RemoveDuplicatesFromSortedArray.java) | Easy | Array, Two Pointers |
 | [27](https://leetcode-cn.com/problems/remove-element/) | [Remove Element](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/RemoveElement.java) | Easy | Array, Two Pointers |
 | [74](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [Search a 2D Matrix](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/SearchA2DMatrix.java) | Medium | Array, Binary Search |
