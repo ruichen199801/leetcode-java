@@ -1,5 +1,7 @@
 ## LeetCode Solutions
 
+LeetCode solutions in Java
+
 <ul>
 <li>My own solutions to LeetCode questions in <strong>Java</strong> programming language</li>
 <li>All solutions have been accepted on LeetCode, and most of them have the best performance in terms of time and space complexity</li> 
