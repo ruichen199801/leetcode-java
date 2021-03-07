@@ -27,6 +27,8 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | No. | Question Name | Difficulty | Tag |
 | :----: | :----: | :----: | :----: |
 | [2](https://leetcode-cn.com/problems/add-two-numbers/) | [Add Two Numbers](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/AddTwoNumbers.java) | Medium | Linked List |
+| [5](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Longest Palindromic Substring](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/LongestPalindromicSubstring.java) | Medium | String, Dynamic Programming |
+| [7](https://leetcode-cn.com/problems/reverse-integer/) | [Reverse Integer](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/ReverseInteger.java) | Easy | Math |
 | [21](https://leetcode-cn.com/problems/merge-two-sorted-lists/) | [Merge Two Sorted Lists](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/MergeTwoSortedLists.java) | Easy | Linked List |
 | [26](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Remove Duplicates from Sorted Array](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/RemoveDuplicatesFromSortedArray.java) | Easy | Array, Two Pointers |
 | [27](https://leetcode-cn.com/problems/remove-element/) | [Remove Element](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/RemoveElement.java) | Easy | Array, Two Pointers |
@@ -35,10 +37,13 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [88](https://leetcode-cn.com/problems/merge-sorted-array/) | [Merge Sorted Array](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/MergeSortedArray.java) | Easy | Array, Two Pointers |
 | [100](https://leetcode-cn.com/problems/same-tree/) | [Same Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/SameTree.java) | Easy | Tree, Depth-first Search |
 | [101](https://leetcode-cn.com/problems/symmetric-tree/) | [Symmetric Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/SymmetricTree.java) | Easy | Tree, Depth-first Search |
+| [104](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [ Maximum Depth of Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/MaximumDepthOfBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
 | [110](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
 | [111](https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/) | [Minimum Depth of Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/MinimumDepthOfBinaryTree.java) | Easy | Tree, Depth-first Search |
 | [124](https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/) | [ Binary Tree Maximum Path Sum](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BinaryTreeMaximumPathSum.java) | Hard | Tree, Depth-first Search, Recursion |
 | [132](https://leetcode-cn.com/problems/palindrome-partitioning-ii/) | [Palindrome Partitioning II](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/PalindromePartitioningII.java) | Hard | Dynamic Programming |
+| [136](https://leetcode-cn.com/problems/single-number/) | [Single Number](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/SingleNumber.java) | Easy | Bit Manipulation, Hash Table |
+| [137](https://leetcode-cn.com/problems/single-number-ii/) | [Single Number II](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/SingleNumberII.java) | Medium | Bit Manipulation |
 | [141](https://leetcode-cn.com/problems/linked-list-cycle/) | [Linked List Cycle](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/LinkedListCycle.java) | Easy | Linked List, Two Pointers |
 | [143](https://leetcode-cn.com/problems/reorder-list/) | [Reorder List](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/ReorderList.java) | Medium | Linked List |
 | [155](https://leetcode-cn.com/problems/min-stack/) | [Min Stack](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/MinStack.java) | Easy | Stack, Design |
@@ -57,15 +62,5 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [1047](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) | [Remove All Adjacent Duplicates In String](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/RemoveAllAdjacentDuplicatesInString.java) | Easy | Stack |
 | [1209](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Remove All Adjacent Duplicates in String II](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/RemoveAllAdjacentDuplicatesInStringII.java) | Medium | Stack |
 
-
-| [5](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
-
-| [7](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
-
-| [104](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
-
-| [136](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
-
-| [137](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
 <br><p>Contributed by <em>Ruichen Zhang</em>
 <br><br>Jan 24, 2021</p>
