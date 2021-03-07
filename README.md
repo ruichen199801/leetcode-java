@@ -57,5 +57,15 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [1047](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/) | [Remove All Adjacent Duplicates In String](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/RemoveAllAdjacentDuplicatesInString.java) | Easy | Stack |
 | [1209](https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Remove All Adjacent Duplicates in String II](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/RemoveAllAdjacentDuplicatesInStringII.java) | Medium | Stack |
 
+
+| [5](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
+
+| [7](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
+
+| [104](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
+
+| [136](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
+
+| [137](https://leetcode-cn.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
 <br><p>Contributed by <em>Ruichen Zhang</em>
 <br><br>Jan 24, 2021</p>
