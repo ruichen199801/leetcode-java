@@ -20,6 +20,7 @@
 | Feb 27 | 27, 132, 283, 1047, 1209 |
 | Mar 6 | 5, 7, 104, 136, 137 |
 | Mar 13 | 9, 82, 83, 160, 237 |
+| Mar 20 | 19, 38, 53, 70, 509 |
 
 ### Question List
 Click <strong>No.</strong> : the original question link on [LeetCode]((https://leetcode-cn.com/))<br>
