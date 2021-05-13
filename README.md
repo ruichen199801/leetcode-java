@@ -4,7 +4,7 @@
 <li>My own solutions to LeetCode questions in <strong>Java</strong> programming language</li>
 <li>All solutions have been accepted on LeetCode, and most of them have the best performance in terms of time and space complexity</li> 
 <li>I will be updating new questions and their solutions weekly (hopefully)</li>
-<li>It would be great if you could share better solutions or kindly point out any mistake that escaped my notice</li>
+<li>It would be great if you could share better solutions or kindly point out any mistake I made</li>
 <li>Wish you a happy journey on learning algorithms!</li>
 </ul>
 
@@ -35,6 +35,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | No. | Question Name | Difficulty | Tag |
 | :----: | :----: | :----: | :----: |
 | [2](https://leetcode-cn.com/problems/add-two-numbers/) | [Add Two Numbers](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/AddTwoNumbers.java) | Medium | Linked List |
+| [4](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [Median of Two Sorted Arrays](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/MedianOfTwoSortedArrays.java) | Hard | Array, Binary Search |
 | [5](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Longest Palindromic Substring](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/LongestPalindromicSubstring.java) | Medium | String, Dynamic Programming |
 | [7](https://leetcode-cn.com/problems/reverse-integer/) | [Reverse Integer](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/ReverseInteger.java) | Easy | Math |
 | [9](https://leetcode-cn.com/problems/palindrome-number/) | [Palindrome Number](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/PalindromeNumber.java) | Easy | Math |
@@ -43,6 +44,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [26](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/) | [Remove Duplicates from Sorted Array](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/RemoveDuplicatesFromSortedArray.java) | Easy | Array, Two Pointers |
 | [27](https://leetcode-cn.com/problems/remove-element/) | [Remove Element](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/RemoveElement.java) | Easy | Array, Two Pointers |
 | [38](https://leetcode-cn.com/problems/count-and-say/) | [ Count and Say](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/CountAndSay.java) | Easy | String |
+| [41](https://leetcode-cn.com/problems/first-missing-positive/) | [First Missing Positive](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/FirstMissingPositive.java) | Hard | Array |
 | [53](https://leetcode-cn.com/problems/maximum-subarray/) | [Maximum Subarray](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/MaximumSubarray.java) | Easy | Dynamic Programming |
 | [70](https://leetcode-cn.com/problems/climbing-stairs/) | [Climbing Stairs](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/ClimbingStairs.java) | Easy | Dynamic Programming |
 | [74](https://leetcode-cn.com/problems/search-a-2d-matrix/) | [Search a 2D Matrix](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/SearchA2DMatrix.java) | Medium | Array, Binary Search |
@@ -50,6 +52,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [83](https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list/) | [Remove Duplicates from Sorted List](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/RemoveDuplicatesFromSortedList.java) | Easy | Linked List |
 | [86](https://leetcode-cn.com/problems/partition-list/) | [Partition List](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/PartitionList.java) | Medium | Linked List, Two Pointers |
 | [88](https://leetcode-cn.com/problems/merge-sorted-array/) | [Merge Sorted Array](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/MergeSortedArray.java) | Easy | Array, Two Pointers |
+| [94](https://leetcode-cn.com/problems/binary-tree-inorder-traversal/) | [Binary Tree Inorder Traversal](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BinaryTreeInorderTraversal.java) | Easy | Stack, Tree |
 | [100](https://leetcode-cn.com/problems/same-tree/) | [Same Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/SameTree.java) | Easy | Tree, Depth-first Search |
 | [101](https://leetcode-cn.com/problems/symmetric-tree/) | [Symmetric Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/SymmetricTree.java) | Easy | Tree, Depth-first Search |
 | [104](https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/) | [ Maximum Depth of Binary Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/MaximumDepthOfBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
@@ -61,6 +64,8 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [137](https://leetcode-cn.com/problems/single-number-ii/) | [Single Number II](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/SingleNumberII.java) | Medium | Bit Manipulation |
 | [141](https://leetcode-cn.com/problems/linked-list-cycle/) | [Linked List Cycle](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/LinkedListCycle.java) | Easy | Linked List, Two Pointers |
 | [143](https://leetcode-cn.com/problems/reorder-list/) | [Reorder List](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/ReorderList.java) | Medium | Linked List |
+| [144](https://leetcode-cn.com/problems/binary-tree-preorder-traversal/) | [Binary Tree Preorder Traversal](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BinaryTreePreorderTraversal.java) | Medium | Stack, Tree |
+| [145](https://leetcode-cn.com/problems/binary-tree-postorder-traversal/) | [Binary Tree Postorder Traversal](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BinaryTreePostorderTraversal.java) | Easy | Stack, Tree |
 | [155](https://leetcode-cn.com/problems/min-stack/) | [Min Stack](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/MinStack.java) | Easy | Stack, Design |
 | [160](https://leetcode-cn.com/problems/intersection-of-two-linked-lists/) | [Intersection of Two Linked Lists](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/IntersectionOfTwoLinkedLists.java) | Easy | Linked List |
 | [203](https://leetcode-cn.com/problems/remove-linked-list-elements/) | [Remove Linked List Elements](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/RemoveLinkedListElements.java) | Easy | Linked List |
@@ -71,7 +76,12 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [237](https://leetcode-cn.com/problems/delete-node-in-a-linked-list/) | [Delete Node in a Linked List](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/DeleteNodeInLinkedList.java) | Easy | Linked List |
 | [283](https://leetcode-cn.com/problems/move-zeroes/) | [Move Zeroes](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/MoveZeros.java) | Easy | Array, Two Pointers |
 | [404](https://leetcode-cn.com/problems/sum-of-left-leaves/) | [Sum of Left Leaves](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/SumOfLeftLeaves.java) | Easy | Tree |
+| [442](https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/) | [Find All Duplicates in an Array](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/FindAllDuplicatesInAnArray.java) | Medium | Array |
+| [448](https://leetcode-cn.com/problems/find-all-numbers-disappeared-in-an-array/) | [Find All Numbers Disappeared in an Array](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/FindAllNumbersDisappearedInAnArray.java) | Easy | Array |
+| [486](https://leetcode-cn.com/problems/predict-the-winner/) | [Predict the Winner](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/PredictTheWinner.java) | Medium | Minimax, Dynamic Programming |
 | [509](https://leetcode-cn.com/problems/fibonacci-number/) | [Fibonacci Number](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/FibonacciNumber.java) | Easy | Array |
+| [589](https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/) | [N-ary Tree Preorder Traversal](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/NaryTreePreorderTraversal.java) | Easy | Tree |
+| [590](https://leetcode-cn.com/problems/n-ary-tree-postorder-traversal/) | [N-ary Tree Postorder Traversal](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/NaryTreePostorderTraversal.java) | Easy | Tree |
 | [700](https://leetcode-cn.com/problems/search-in-a-binary-search-tree/) | [Search in a Binary Search Tree](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/SearchInABinarySearchTree.java) | Easy | Tree |
 | [704](https://leetcode-cn.com/problems/binary-search/) | [Binary Search](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/BinarySearch.java) | Easy | Binary Search |
 | [872](https://leetcode-cn.com/problems/leaf-similar-trees/) | [Leaf-Similar Trees](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/LeafSimilarTrees.java) | Easy | Tree, Depth-first Search |
