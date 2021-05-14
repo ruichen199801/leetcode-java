@@ -4,7 +4,7 @@
 <li>My own solutions to LeetCode questions in <strong>Java</strong> programming language</li>
 <li>All solutions have been accepted on LeetCode, and most of them have the best performance in terms of time and space complexity</li> 
 <li>I will be updating new questions and their solutions weekly (hopefully)</li>
-<li>It would be great if you could share better solutions or kindly point out any mistake I made</li>
+<li>It would be great if you could share better solutions or kindly point out any mistake I may have made</li>
 <li>Wish you a happy journey on learning algorithms!</li>
 </ul>
 
@@ -27,6 +27,7 @@
 | Apr 17 | TBA |
 | Apr 24 | 94, 144, 145, 589, 590 |
 | May 8 | 4, 41, 442, 448, 486 |
+| May 15 | 45, 55, 168, 169, 171 |
 
 ### Question List
 Click <strong>No.</strong> : the original question link on [LeetCode]((https://leetcode-cn.com/))<br>
