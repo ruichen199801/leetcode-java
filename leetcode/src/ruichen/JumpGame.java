@@ -4,7 +4,7 @@ public class JumpGame {
 
     class Solution {
 
-        // #55 https://leetcode-cn.com/problems/jump-game/
+        // #55 https://leetcode.com/problems/jump-game/
         // Dynamic Programming
         // TC = O(n), SC = O(1)
 

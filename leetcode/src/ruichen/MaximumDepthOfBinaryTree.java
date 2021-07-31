@@ -19,7 +19,7 @@ public class MaximumDepthOfBinaryTree {
 	
 	class Solution {
 
-	    // #104 https://leetcode-cn.com/problems/maximum-depth-of-binary-tree/
+	    // #104 https://leetcode.com/problems/maximum-depth-of-binary-tree/
 	    // Tree, DFS, Recursion
 	    // TC = O(n), SC = O(height)
 

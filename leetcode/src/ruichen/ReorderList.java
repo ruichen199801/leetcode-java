@@ -13,7 +13,7 @@ public class ReorderList {
 	
 	class Solution {
 
-	    // #143 https://leetcode-cn.com/problems/reorder-list/
+	    // #143 https://leetcode.com/problems/reorder-list/
 	    // Linked List
 	    // TC = O(n), SC = O(1)
 

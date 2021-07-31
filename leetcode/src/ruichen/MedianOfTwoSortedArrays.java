@@ -2,7 +2,7 @@ package ruichen;
 
 public class MedianOfTwoSortedArrays {
 
-    // #4 https://leetcode-cn.com/problems/median-of-two-sorted-arrays/
+    // #4 https://leetcode.com/problems/median-of-two-sorted-arrays/
     // Array, Binary Search
 
     class Solution {

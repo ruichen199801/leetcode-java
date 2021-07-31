@@ -14,7 +14,7 @@ public class SearchInABinarySearchTree {
 
 	class Solution {
         
-                // #700 https://leetcode-cn.com/problems/search-in-a-binary-search-tree/
+		// #700 https://leetcode.com/problems/search-in-a-binary-search-tree/
 		// Tree
 		// Iterative solution: TC = O(height), SC = O(1)
 

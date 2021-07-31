@@ -4,7 +4,7 @@ public class LongestPalindromicSubstring {
 	
 	class Solution {
 
-	    // #5 https://leetcode-cn.com/problems/longest-palindromic-substring/
+	    // #5 https://leetcode.com/problems/longest-palindromic-substring/
 	    // String
 	    // TC = O(n^2), SC = O(1)
 

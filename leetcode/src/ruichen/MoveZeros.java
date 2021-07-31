@@ -2,7 +2,7 @@ package ruichen;
 
 public class MoveZeros {
 	
-	// #283 https://leetcode-cn.com/problems/move-zeroes/
+	// #283 https://leetcode.com/problems/move-zeroes/
     // Array, Two Pointers
     // TC = O(n), SC = O(1) (in-place)
 	
@@ -28,10 +28,12 @@ public class MoveZeros {
 	class Solution2 {
 
 	    public void moveZeroes(int[] nums) {
+
 	        // i: left bound, processed part
 	        // j: right bound, to-be-processed part
 	        // linear scan the array with j
 	        // swap i and j every time we find a non-zero element
+
 	        int i = 0; 
 	        for (int j = 0; j < nums.length; j++) {
 	            if (nums[j] != 0) {

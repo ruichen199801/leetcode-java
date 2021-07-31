@@ -18,9 +18,11 @@ public class BinaryTreeMaximumPathSum {
 	}
 	
 	class Solution {
-	    // #124 https://leetcode-cn.com/problems/binary-tree-maximum-path-sum/
+
+	    // #124 https://leetcode.com/problems/binary-tree-maximum-path-sum/
 	    // Tree, DFS, Recursion
 	    // TC = O(n), SC = O(height)
+
 	    public int maxPathSum(TreeNode root) {
 	        // root is not null
 	        int[] max = {Integer.MIN_VALUE};

@@ -3,9 +3,11 @@ package ruichen;
 public class PowerOfTwo {
 	
 	class Solution {
-	    // #231 https://leetcode-cn.com/problems/power-of-two/
+
+	    // #231 https://leetcode.com/problems/power-of-two/
 	    // Bit Manipulation, Math
 	    // TC = O(1), SC = O(1)
+
 	    public boolean isPowerOfTwo(int n) {
 	        // corner case: negative number
 	        if (n <= 0) {

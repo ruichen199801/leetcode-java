@@ -13,7 +13,7 @@ public class AddTwoNumbers {
 	
 	class Solution {
 
-	    // #2 https://leetcode-cn.com/problems/add-two-numbers/
+	    // #2 https://leetcode.com/problems/add-two-numbers/
 	    // Linked List
 	    // TC = O(n), SC = O(1)
 

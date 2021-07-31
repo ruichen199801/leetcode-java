@@ -18,9 +18,11 @@ public class SymmetricTree {
 	}
 	
 	class Solution {
-	    // #101 https://leetcode-cn.com/problems/symmetric-tree/
+
+	    // #101 https://leetcode.com/problems/symmetric-tree/
 	    // Tree, DFS, Recursion
 	    // TC = O(n), SC = O(height)
+
 	    public boolean isSymmetric(TreeNode root) {
 	        if (root == null) {
 	            return true;

@@ -4,9 +4,8 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class MinStack {
-	
 
-	    // #155 https://leetcode-cn.com/problems/min-stack/
+	    // #155 https://leetcode.com/problems/min-stack/
 	    // Stack, Design
 	    // TC = O(1) (for all operations), SC = O(n) (NOT optimized!)
 

@@ -18,9 +18,11 @@ public class UnivaluedBinaryTree {
 	}
 	
 	class Solution {
-	    // #965 https://leetcode-cn.com/problems/univalued-binary-tree/
+
+	    // #965 https://leetcode.com/problems/univalued-binary-tree/
 	    // Tree, DFS, Recursion
 	    // TC = O(n), SC = O(height)
+
 	    public boolean isUnivalTree(TreeNode root) {
 	        if (root == null) {
 	            return false;

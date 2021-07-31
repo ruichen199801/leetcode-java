@@ -4,7 +4,7 @@ public class RemoveElement {
 	
 	class Solution {
 
-	    // #27 https://leetcode-cn.com/problems/remove-element/
+	    // #27 https://leetcode.com/problems/remove-element/
 	    // Array, Two Pointers
 	    // TC = O(n), SC = O(1) (in-place)
 

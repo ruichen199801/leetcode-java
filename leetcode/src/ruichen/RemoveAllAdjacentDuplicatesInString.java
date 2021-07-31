@@ -4,7 +4,7 @@ public class RemoveAllAdjacentDuplicatesInString {
 	
 	class Solution {
 
-	    // #1047 https://leetcode-cn.com/problems/remove-all-adjacent-duplicates-in-string/
+	    // #1047 https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/
 	    // Stack, Two Pointers
 	    // TC = O(n), SC = O(1)
 	    

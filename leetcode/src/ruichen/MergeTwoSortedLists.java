@@ -13,7 +13,7 @@ public class MergeTwoSortedLists {
 	
 	class Solution {
 
-	    // #21 https://leetcode-cn.com/problems/merge-two-sorted-lists
+	    // #21 https://leetcode.com/problems/merge-two-sorted-lists
 	    // Linked List
 	    // TC = O(m + n), SC = O(1)
 

@@ -13,7 +13,7 @@ public class MiddleoftheLinkedList {
 
 	class Solution {
 
-		// #876 https://leetcode-cn.com/problems/middle-of-the-linked-list/
+		// #876 https://leetcode.com/problems/middle-of-the-linked-list/
 		// Linked List
 		// TC = O(n), SC = O(1)
 

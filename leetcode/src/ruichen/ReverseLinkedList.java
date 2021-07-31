@@ -13,7 +13,7 @@ public class ReverseLinkedList {
 	
 	class Solution1 {
 		 
-	    // #206 https://leetcode-cn.com/problems/reverse-linked-list/
+	    // #206 https://leetcode.com/problems/reverse-linked-list/
 	    // Linked List
 	    // Iterative: TC = O(n), SC = O(1)
 	    

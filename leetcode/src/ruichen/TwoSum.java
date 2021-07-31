@@ -9,8 +9,8 @@ public class TwoSum {
         public int[] twoSum(int[] nums, int target) {
 
             // #1 https://leetcode.com/problems/two-sum/
-            // TC = O(n), SC = O(n)
             // Array, Hash Table
+            // TC = O(n), SC = O(n)
 
             Map<Integer, Integer> numMap = new HashMap<>();
             for (int i = 0; i < nums.length; i++) {

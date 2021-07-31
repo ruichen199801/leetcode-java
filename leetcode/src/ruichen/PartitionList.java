@@ -13,7 +13,7 @@ public class PartitionList {
 	
 	class Solution {
 
-	    // #86 https://leetcode-cn.com/problems/partition-list/
+	    // #86 https://leetcode.com/problems/partition-list/
 	    // Linked List
 	    // TC = O(n), SC = O(1)
 

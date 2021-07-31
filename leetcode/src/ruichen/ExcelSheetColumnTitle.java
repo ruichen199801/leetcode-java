@@ -4,7 +4,7 @@ public class ExcelSheetColumnTitle {
 
     class Solution {
 
-        // #168 https://leetcode-cn.com/problems/excel-sheet-column-title/
+        // #168 https://leetcode.com/problems/excel-sheet-column-title/
         // Math
         // TC = O(log n), SC = O(1)
 

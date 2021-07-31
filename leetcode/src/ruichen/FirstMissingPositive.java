@@ -2,7 +2,7 @@ package ruichen;
 
 public class FirstMissingPositive {
 
-    // #41 https://leetcode-cn.com/problems/first-missing-positive/
+    // #41 https://leetcode.com/problems/first-missing-positive/
     // Array
 
     class Solution {

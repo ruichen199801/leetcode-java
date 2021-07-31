@@ -2,7 +2,7 @@ package ruichen;
 
 public class PredictTheWinner {
 
-    // #486 https://leetcode-cn.com/problems/predict-the-winner/
+    // #486 https://leetcode.com/problems/predict-the-winner/
     // Minimax, Dynamic Programming
 
     class Solution1 {

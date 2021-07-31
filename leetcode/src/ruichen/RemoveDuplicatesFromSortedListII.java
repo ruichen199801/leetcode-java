@@ -12,7 +12,7 @@ public class RemoveDuplicatesFromSortedListII {
 	
 	class Solution {
 
-	    // #82 https://leetcode-cn.com/problems/remove-duplicates-from-sorted-list-ii/
+	    // #82 https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/
 	    // Linked List
 	    // TC = O(n), SC = O(1)
 

@@ -13,7 +13,7 @@ public class LinkedListCycle {
 
 	public class Solution {
 
-		// #141 https://leetcode-cn.com/problems/linked-list-cycle/
+		// #141 https://leetcode.com/problems/linked-list-cycle/
 		// Linked List
 		// TC = O(n), SC = O(1)
 

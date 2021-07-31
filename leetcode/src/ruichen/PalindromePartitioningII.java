@@ -4,7 +4,7 @@ public class PalindromePartitioningII {
 	
 	class Solution {
 
-	    // #132 https://leetcode-cn.com/problems/palindrome-partitioning-ii/
+	    // #132 https://leetcode.com/problems/palindrome-partitioning-ii/
 	    // Dynamic Programming
 	    // TC = O(n^3), SC = O(n)
 	      

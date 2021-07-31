@@ -13,7 +13,7 @@ public class RemoveLinkedListElements {
 	
 	class Solution {
 
-	    // #203 https://leetcode-cn.com/problems/remove-linked-list-elements/
+	    // #203 https://leetcode.com/problems/remove-linked-list-elements/
 	    // Linked List
 	    // TC = O(n), SC = O(1)
 

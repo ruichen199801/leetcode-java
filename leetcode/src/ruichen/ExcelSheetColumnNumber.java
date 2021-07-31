@@ -4,7 +4,7 @@ public class ExcelSheetColumnNumber {
 
     class Solution {
 
-        // #171 https://leetcode-cn.com/problems/excel-sheet-column-number/
+        // #171 https://leetcode.com/problems/excel-sheet-column-number/
         // Math
         // TC = O(n), SC = O(1)
 

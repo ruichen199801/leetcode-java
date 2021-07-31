@@ -12,7 +12,7 @@ public class DeleteNodeInLinkedList {
 	
 	class Solution {
 
-	    // #237 https://leetcode-cn.com/problems/delete-node-in-a-linked-list/
+	    // #237 https://leetcode.com/problems/delete-node-in-a-linked-list/
 	    // Linked List
 	    // TC = O(1), SC = O(1)
 

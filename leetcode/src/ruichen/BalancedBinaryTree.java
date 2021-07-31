@@ -18,9 +18,11 @@ public class BalancedBinaryTree {
 	}
 	
 	class Solution1 {
-	    // #110 https://leetcode-cn.com/problems/balanced-binary-tree/
+
+	    // #110 https://leetcode.com/problems/balanced-binary-tree/
 	    // Tree, DFS, Recursion
 	    // TC = O(nlog n), SC = O(height)
+
 	    public boolean isBalanced(TreeNode root) {
 	        if (root == null) {
 	            return true;
@@ -42,7 +44,9 @@ public class BalancedBinaryTree {
 	}
 	
 	class Solution2 {
+
 	    // Better: TC = O(n), SC = O(height)
+
 	    public boolean isBalanced(TreeNode root) {
 	        if (root == null) {
 	            return true;

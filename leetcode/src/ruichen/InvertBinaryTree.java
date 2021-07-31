@@ -18,15 +18,19 @@ public class InvertBinaryTree {
 	}
 	
 	class Solution {
-	    // #226 https://leetcode-cn.com/problems/invert-binary-tree/
+
+	    // #226 https://leetcode.com/problems/invert-binary-tree/
 	    // Tree, Recursion
 	    // TC = O(n), SC = O(height)
+
 	    public TreeNode invertTree(TreeNode root) {
+
 	        //    root
 	        //    /  \
 	        // -----------
 	        // left right (already recursively reversed) 
 	        // what's left to do? root.left = right, root.right = left
+
 	        if (root == null) {
 	            return null;
 	        }

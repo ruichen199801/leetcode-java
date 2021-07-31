@@ -21,10 +21,12 @@ public class LeafSimilarTrees {
 	}
 	
 	class Solution {
-	    // #872 https://leetcode-cn.com/problems/leaf-similar-trees/
+
+	    // #872 https://leetcode.com/problems/leaf-similar-trees/
 	    // Tree, DFS, Recursion
 	    // TC = O(N1 + N2), SC = O(H1 + H2) (stack), O(L1 + L2) (heap)
 		// N: # of nodes, H: height of binary tree, L: # of leaves
+
 	    public boolean leafSimilar(TreeNode root1, TreeNode root2) {
 	        // root1 and root2 are not null
 	        List<Integer> l1 = new ArrayList<>();     

@@ -5,7 +5,7 @@ import java.util.List;
 
 public class BinaryTreeInorderTraversal {
 
-    // #94 https://leetcode-cn.com/problems/binary-tree-inorder-traversal/
+    // #94 https://leetcode.com/problems/binary-tree-inorder-traversal/
     // Tree
 
     public class TreeNode {
@@ -20,9 +20,11 @@ public class BinaryTreeInorderTraversal {
     }
 
     class Solution {
+
         // Recursive Solution
         // TC = O(# of nodes) = O(n)
         // SC = O(height) = O(log n) in average, O(n) at worst
+
         public List<Integer> inorderTraversal(TreeNode root) {
             List<Integer> res = new ArrayList<>();
             helper(root, res);

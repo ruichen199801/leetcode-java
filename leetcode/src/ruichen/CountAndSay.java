@@ -3,10 +3,12 @@ package ruichen;
 public class CountAndSay {
 	
 	class Solution {
-		// #38 https://leetcode-cn.com/problems/count-and-say/
+
+		// #38 https://leetcode.com/problems/count-and-say/
 	    // Recursion + Memo
 	    // TC = O(l ^ (n-1)), l = average length of the digit string
 	    // SC = O(l), l = maximum length of the digit string (only record previous one)
+
 	    public String countAndSay(int n) {
 	        if (n == 1) {
 	            return "1";
@@ -17,6 +19,7 @@ public class CountAndSay {
 	    }
 
 	    private String helper(String s, StringBuilder res) {
+
 	        // process the digit string segment by segment
 	        // 1 1 2 2 2 1 1 1 1
 	        // s   i

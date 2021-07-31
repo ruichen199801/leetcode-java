@@ -11,9 +11,11 @@ public class RemoveNthNodeFromEndOfList {
 	}
 	
 	class Solution {
-	    // #19 https://leetcode-cn.com/problems/remove-nth-node-from-end-of-list/
+
+	    // #19 https://leetcode.com/problems/remove-nth-node-from-end-of-list/
 	    // Linked List, Two Pointers
 	    // TC = O(n), SC = O(1)
+
 	    public ListNode removeNthFromEnd(ListNode head, int n) {
 	        // one pass
 	        // fast runs ahead of slow by n

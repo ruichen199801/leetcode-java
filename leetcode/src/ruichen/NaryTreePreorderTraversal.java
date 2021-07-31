@@ -5,7 +5,7 @@ import java.util.List;
 
 public class NaryTreePreorderTraversal {
 
-    // #589 https://leetcode-cn.com/problems/n-ary-tree-preorder-traversal/
+    // #589 https://leetcode.com/problems/n-ary-tree-preorder-traversal/
     // Tree
 
     class Node {

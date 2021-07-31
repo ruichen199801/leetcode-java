@@ -18,9 +18,11 @@ public class MinimumDepthOfBinaryTree {
 	}
 	
 	class Solution {
-	    // #111 https://leetcode-cn.com/problems/minimum-depth-of-binary-tree/
+
+	    // #111 https://leetcode.com/problems/minimum-depth-of-binary-tree/
 	    // Tree, DFS, Recursion
 	    // TC = O(n), SC = O(height)
+
 	    public int minDepth(TreeNode root) {
 	        // special case to handle: linked list
 	        // [1, null, 2, null, 3, null, 4]

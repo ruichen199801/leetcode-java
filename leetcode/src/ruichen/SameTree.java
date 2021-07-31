@@ -19,9 +19,11 @@ public class SameTree {
 	
 	class Solution {
 	    public boolean isSameTree(TreeNode p, TreeNode q) {
-	        // #100 https://leetcode-cn.com/problems/same-tree/
+
+	        // #100 https://leetcode.com/problems/same-tree/
 	        // Tree, DFS, Recursion
 	        // TC = O(n), SC = O(height)
+
 	        if (p == null && q == null) {
 	            return true;
 	        } else if (p == null || q == null) {

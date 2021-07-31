@@ -5,7 +5,7 @@ import java.util.List;
 
 public class FindAllDuplicatesInAnArray {
 
-    // #442 https://leetcode-cn.com/problems/find-all-duplicates-in-an-array/
+    // #442 https://leetcode.com/problems/find-all-duplicates-in-an-array/
     // Array
 
     class Solution {

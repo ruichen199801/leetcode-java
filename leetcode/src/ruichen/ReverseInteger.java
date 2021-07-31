@@ -4,7 +4,7 @@ public class ReverseInteger {
 	
 	class Solution {
 
-	    // #7 https://leetcode-cn.com/problems/reverse-integer/
+	    // #7 https://leetcode.com/problems/reverse-integer/
 	    // Math
 	    // TC = O(log x), SC = O(1)
 

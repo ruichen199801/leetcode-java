@@ -18,9 +18,11 @@ public class SumOfLeftLeaves {
 	}
 	
 	class Solution {
-	    // #404 https://leetcode-cn.com/problems/sum-of-left-leaves/
+
+	    // #404 https://leetcode.com/problems/sum-of-left-leaves/
 	    // Tree, DFS, Recursion
 	    // TC = O(n), SC = O(height), O(n) worst case
+
 	    public int sumOfLeftLeaves(TreeNode root) {
 	        if (root == null) {
 	            return 0;

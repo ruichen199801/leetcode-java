@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class SingleNumber {
 	
-	// #136 https://leetcode-cn.com/problems/single-number/
+	// #136 https://leetcode.com/problems/single-number/
 	// Bit Manipulation, Hash Table
 	
 	class Solution1 {

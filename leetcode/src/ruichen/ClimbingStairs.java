@@ -3,8 +3,10 @@ package ruichen;
 public class ClimbingStairs {
 	
 	class Solution1 {
-		// #70 https://leetcode-cn.com/problems/climbing-stairs/
+
+		// #70 https://leetcode.com/problems/climbing-stairs/
 	    // DP, TC = O(n), SC = O(n)
+
 	    public int climbStairs(int n) {
 	        if (n == 1) {
 	            return 1;

@@ -5,7 +5,7 @@ import java.util.Map;
 
 public class MajorityElement {
 
-    // #169 https://leetcode-cn.com/problems/majority-element/
+    // #169 https://leetcode.com/problems/majority-element/
     // Array
 
     class Solution1 {

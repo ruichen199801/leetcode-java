@@ -13,7 +13,7 @@ public class PalindromeLinkedList {
 	
 	class Solution {
 
-	    // #234 https://leetcode-cn.com/problems/palindrome-linked-list/
+	    // #234 https://leetcode.com/problems/palindrome-linked-list/
 	    // Linked List
 	    // TC = O(n), SC = O(1)
 	    
