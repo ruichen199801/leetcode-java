@@ -21,13 +21,10 @@
 | Mar 6 | 5, 7, 104, 136, 137 |
 | Mar 13 | 9, 82, 83, 160, 237 |
 | Mar 20 | 19, 38, 53, 70, 509 |
-| Mar 27 | TBA |
-| Apr 3 | TBA |
-| Apr 10 | TBA |
-| Apr 17 | TBA |
 | Apr 24 | 94, 144, 145, 589, 590 |
 | May 8 | 4, 41, 442, 448, 486 |
 | May 15 | 45, 55, 168, 169, 171 |
+| Jul 31 | 1 |
 
 ### Question List
 Click <strong>No.</strong> : the original question link on [LeetCode]((https://leetcode-cn.com/))<br>
@@ -35,7 +32,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 
 | No. | Question Name | Difficulty | Tag |
 | :----: | :----: | :----: | :----: |
-| [2](https://leetcode-cn.com/problems/add-two-numbers/) | [Add Two Numbers](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/AddTwoNumbers.java) | Medium | Linked List |
+| [2](https://leetcode.com/problems/add-two-numbers/) | [Add Two Numbers](leetcode/src/ruichen/AddTwoNumbers.java) | Medium | Linked List |
 | [4](https://leetcode-cn.com/problems/median-of-two-sorted-arrays/) | [Median of Two Sorted Arrays](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/MedianOfTwoSortedArrays.java) | Hard | Array, Binary Search |
 | [5](https://leetcode-cn.com/problems/longest-palindromic-substring/) | [Longest Palindromic Substring](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/LongestPalindromicSubstring.java) | Medium | String, Dynamic Programming |
 | [7](https://leetcode-cn.com/problems/reverse-integer/) | [Reverse Integer](https://github.com/ruichen199801/leetcode-solutions/blob/main/src/com/leetcode/ruichen199801/ReverseInteger.java) | Easy | Math |

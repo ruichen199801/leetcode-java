@@ -1,4 +1,4 @@
-package com.leetcode.ruichen199801;
+package ruichen;
 
 import java.util.HashMap;
 import java.util.Map;
