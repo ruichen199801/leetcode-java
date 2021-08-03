@@ -19,7 +19,7 @@ public class TimeBasedKeyValueStore {
         // space complexity: O(n) to store n entries
 
         /** Initialize your data structure here. */
-    public TimeMap() {
+        public TimeMap() {
             map = new HashMap<>();
         }
 

@@ -21,12 +21,14 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [7](https://leetcode.com/problems/reverse-integer/) | [Reverse Integer](leetcode/src/ruichen/ReverseInteger.java) | Easy | Math |
 | [9](https://leetcode.com/problems/palindrome-number/) | [Palindrome Number](leetcode/src/ruichen/PalindromeNumber.java) | Easy | Math |
 | [19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Remove Nth Node From End of List](leetcode/src/ruichen/RemoveNthNodeFromEndOfList.java) | Medium | Linked List, Two Pointers |
+| [20](https://leetcode.com/problems/valid-parentheses/) | [Valid Parentheses](leetcode/src/ruichen/ValidParentheses.java) | Easy | Stack |
 | [21](https://leetcode.com/problems/merge-two-sorted-lists/) | [Merge Two Sorted Lists](leetcode/src/ruichen/MergeTwoSortedLists.java) | Easy | Linked List |
 | [26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Remove Duplicates from Sorted Array](leetcode/src/ruichen/RemoveDuplicatesFromSortedArray.java) | Easy | Array, Two Pointers |
 | [27](https://leetcode.com/problems/remove-element/) | [Remove Element](leetcode/src/ruichen/RemoveElement.java) | Easy | Array, Two Pointers |
 | [35](https://leetcode.com/problems/search-insert-position/) | [Search Insert Position](leetcode/src/ruichen/SearchInsertPosition.java) | Easy | Array, Binary Search |
 | [38](https://leetcode.com/problems/count-and-say/) | [Count and Say](leetcode/src/ruichen/CountAndSay.java) | Easy | String |
 | [41](https://leetcode.com/problems/first-missing-positive/) | [First Missing Positive](leetcode/src/ruichen/FirstMissingPositive.java) | Hard | Array |
+| [42](https://leetcode.com/problems/trapping-rain-water/) | [Trapping Rain Water](leetcode/src/ruichen/TrappingRainWater.java) | Hard | Dynamic Programming, Two Pointers |
 | [45](https://leetcode.com/problems/jump-game-ii/) | [Jump Game II](leetcode/src/ruichen/JumpGameII.java) | Medium | Greedy, Array |
 | [53](https://leetcode.com/problems/maximum-subarray/) | [Maximum Subarray](leetcode/src/ruichen/MaximumSubarray.java) | Easy | Dynamic Programming |
 | [55](https://leetcode.com/problems/jump-game/) | [Jump Game](leetcode/src/ruichen/JumpGame.java) | Medium | Greedy, Array |
@@ -50,11 +52,12 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [143](https://leetcode.com/problems/reorder-list/) | [Reorder List](leetcode/src/ruichen/ReorderList.java) | Medium | Linked List |
 | [144](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Binary Tree Preorder Traversal](leetcode/src/ruichen/BinaryTreePreorderTraversal.java) | Medium | Stack, Tree |
 | [145](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Binary Tree Postorder Traversal](leetcode/src/ruichen/BinaryTreePostorderTraversal.java) | Easy | Stack, Tree |
-| [155](https://leetcode.com/problems/min-stack/) | [Min Stack](leetcode/src/ruichen/MinStack.java) | Easy | Stack |
+| [155](https://leetcode.com/problems/min-stack/) | [Min Stack](leetcode/src/ruichen/MinStack.java) | Easy | Stack, Design |
 | [160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Intersection of Two Linked Lists](leetcode/src/ruichen/IntersectionOfTwoLinkedLists.java) | Easy | Linked List |
 | [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Two Sum II - Input array is sorted](leetcode/src/ruichen/TwoSumII.java) | Easy | Array, Two Pointers |
 | [168](https://leetcode.com/problems/excel-sheet-column-title/) | [Excel Sheet Column Title](leetcode/src/ruichen/ExcelSheetColumnTitle.java) | Easy | Math |
 | [169](https://leetcode.com/problems/majority-element/) | [Majority Element](leetcode/src/ruichen/MajorityElement.java) | Easy | Array |
+| [170](https://leetcode.com/problems/two-sum-iii-data-structure-design/) | [Two Sum III - Data structure design](leetcode/src/ruichen/TwoSumIII.java) | Easy | Hash Table, Design |
 | [171](https://leetcode.com/problems/excel-sheet-column-number/) | [Excel Sheet Column Number](leetcode/src/ruichen/ExcelSheetColumnNumber.java) | Easy | Math |
 | [203](https://leetcode.com/problems/remove-linked-list-elements/) | [Remove Linked List Elements](leetcode/src/ruichen/RemoveLinkedListElements.java) | Easy | Linked List |
 | [206](https://leetcode.com/problems/reverse-linked-list/) | [Reverse Linked List](leetcode/src/ruichen/ReverseLinkedList.java) | Easy | Linked List |
@@ -65,6 +68,8 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [278](https://leetcode.com/problems/first-bad-version/) | [First Bad Version](leetcode/src/ruichen/FirstBadVersion.java) | Easy | Binary Search |
 | [283](https://leetcode.com/problems/move-zeroes/) | [Move Zeroes](leetcode/src/ruichen/MoveZeros.java) | Easy | Array, Two Pointers |
 | [374](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Guess Number Higher or Lower](leetcode/src/ruichen/GuessNumberHigherOrLower.java) | Easy | Array, Binary Search |
+| [380](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Insert Delete GetRandom O(1)](leetcode/src/ruichen/RandomizedSet.java) | Medium | Array, Hash Table, Design |
+| [381](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [Insert Delete GetRandom O(1) - Duplicates allowed](leetcode/src/ruichen/RandomizedCollection.java) | Hard | Array, Hash Table, Design |
 | [389](https://leetcode.com/problems/find-the-difference/) | [Find the Difference](leetcode/src/ruichen/FindTheDifference.java) | Easy | Bit Manipulation, Hash Table |
 | [404](https://leetcode.com/problems/sum-of-left-leaves/) | [Sum of Left Leaves](leetcode/src/ruichen/SumOfLeftLeaves.java) | Easy | Tree |
 | [442](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Find All Duplicates in an Array](leetcode/src/ruichen/FindAllDuplicatesInAnArray.java) | Medium | Array |
@@ -78,11 +83,15 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [653](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Two Sum IV - Input is a BST](leetcode/src/ruichen/TwoSumIV.java) | Easy | Hash Table, Tree, Depth-first Search |
 | [700](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Search in a Binary Search Tree](leetcode/src/ruichen/SearchInABinarySearchTree.java) | Easy | Tree |
 | [704](https://leetcode.com/problems/binary-search/) | [Binary Search](leetcode/src/ruichen/BinarySearch.java) | Easy | Array, Binary Search |
+| [827](https://leetcode.com/problems/making-a-large-island/) | [Making a Large Island](leetcode/src/ruichen/MakingALargeIsland.java) | Hard | Depth-first Search |
 | [872](https://leetcode.com/problems/leaf-similar-trees/) | [Leaf-Similar Trees](leetcode/src/ruichen/LeafSimilarTrees.java) | Easy | Tree, Depth-first Search |
 | [876](https://leetcode.com/problems/middle-of-the-linked-list/) | [Middle of the Linked List](leetcode/src/ruichen/MiddleoftheLinkedList.java) | Easy | Linked List |
 | [965](https://leetcode.com/problems/univalued-binary-tree/) | [Univalued Binary Tree](leetcode/src/ruichen/UnivaluedBinaryTree.java) | Easy | Tree |
+| [981](https://leetcode.com/problems/time-based-key-value-store/) | [Time Based Key Value Store](leetcode/src/ruichen/TimeBasedKeyValueStore.java) | Medium | Binary Search, Hash Table, Design |
 | [1047](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Remove All Adjacent Duplicates In String](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInString.java) | Easy | Stack |
+| [1207](https://leetcode.com/problems/unique-number-of-occurrences/) | [Unique Number Of Occurrences](leetcode/src/ruichen/UniqueNumberOfOccurrences.java) | Easy | Array, Hash Table |
 | [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Remove All Adjacent Duplicates in String II](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInStringII.java) | Medium | Stack |
+
 
 <br><p>Contributed by <em>Ruichen Zhang</em>
 <br><br>Jan 24, 2021</p>

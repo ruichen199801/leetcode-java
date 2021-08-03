@@ -6,7 +6,7 @@ import java.util.Deque;
 public class MinStack {
 
 	    // #155 https://leetcode.com/problems/min-stack/
-	    // Stack
+	    // Stack, Design
 	    // TC = O(1) (for all operations), SC = O(n) (NOT optimized!)
 
 	    private Deque<Integer> stack; 

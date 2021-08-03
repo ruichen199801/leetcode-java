@@ -4,6 +4,10 @@ import java.util.*;
 
 public class RandomizedCollection {
 
+    // #381 https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/
+    // Array, Hash Table, Design
+    // TC = O(1) in average, SC = O(n) to store n elements
+
     private List<Integer> list;
     private Map<Integer, Set<Integer>> map; // store <int val, Set<Integer> indexes> as <k, v> pairs to handle duplicates
     private Random random;

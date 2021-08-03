@@ -6,7 +6,7 @@ import java.util.Map;
 public class TwoSumIII {
 
     // #170 https://leetcode.com/problems/two-sum-iii-data-structure-design/
-    // Hash Table
+    // Hash Table, Design
 
     class TwoSum {
 

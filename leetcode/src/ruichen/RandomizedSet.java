@@ -5,7 +5,7 @@ import java.util.*;
 public class RandomizedSet {
 
     // #380 https://leetcode.com/problems/insert-delete-getrandom-o1/
-    // Array, Hash Table
+    // Array, Hash Table, Design
     // TC: getRandom O(1) insert/remove O(1) in average, O(n) worst case when operation exceeds capacity of array/hashmap
     // SC = O(2n) = O(n) to store n elements
 
