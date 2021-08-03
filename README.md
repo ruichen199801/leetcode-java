@@ -25,6 +25,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [21](https://leetcode.com/problems/merge-two-sorted-lists/) | [Merge Two Sorted Lists](leetcode/src/ruichen/MergeTwoSortedLists.java) | Easy | Linked List |
 | [26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Remove Duplicates from Sorted Array](leetcode/src/ruichen/RemoveDuplicatesFromSortedArray.java) | Easy | Array, Two Pointers |
 | [27](https://leetcode.com/problems/remove-element/) | [Remove Element](leetcode/src/ruichen/RemoveElement.java) | Easy | Array, Two Pointers |
+| [34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Find First and Last Position of Element in Sorted Array](leetcode/src/ruichen/FindFirstAndLastPositionOfElementInSortedArray.java) | Medium | Array, Binary Search |
 | [35](https://leetcode.com/problems/search-insert-position/) | [Search Insert Position](leetcode/src/ruichen/SearchInsertPosition.java) | Easy | Array, Binary Search |
 | [38](https://leetcode.com/problems/count-and-say/) | [Count and Say](leetcode/src/ruichen/CountAndSay.java) | Easy | String |
 | [41](https://leetcode.com/problems/first-missing-positive/) | [First Missing Positive](leetcode/src/ruichen/FirstMissingPositive.java) | Hard | Array |
@@ -34,10 +35,12 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [55](https://leetcode.com/problems/jump-game/) | [Jump Game](leetcode/src/ruichen/JumpGame.java) | Medium | Greedy, Array |
 | [70](https://leetcode.com/problems/climbing-stairs/) | [Climbing Stairs](leetcode/src/ruichen/ClimbingStairs.java) | Easy | Dynamic Programming |
 | [74](https://leetcode.com/problems/search-a-2d-matrix/) | [Search a 2D Matrix](leetcode/src/ruichen/SearchA2DMatrix.java) | Medium | Array, Binary Search |
+| [78](https://leetcode.com/problems/subsets/) | [Subsets](leetcode/src/ruichen/Subsets.java) | Medium | Depth-first Search |
 | [82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Remove Duplicates from Sorted List II](leetcode/src/ruichen/RemoveDuplicatesFromSortedListII.java) | Medium | Linked List |
 | [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Remove Duplicates from Sorted List](leetcode/src/ruichen/RemoveDuplicatesFromSortedList.java) | Easy | Linked List |
 | [86](https://leetcode.com/problems/partition-list/) | [Partition List](leetcode/src/ruichen/PartitionList.java) | Medium | Linked List, Two Pointers |
 | [88](https://leetcode.com/problems/merge-sorted-array/) | [Merge Sorted Array](leetcode/src/ruichen/MergeSortedArray.java) | Easy | Array, Two Pointers |
+| [90](https://leetcode.com/problems/subsets-ii/) | [Subsets II](leetcode/src/ruichen/SubsetsII.java) | Medium | Depth-first Search |
 | [94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Binary Tree Inorder Traversal](leetcode/src/ruichen/BinaryTreeInorderTraversal.java) | Easy | Stack, Tree |
 | [100](https://leetcode.com/problems/same-tree/) | [Same Tree](leetcode/src/ruichen/SameTree.java) | Easy | Tree, Depth-first Search |
 | [101](https://leetcode.com/problems/symmetric-tree/) | [Symmetric Tree](leetcode/src/ruichen/SymmetricTree.java) | Easy | Tree, Depth-first Search |
