@@ -9,7 +9,7 @@ public class RandomizedCollection {
     // TC = O(1) in average, SC = O(n) to store n elements
 
     private List<Integer> list;
-    private Map<Integer, Set<Integer>> map; // store <int val, Set<Integer> indexes> as <k, v> pairs to handle duplicates
+    private Map<Integer, Set<Integer>> map; // store <int val, Set<Integer> indices> as <k, v> pairs to handle duplicates
     private Random random;
 
     /** Initialize your data structure here. */

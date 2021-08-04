@@ -15,7 +15,7 @@ public class AddTwoNumbers {
 
 	    // #2 https://leetcode.com/problems/add-two-numbers/
 	    // Linked List
-	    // TC = O(n), SC = O(1)
+	    // TC = O(max(m, n), SC = O(max(m, n)), m, n = # of nodes in l1 and l2
 
 	    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 	        ListNode dummy = new ListNode(0);
