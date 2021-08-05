@@ -23,6 +23,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Remove Nth Node From End of List](leetcode/src/ruichen/RemoveNthNodeFromEndOfList.java) | Medium | Linked List, Two Pointers |
 | [20](https://leetcode.com/problems/valid-parentheses/) | [Valid Parentheses](leetcode/src/ruichen/ValidParentheses.java) | Easy | Stack |
 | [21](https://leetcode.com/problems/merge-two-sorted-lists/) | [Merge Two Sorted Lists](leetcode/src/ruichen/MergeTwoSortedLists.java) | Easy | Linked List |
+| [23](https://leetcode.com/problems/merge-k-sorted-lists/) | [Merge K Sorted Lists](leetcode/src/ruichen/MergeKSortedLists.java) | Hard | Linked List, Merge Sort, Heap |
 | [26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Remove Duplicates from Sorted Array](leetcode/src/ruichen/RemoveDuplicatesFromSortedArray.java) | Easy | Array, Two Pointers |
 | [27](https://leetcode.com/problems/remove-element/) | [Remove Element](leetcode/src/ruichen/RemoveElement.java) | Easy | Array, Two Pointers |
 | [34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Find First and Last Position of Element in Sorted Array](leetcode/src/ruichen/FindFirstAndLastPositionOfElementInSortedArray.java) | Medium | Array, Binary Search |
@@ -47,7 +48,9 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [ Maximum Depth of Binary Tree](leetcode/src/ruichen/MaximumDepthOfBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
 | [110](https://leetcode.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](leetcode/src/ruichen/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
 | [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Minimum Depth of Binary Tree](leetcode/src/ruichen/MinimumDepthOfBinaryTree.java) | Easy | Tree, Depth-first Search |
+| [113](https://leetcode.com/problems/path-sum-ii/) | [Path Sum II](leetcode/src/ruichen/PathSumII.java) | Medium | Tree, Depth-first Search |
 | [124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [ Binary Tree Maximum Path Sum](leetcode/src/ruichen/BinaryTreeMaximumPathSum.java) | Hard | Tree, Depth-first Search, Recursion |
+| [127](https://leetcode.com/problems/word-ladder/) | [Word Ladder](leetcode/src/ruichen/WordLadder.java) | Hard | Breadth-first Search |
 | [132](https://leetcode.com/problems/palindrome-partitioning-ii/) | [Palindrome Partitioning II](leetcode/src/ruichen/PalindromePartitioningII.java) | Hard | Dynamic Programming |
 | [136](https://leetcode.com/problems/single-number/) | [Single Number](leetcode/src/ruichen/SingleNumber.java) | Easy | Bit Manipulation, Hash Table |
 | [137](https://leetcode.com/problems/single-number-ii/) | [Single Number II](leetcode/src/ruichen/SingleNumberII.java) | Medium | Bit Manipulation |
@@ -62,6 +65,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [169](https://leetcode.com/problems/majority-element/) | [Majority Element](leetcode/src/ruichen/MajorityElement.java) | Easy | Array |
 | [170](https://leetcode.com/problems/two-sum-iii-data-structure-design/) | [Two Sum III - Data structure design](leetcode/src/ruichen/TwoSumIII.java) | Easy | Hash Table, Design |
 | [171](https://leetcode.com/problems/excel-sheet-column-number/) | [Excel Sheet Column Number](leetcode/src/ruichen/ExcelSheetColumnNumber.java) | Easy | Math |
+| [200](https://leetcode.com/problems/number-of-islands/) | [Number of Islands](leetcode/src/ruichen/NumberOfIslands.java) | Medium | Breadth-first Search, Depth-first Search |
 | [203](https://leetcode.com/problems/remove-linked-list-elements/) | [Remove Linked List Elements](leetcode/src/ruichen/RemoveLinkedListElements.java) | Easy | Linked List |
 | [206](https://leetcode.com/problems/reverse-linked-list/) | [Reverse Linked List](leetcode/src/ruichen/ReverseLinkedList.java) | Easy | Linked List |
 | [226](https://leetcode.com/problems/invert-binary-tree/) | [Invert Binary Tree](leetcode/src/ruichen/InvertBinaryTree.java) | Easy | Tree |
@@ -99,3 +103,10 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 
 <br><p>Contributed by <em>Ruichen Zhang</em>
 <br><br>Jan 24, 2021</p>
+
+
+
+
+
+
+
