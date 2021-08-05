@@ -48,6 +48,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [ Maximum Depth of Binary Tree](leetcode/src/ruichen/MaximumDepthOfBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
 | [110](https://leetcode.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](leetcode/src/ruichen/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
 | [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Minimum Depth of Binary Tree](leetcode/src/ruichen/MinimumDepthOfBinaryTree.java) | Easy | Tree, Depth-first Search |
+| [112](https://leetcode.com/problems/path-sum/) | [Path Sum](leetcode/src/ruichen/PathSum.java) | Easy | Tree, Depth-first Search |
 | [113](https://leetcode.com/problems/path-sum-ii/) | [Path Sum II](leetcode/src/ruichen/PathSumII.java) | Medium | Tree, Depth-first Search |
 | [124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [ Binary Tree Maximum Path Sum](leetcode/src/ruichen/BinaryTreeMaximumPathSum.java) | Hard | Tree, Depth-first Search, Recursion |
 | [127](https://leetcode.com/problems/word-ladder/) | [Word Ladder](leetcode/src/ruichen/WordLadder.java) | Hard | Breadth-first Search |
@@ -95,9 +96,9 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [876](https://leetcode.com/problems/middle-of-the-linked-list/) | [Middle of the Linked List](leetcode/src/ruichen/MiddleoftheLinkedList.java) | Easy | Linked List |
 | [965](https://leetcode.com/problems/univalued-binary-tree/) | [Univalued Binary Tree](leetcode/src/ruichen/UnivaluedBinaryTree.java) | Easy | Tree |
 | [981](https://leetcode.com/problems/time-based-key-value-store/) | [Time Based Key Value Store](leetcode/src/ruichen/TimeBasedKeyValueStore.java) | Medium | Binary Search, Hash Table, Design |
-| [1047](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Remove All Adjacent Duplicates In String](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInString.java) | Easy | Stack |
+| [1047](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Remove All Adjacent Duplicates in String](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInString.java) | Easy | Stack |
 | [1095](https://leetcode.com/problems/find-in-mountain-array/) | [Find in Mountain Array](leetcode/src/ruichen/FindInMountainArray.java) | Hard | Array, Binary Search |
-| [1207](https://leetcode.com/problems/unique-number-of-occurrences/) | [Unique Number Of Occurrences](leetcode/src/ruichen/UniqueNumberOfOccurrences.java) | Easy | Array, Hash Table |
+| [1207](https://leetcode.com/problems/unique-number-of-occurrences/) | [Unique Number of Occurrences](leetcode/src/ruichen/UniqueNumberOfOccurrences.java) | Easy | Array, Hash Table |
 | [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Remove All Adjacent Duplicates in String II](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInStringII.java) | Medium | Stack |
 
 
