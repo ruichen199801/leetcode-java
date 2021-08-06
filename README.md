@@ -108,20 +108,10 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [1099](https://leetcode.com/problems/two-sum-less-than-k/) | [Two Sum Less Than K](leetcode/src/ruichen/TwoSumLessThanK.java) | Easy | Array, Two Pointers |
 | [1207](https://leetcode.com/problems/unique-number-of-occurrences/) | [Unique Number of Occurrences](leetcode/src/ruichen/UniqueNumberOfOccurrences.java) | Easy | Array, Hash Table |
 | [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Remove All Adjacent Duplicates in String II](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInStringII.java) | Medium | Stack |
+| [1614](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | [Maximum Nesting Depth of the Parentheses](leetcode/src/ruichen/MaximumNestingDepthOfTheParentheses.java) | Easy | String |
 
-
-<br><p>Contributed by <em>Ruichen Zhang</em>
+<br><p>Contributed by Ruichen Zhang
 <br><br>Jan 24, 2021</p>
-
-
-
-
-
-
-
-
-
-
 
 
 
