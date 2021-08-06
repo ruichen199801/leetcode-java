@@ -1,6 +1,10 @@
 package ruichen;
 
 public class MinimumDepthOfBinaryTree {
+
+	// #111 https://leetcode.com/problems/minimum-depth-of-binary-tree/
+	// Tree, Depth-first Search, Recursion
+	// TC = O(n), SC = O(height)
 	
 	class TreeNode {
 		int val;
@@ -16,28 +20,29 @@ public class MinimumDepthOfBinaryTree {
 			this.right = right;
 		}
 	}
-	
+
 	class Solution {
+		public int minDepth(TreeNode root) {
 
-	    // #111 https://leetcode.com/problems/minimum-depth-of-binary-tree/
-	    // Tree, DFS, Recursion
-	    // TC = O(n), SC = O(height)
+			// skip Math.min comparison when node is null to handle the case below:
+			//  3
+			//   \
+			//    4
+			//     \
+			//      5
+			//       \
+			//        6
 
-	    public int minDepth(TreeNode root) {
-	        // special case to handle: linked list
-	        // [1, null, 2, null, 3, null, 4]
-	        if (root == null) {
-	            return 0;
-	        } else if (root.left == null && root.right == null) {
-	            return 1;
-	        } else if (root.left == null) {
-	            return minDepth(root.right) + 1;
-	        } else if (root.right == null) {
-	            return minDepth(root.left) + 1;
-	        } else {
-	            return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
-	        }
-	    }
+			if (root == null) {
+				return 0;
+			}
+			if (root.left == null) {
+				return minDepth(root.right) + 1;
+			}
+			if (root.right == null) {
+				return minDepth(root.left) + 1;
+			}
+			return Math.min(minDepth(root.left), minDepth(root.right)) + 1;
+		}
 	}
-
 }

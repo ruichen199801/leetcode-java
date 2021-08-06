@@ -18,6 +18,7 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
     }
 
     // a generalized method to find boundary for both first and last occurrence
+    // only 2 differences between first and last algorithm: 1) mid == target 2) post-process
     private int search(int[] nums, int target, boolean isFirst) {
         // 5, 7, 7, 8, 8, 10, T = 8
         int left = 0, right = nums.length - 1;

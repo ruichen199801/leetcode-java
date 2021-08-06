@@ -45,9 +45,11 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Binary Tree Inorder Traversal](leetcode/src/ruichen/BinaryTreeInorderTraversal.java) | Easy | Stack, Tree |
 | [100](https://leetcode.com/problems/same-tree/) | [Same Tree](leetcode/src/ruichen/SameTree.java) | Easy | Tree, Depth-first Search |
 | [101](https://leetcode.com/problems/symmetric-tree/) | [Symmetric Tree](leetcode/src/ruichen/SymmetricTree.java) | Easy | Tree, Depth-first Search |
+| [102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Binary Tree Level Order Traversal](leetcode/src/ruichen/BinaryTreeLevelOrderTraversal.java) | Medium | Tree, Breadth-first Search |
 | [104](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | [ Maximum Depth of Binary Tree](leetcode/src/ruichen/MaximumDepthOfBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
+| [107](https://leetcode.com/problems/binary-tree-level-order-traversal-ii/) | [Binary Tree Level Order Traversal II](leetcode/src/ruichen/BinaryTreeLevelOrderTraversalII.java) | Medium | Tree, Breadth-first Search |
 | [110](https://leetcode.com/problems/balanced-binary-tree/) | [Balanced Binary Tree](leetcode/src/ruichen/BalancedBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
-| [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Minimum Depth of Binary Tree](leetcode/src/ruichen/MinimumDepthOfBinaryTree.java) | Easy | Tree, Depth-first Search |
+| [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Minimum Depth of Binary Tree](leetcode/src/ruichen/MinimumDepthOfBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
 | [112](https://leetcode.com/problems/path-sum/) | [Path Sum](leetcode/src/ruichen/PathSum.java) | Easy | Tree, Depth-first Search |
 | [113](https://leetcode.com/problems/path-sum-ii/) | [Path Sum II](leetcode/src/ruichen/PathSumII.java) | Medium | Tree, Depth-first Search |
 | [124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [ Binary Tree Maximum Path Sum](leetcode/src/ruichen/BinaryTreeMaximumPathSum.java) | Hard | Tree, Depth-first Search, Recursion |
@@ -80,15 +82,20 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [381](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [Insert Delete GetRandom O(1) - Duplicates allowed](leetcode/src/ruichen/RandomizedCollection.java) | Hard | Array, Hash Table, Design |
 | [389](https://leetcode.com/problems/find-the-difference/) | [Find the Difference](leetcode/src/ruichen/FindTheDifference.java) | Easy | Bit Manipulation, Hash Table |
 | [404](https://leetcode.com/problems/sum-of-left-leaves/) | [Sum of Left Leaves](leetcode/src/ruichen/SumOfLeftLeaves.java) | Easy | Tree |
+| [429](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [N-ary Tree Level Order Traversal](leetcode/src/ruichen/NaryTreeLevelOrderTraversal.java) | Medium | Tree, Breadth-first Search |
 | [442](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Find All Duplicates in an Array](leetcode/src/ruichen/FindAllDuplicatesInAnArray.java) | Medium | Array |
 | [448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Find All Numbers Disappeared in an Array](leetcode/src/ruichen/FindAllNumbersDisappearedInAnArray.java) | Easy | Array |
+| [463](https://leetcode.com/problems/island-perimeter/) | [Island Perimeter](leetcode/src/ruichen/IslandPerimeter.java) | Easy | Array |
 | [486](https://leetcode.com/problems/predict-the-winner/) | [Predict the Winner](leetcode/src/ruichen/PredictTheWinner.java) | Medium | Minimax, Dynamic Programming |
 | [509](https://leetcode.com/problems/fibonacci-number/) | [Fibonacci Number](leetcode/src/ruichen/FibonacciNumber.java) | Easy | Array |
 | [543](https://leetcode.com/problems/diameter-of-binary-tree/) | [Diameter of Binary Tree](leetcode/src/ruichen/DiameterOfBinaryTree.java) | Easy | Tree |
 | [559](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [Maximum Depth of N-ary Tree](leetcode/src/ruichen/MaximumDepthOfNaryTree.java) | Easy | Tree, Depth-first Search |
 | [589](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [N-ary Tree Preorder Traversal](leetcode/src/ruichen/NaryTreePreorderTraversal.java) | Easy | Tree |
 | [590](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [N-ary Tree Postorder Traversal](leetcode/src/ruichen/NaryTreePostorderTraversal.java) | Easy | Tree |
+| [637](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Average of Levels in Binary Tree](leetcode/src/ruichen/AverageOfLevelsInBinaryTree.java) | Easy | Tree, Breadth-first Search |
 | [653](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Two Sum IV - Input is a BST](leetcode/src/ruichen/TwoSumIV.java) | Easy | Hash Table, Tree, Depth-first Search |
+| [694](https://leetcode.com/problems/number-of-distinct-islands/) | [Number of Distinct Islands](leetcode/src/ruichen/NumberOfDistinctIslands.java) | Medium | Depth-first Search |
+| [695](https://leetcode.com/problems/max-area-of-island/) | [Max Area of Island](leetcode/src/ruichen/MaxAreaOfIsland.java) | Medium | Breadth-first Search, Depth-first Search |
 | [700](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Search in a Binary Search Tree](leetcode/src/ruichen/SearchInABinarySearchTree.java) | Easy | Tree |
 | [704](https://leetcode.com/problems/binary-search/) | [Binary Search](leetcode/src/ruichen/BinarySearch.java) | Easy | Array, Binary Search |
 | [827](https://leetcode.com/problems/making-a-large-island/) | [Making a Large Island](leetcode/src/ruichen/MakingALargeIsland.java) | Hard | Depth-first Search |
@@ -98,12 +105,28 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [981](https://leetcode.com/problems/time-based-key-value-store/) | [Time Based Key Value Store](leetcode/src/ruichen/TimeBasedKeyValueStore.java) | Medium | Binary Search, Hash Table, Design |
 | [1047](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Remove All Adjacent Duplicates in String](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInString.java) | Easy | Stack |
 | [1095](https://leetcode.com/problems/find-in-mountain-array/) | [Find in Mountain Array](leetcode/src/ruichen/FindInMountainArray.java) | Hard | Array, Binary Search |
+| [1099](https://leetcode.com/problems/two-sum-less-than-k/) | [Two Sum Less Than K](leetcode/src/ruichen/TwoSumLessThanK.java) | Easy | Array, Two Pointers |
 | [1207](https://leetcode.com/problems/unique-number-of-occurrences/) | [Unique Number of Occurrences](leetcode/src/ruichen/UniqueNumberOfOccurrences.java) | Easy | Array, Hash Table |
 | [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Remove All Adjacent Duplicates in String II](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInStringII.java) | Medium | Stack |
 
 
 <br><p>Contributed by <em>Ruichen Zhang</em>
 <br><br>Jan 24, 2021</p>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

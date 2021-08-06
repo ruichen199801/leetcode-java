@@ -29,6 +29,9 @@ public class WordLadder {
                     String word = queue.poll(); // "be"
                     if (word.equals(endWord)) { // use .equals() method to compare strings O(M)
                         return changes;
+                        // like a "treasure hunt competition", whoever finds the path to treasure first
+                        // returns it immediately (making it automatically the "shortest" path),
+                        // that's why we won't need any logic like a Math.min function.
                     }
                     for (int j = 0; j < word.length(); j++) {  // "b", "e"   O(M)
                         for (int k = 'a'; k <= 'z'; k++) {     // "a" - "z"  O(26) = O(1)

@@ -21,7 +21,7 @@ public class AddTwoNumbers {
 	        ListNode dummy = new ListNode(0);
 	        ListNode cur = dummy;
 	        int val = 0;
-	        while (l1 != null || l2 != null || val != 0) {
+	        while (l1 != null || l2 != null || val != 0) { // val: carry
 	            if (l1 != null) {
 	                val += l1.val;
 	                l1 = l1.next;
@@ -39,3 +39,10 @@ public class AddTwoNumbers {
 	}
 
 }
+
+//
+//
+//
+//
+//
+
