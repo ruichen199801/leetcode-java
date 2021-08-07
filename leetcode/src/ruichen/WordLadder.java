@@ -71,7 +71,7 @@ public class WordLadder {
 // step ...
 // step y: if (queue is empty || word == endWord) return changes
 
-// Set -> List: list.addAll(set);
+// Set -> List: List<Integer> list = new ArrayList<>(set);
 // List -> Set: Set<Integer> set = new HashSet<>(list);
 // offer into queue: initialize / ready for processing next round
 // poll from queue: process this polled element immediately

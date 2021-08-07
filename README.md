@@ -32,8 +32,11 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [41](https://leetcode.com/problems/first-missing-positive/) | [First Missing Positive](leetcode/src/ruichen/FirstMissingPositive.java) | Hard | Array |
 | [42](https://leetcode.com/problems/trapping-rain-water/) | [Trapping Rain Water](leetcode/src/ruichen/TrappingRainWater.java) | Hard | Dynamic Programming, Two Pointers |
 | [45](https://leetcode.com/problems/jump-game-ii/) | [Jump Game II](leetcode/src/ruichen/JumpGameII.java) | Medium | Dynamic Programming |
+| [46](https://leetcode.com/problems/permutations/) | [Permutations](leetcode/src/ruichen/Permutations.java) | Medium | Depth-first Search |
+| [47](https://leetcode.com/problems/permutations-ii/) | [Permutations II](leetcode/src/ruichen/PermutationsII.java) | Medium | Depth-first Search |
 | [53](https://leetcode.com/problems/maximum-subarray/) | [Maximum Subarray](leetcode/src/ruichen/MaximumSubarray.java) | Easy | Dynamic Programming |
 | [55](https://leetcode.com/problems/jump-game/) | [Jump Game](leetcode/src/ruichen/JumpGame.java) | Medium | Dynamic Programming |
+| [56](https://leetcode.com/problems/merge-intervals/) | [Merge Intervals](leetcode/src/ruichen/MergeIntervals.java) | Medium | Array |
 | [70](https://leetcode.com/problems/climbing-stairs/) | [Climbing Stairs](leetcode/src/ruichen/ClimbingStairs.java) | Easy | Dynamic Programming |
 | [74](https://leetcode.com/problems/search-a-2d-matrix/) | [Search a 2D Matrix](leetcode/src/ruichen/SearchA2DMatrix.java) | Medium | Array, Binary Search |
 | [78](https://leetcode.com/problems/subsets/) | [Subsets](leetcode/src/ruichen/Subsets.java) | Medium | Depth-first Search |
@@ -54,10 +57,12 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [113](https://leetcode.com/problems/path-sum-ii/) | [Path Sum II](leetcode/src/ruichen/PathSumII.java) | Medium | Tree, Depth-first Search |
 | [124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [ Binary Tree Maximum Path Sum](leetcode/src/ruichen/BinaryTreeMaximumPathSum.java) | Hard | Tree, Depth-first Search, Recursion |
 | [127](https://leetcode.com/problems/word-ladder/) | [Word Ladder](leetcode/src/ruichen/WordLadder.java) | Hard | Breadth-first Search |
+| [131](https://leetcode.com/problems/palindrome-partitioning/) | [Palindrome Partitioning](leetcode/src/ruichen/PalindromePartitioning.java) | Medium | Depth-first Search |
 | [132](https://leetcode.com/problems/palindrome-partitioning-ii/) | [Palindrome Partitioning II](leetcode/src/ruichen/PalindromePartitioningII.java) | Hard | Dynamic Programming |
 | [136](https://leetcode.com/problems/single-number/) | [Single Number](leetcode/src/ruichen/SingleNumber.java) | Easy | Bit Manipulation, Hash Table |
 | [137](https://leetcode.com/problems/single-number-ii/) | [Single Number II](leetcode/src/ruichen/SingleNumberII.java) | Medium | Bit Manipulation |
 | [141](https://leetcode.com/problems/linked-list-cycle/) | [Linked List Cycle](leetcode/src/ruichen/LinkedListCycle.java) | Easy | Linked List, Two Pointers |
+| [142](https://leetcode.com/problems/linked-list-cycle-ii/) | [Linked List Cycle II](leetcode/src/ruichen/LinkedListCycleII.java) | Medium | Linked List, Hash Table |
 | [143](https://leetcode.com/problems/reorder-list/) | [Reorder List](leetcode/src/ruichen/ReorderList.java) | Medium | Linked List |
 | [144](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Binary Tree Preorder Traversal](leetcode/src/ruichen/BinaryTreePreorderTraversal.java) | Medium | Stack, Tree |
 | [145](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Binary Tree Postorder Traversal](leetcode/src/ruichen/BinaryTreePostorderTraversal.java) | Easy | Stack, Tree |
@@ -77,6 +82,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [237](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Delete Node in a Linked List](leetcode/src/ruichen/DeleteNodeInLinkedList.java) | Easy | Linked List |
 | [278](https://leetcode.com/problems/first-bad-version/) | [First Bad Version](leetcode/src/ruichen/FirstBadVersion.java) | Easy | Binary Search |
 | [283](https://leetcode.com/problems/move-zeroes/) | [Move Zeroes](leetcode/src/ruichen/MoveZeros.java) | Easy | Array, Two Pointers |
+| [329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Longest Increasing Path in a Matrix](leetcode/src/ruichen/LongestIncreasingPathInAMatrix.java) | Hard | Depth-first Search, Memoization |
 | [374](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Guess Number Higher or Lower](leetcode/src/ruichen/GuessNumberHigherOrLower.java) | Easy | Array, Binary Search |
 | [380](https://leetcode.com/problems/insert-delete-getrandom-o1/) | [Insert Delete GetRandom O(1)](leetcode/src/ruichen/RandomizedSet.java) | Medium | Array, Hash Table, Design |
 | [381](https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/) | [Insert Delete GetRandom O(1) - Duplicates allowed](leetcode/src/ruichen/RandomizedCollection.java) | Hard | Array, Hash Table, Design |
@@ -112,6 +118,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 
 <br><p>Contributed by Ruichen Zhang
 <br><br>Jan 24, 2021</p>
+
 
 
 
