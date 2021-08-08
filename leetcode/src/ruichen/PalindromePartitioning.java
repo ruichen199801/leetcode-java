@@ -22,8 +22,9 @@ public class PalindromePartitioning {
             //   b
 
             // arr    [a, a, b]
-            // start   0
-            // end     0
+            // index   0  1  2  3
+            // start
+            // end
             // curr   []
             // result []
 
