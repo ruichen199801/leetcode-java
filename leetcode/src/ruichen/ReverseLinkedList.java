@@ -18,9 +18,6 @@ public class ReverseLinkedList {
 	    // Iterative: TC = O(n), SC = O(1)
 	    
 	    public ListNode reverseList(ListNode head) {
-	        if (head == null || head.next == null) {
-	            return head;
-	        }
 	        ListNode prev = null, curr = head;
 	        while (curr != null) {
 	            ListNode next = curr.next;

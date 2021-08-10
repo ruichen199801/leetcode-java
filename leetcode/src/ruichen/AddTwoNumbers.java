@@ -14,14 +14,14 @@ public class AddTwoNumbers {
 	class Solution {
 
 	    // #2 https://leetcode.com/problems/add-two-numbers/
-	    // Linked List
+	    // Math, Linked List
 	    // TC = O(max(m, n), SC = O(max(m, n)), m, n = # of nodes in l1 and l2
 
 	    public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 	        ListNode dummy = new ListNode(0);
 	        ListNode cur = dummy;
 	        int val = 0;
-	        while (l1 != null || l2 != null || val != 0) { // val: carry
+	        while (l1 != null || l2 != null || val != 0) {
 	            if (l1 != null) {
 	                val += l1.val;
 	                l1 = l1.next;
