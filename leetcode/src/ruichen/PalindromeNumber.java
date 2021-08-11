@@ -27,6 +27,7 @@ public class PalindromeNumber {
 	            rev /= 10;
 	        }
 	        return x == rev;
+	        // return x == rev || x == rev / 10;
 	    }
 	}
 

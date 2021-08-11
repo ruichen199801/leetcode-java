@@ -110,12 +110,14 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [559](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [Maximum Depth of N-ary Tree](leetcode/src/ruichen/MaximumDepthOfNaryTree.java) | Easy | Tree, Depth-first Search |
 | [589](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [N-ary Tree Preorder Traversal](leetcode/src/ruichen/NaryTreePreorderTraversal.java) | Easy | Tree |
 | [590](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [N-ary Tree Postorder Traversal](leetcode/src/ruichen/NaryTreePostorderTraversal.java) | Easy | Tree |
+| [605](https://leetcode.com/problems/can-place-flowers/) | [Can Place Flowers](leetcode/src/ruichen/CanPlaceFlowers.java) | Easy | Array |
 | [637](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Average of Levels in Binary Tree](leetcode/src/ruichen/AverageOfLevelsInBinaryTree.java) | Easy | Tree, Breadth-first Search |
 | [653](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Two Sum IV - Input is a BST](leetcode/src/ruichen/TwoSumIV.java) | Easy | Hash Table, Tree, Depth-first Search |
 | [694](https://leetcode.com/problems/number-of-distinct-islands/) | [Number of Distinct Islands](leetcode/src/ruichen/NumberOfDistinctIslands.java) | Medium | Depth-first Search |
 | [695](https://leetcode.com/problems/max-area-of-island/) | [Max Area of Island](leetcode/src/ruichen/MaxAreaOfIsland.java) | Medium | Breadth-first Search, Depth-first Search |
 | [700](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Search in a Binary Search Tree](leetcode/src/ruichen/SearchInABinarySearchTree.java) | Easy | Tree |
 | [704](https://leetcode.com/problems/binary-search/) | [Binary Search](leetcode/src/ruichen/BinarySearch.java) | Easy | Array, Binary Search |
+| [797](https://leetcode.com/problems/all-paths-from-source-to-target/) | [All Paths From Source to Target](leetcode/src/ruichen/AllPathsFromSourceToTarget.java) | Medium | Breadth-first Search, Graph |
 | [827](https://leetcode.com/problems/making-a-large-island/) | [Making a Large Island](leetcode/src/ruichen/MakingALargeIsland.java) | Hard | Depth-first Search |
 | [872](https://leetcode.com/problems/leaf-similar-trees/) | [Leaf-Similar Trees](leetcode/src/ruichen/LeafSimilarTrees.java) | Easy | Tree, Depth-first Search |
 | [876](https://leetcode.com/problems/middle-of-the-linked-list/) | [Middle of the Linked List](leetcode/src/ruichen/MiddleoftheLinkedList.java) | Easy | Linked List |
@@ -135,6 +137,10 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 Contributed by *Ruichen Zhang*
 
 Jan 24, 2021
+
+
+
+
 
 
 
