@@ -21,7 +21,8 @@ public class Permutations {
             // output    [123] [132] [213] [231] [312] [321]
 
             // Time complexity = O(n * (n-1) * .. * 1) * O(n) (deep copy) = O(n * n!) for n numbers in input array
-            // Space complexity = O(n) on stack (tree height) + O(n) on heap (curr + boolean array) = O(n)
+            // Space Complexity = O(n) for recursion + O(n) for storing results along the way;
+            // if we take into account the space needed to hold the results, SC = O(n! * n)
 
             List<List<Integer>> result = new ArrayList<>();
             if (nums == null || nums.length == 0) {

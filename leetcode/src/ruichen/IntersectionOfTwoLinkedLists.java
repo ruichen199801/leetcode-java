@@ -6,7 +6,7 @@ import java.util.Set;
 public class IntersectionOfTwoLinkedLists {
 	
 	// #160 https://leetcode.com/problems/intersection-of-two-linked-lists/
-	// Linked List
+	// Linked List, Hash Table, Two Pointers
 	
 	class ListNode {
 		int val;

@@ -8,7 +8,7 @@ public class Subsets {
     // #78 https://leetcode.com/problems/subsets/
     // Depth-first Search
     // TC = O(2^n * n): for each layer, 2^n numbers of recursive calls * O(n) deep copy curr to result
-    // SC = O(n): recursion call stack
+    // SC = O(n): recursion call stack (if we ignore the memory used only to return result)
 
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();

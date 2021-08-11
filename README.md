@@ -45,6 +45,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [70](https://leetcode.com/problems/climbing-stairs/) | [Climbing Stairs](leetcode/src/ruichen/ClimbingStairs.java) | Easy | Dynamic Programming |
 | [74](https://leetcode.com/problems/search-a-2d-matrix/) | [Search a 2D Matrix](leetcode/src/ruichen/SearchA2DMatrix.java) | Medium | Array, Binary Search |
 | [75](https://leetcode.com/problems/sort-colors/) | [Sort Colors](leetcode/src/ruichen/SortColors.java) | Medium | Array, Sorting |
+| [76](https://leetcode.com/problems/minimum-window-substring/) | [Minimum Window Substring](leetcode/src/ruichen/MinimumWindowSubstring.java) | Hard | String, Sliding Window |
 | [78](https://leetcode.com/problems/subsets/) | [Subsets](leetcode/src/ruichen/Subsets.java) | Medium | Depth-first Search |
 | [82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Remove Duplicates from Sorted List II](leetcode/src/ruichen/RemoveDuplicatesFromSortedListII.java) | Medium | Linked List |
 | [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Remove Duplicates from Sorted List](leetcode/src/ruichen/RemoveDuplicatesFromSortedList.java) | Easy | Linked List |
@@ -74,7 +75,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [144](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Binary Tree Preorder Traversal](leetcode/src/ruichen/BinaryTreePreorderTraversal.java) | Medium | Stack, Tree |
 | [145](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Binary Tree Postorder Traversal](leetcode/src/ruichen/BinaryTreePostorderTraversal.java) | Easy | Stack, Tree |
 | [155](https://leetcode.com/problems/min-stack/) | [Min Stack](leetcode/src/ruichen/MinStack.java) | Easy | Stack, Design |
-| [160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Intersection of Two Linked Lists](leetcode/src/ruichen/IntersectionOfTwoLinkedLists.java) | Easy | Linked List |
+| [160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Intersection of Two Linked Lists](leetcode/src/ruichen/IntersectionOfTwoLinkedLists.java) | Easy | Linked List, Hash Table, Two Pointers |
 | [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Two Sum II - Input array is sorted](leetcode/src/ruichen/TwoSumII.java) | Easy | Array, Two Pointers |
 | [168](https://leetcode.com/problems/excel-sheet-column-title/) | [Excel Sheet Column Title](leetcode/src/ruichen/ExcelSheetColumnTitle.java) | Easy | Math |
 | [169](https://leetcode.com/problems/majority-element/) | [Majority Element](leetcode/src/ruichen/MajorityElement.java) | Easy | Array |
@@ -86,6 +87,8 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [226](https://leetcode.com/problems/invert-binary-tree/) | [Invert Binary Tree](leetcode/src/ruichen/InvertBinaryTree.java) | Easy | Tree |
 | [231](https://leetcode.com/problems/power-of-two/) | [Power of Two](leetcode/src/ruichen/PowerOfTwo.java) | Easy | Bit Manipulation, Math |
 | [234](https://leetcode.com/problems/palindrome-linked-list/) | [Palindrome Linked List](leetcode/src/ruichen/PalindromeLinkedList.java) | Easy | Linked List, Two Pointers |
+| [235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Lowest Common Ancestor of a Binary Search Tree](leetcode/src/ruichen/LowestCommonAncestorOfABinarySearchTree.java) | Medium | Tree, Depth-first Search |
+| [236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Lowest Common Ancestor of a Binary Tree](leetcode/src/ruichen/LowestCommonAncestorOfABinaryTree.java) | Medium | Tree, Depth-first Search |
 | [237](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Delete Node in a Linked List](leetcode/src/ruichen/DeleteNodeInLinkedList.java) | Easy | Linked List |
 | [278](https://leetcode.com/problems/first-bad-version/) | [First Bad Version](leetcode/src/ruichen/FirstBadVersion.java) | Easy | Binary Search |
 | [283](https://leetcode.com/problems/move-zeroes/) | [Move Zeroes](leetcode/src/ruichen/MoveZeros.java) | Easy | Array, Two Pointers |
@@ -110,6 +113,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [559](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [Maximum Depth of N-ary Tree](leetcode/src/ruichen/MaximumDepthOfNaryTree.java) | Easy | Tree, Depth-first Search |
 | [589](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [N-ary Tree Preorder Traversal](leetcode/src/ruichen/NaryTreePreorderTraversal.java) | Easy | Tree |
 | [590](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [N-ary Tree Postorder Traversal](leetcode/src/ruichen/NaryTreePostorderTraversal.java) | Easy | Tree |
+| [599](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Minimum Index Sum of Two Lists](leetcode/src/ruichen/MinimumIndexSumOfTwoLists.java) | Easy | Array, Hash Table |
 | [605](https://leetcode.com/problems/can-place-flowers/) | [Can Place Flowers](leetcode/src/ruichen/CanPlaceFlowers.java) | Easy | Array |
 | [637](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Average of Levels in Binary Tree](leetcode/src/ruichen/AverageOfLevelsInBinaryTree.java) | Easy | Tree, Breadth-first Search |
 | [653](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Two Sum IV - Input is a BST](leetcode/src/ruichen/TwoSumIV.java) | Easy | Hash Table, Tree, Depth-first Search |
@@ -128,20 +132,17 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [1047](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Remove All Adjacent Duplicates in String](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInString.java) | Easy | Stack |
 | [1095](https://leetcode.com/problems/find-in-mountain-array/) | [Find in Mountain Array](leetcode/src/ruichen/FindInMountainArray.java) | Hard | Array, Binary Search |
 | [1099](https://leetcode.com/problems/two-sum-less-than-k/) | [Two Sum Less Than K](leetcode/src/ruichen/TwoSumLessThanK.java) | Easy | Array, Two Pointers |
+| [1123](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | [Lowest Common Ancestor of Deepest Leaves](leetcode/src/ruichen/LowestCommonAncestorOfDeepestLeaves.java) | Medium | Tree, Depth-first Search |
 | [1207](https://leetcode.com/problems/unique-number-of-occurrences/) | [Unique Number of Occurrences](leetcode/src/ruichen/UniqueNumberOfOccurrences.java) | Easy | Array, Hash Table |
 | [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Remove All Adjacent Duplicates in String II](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInStringII.java) | Medium | Stack |
 | [1396](https://leetcode.com/problems/design-underground-system/) | [Design Underground System](leetcode/src/ruichen/DesignUndergroundSystem.java) | Medium | Hash Table, Design |
 | [1614](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | [Maximum Nesting Depth of the Parentheses](leetcode/src/ruichen/MaximumNestingDepthOfTheParentheses.java) | Easy | String |
+| [1644](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/) | [Lowest Common Ancestor of a Binary Tree II](leetcode/src/ruichen/LowestCommonAncestorOfABinaryTreeII.java) | Medium | Tree, Depth-first Search |
+| [1650](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) | [Lowest Common Ancestor of a Binary Tree III](leetcode/src/ruichen/LowestCommonAncestorOfABinaryTreeIII.java) | Medium | Tree, Depth-first Search |
+| [1676](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/) | [Lowest Common Ancestor of a Binary Tree IV](leetcode/src/ruichen/LowestCommonAncestorOfABinaryTreeIV.java) | Medium | Tree, Depth-first Search |
 | [-](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | [Straight in Poker](leetcode/src/ruichen/StraightInPoker.java) | - | - |
 
 Contributed by *Ruichen Zhang*
 
 Jan 24, 2021
-
-
-
-
-
-
-
 

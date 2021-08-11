@@ -6,7 +6,9 @@ public class PermutationsII {
 
     // #47 https://leetcode.com/problems/permutations-ii/
     // Depth-first Search
-    // TC = O(n! * n), SC = O(n)
+    // TC = O(n! * n)
+    // SC = O(n) for recursion + O(n) for storing results along the way;
+    // if we take into account the space needed to hold the results, SC = O(n! * n)
 
     class Solution1 {
         public List<List<Integer>> permuteUnique(int[] nums) {
