@@ -4,7 +4,7 @@ public class ReverseVowelsOfAString {
 
     // #345 https://leetcode.com/problems/reverse-vowels-of-a-string/
     // String, Two Pointers
-    // TC = O(n), SC: this should be an O(1) in-place operation, but the toCharArray() method takes O(n) space
+    // TC = O(n), SC: this should be an in-place operation, but the toCharArray() and new String() method costs O(n)
 
     class Solution {
         public String reverseVowels(String s) {

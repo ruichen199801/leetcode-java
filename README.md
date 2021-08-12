@@ -27,6 +27,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [23](https://leetcode.com/problems/merge-k-sorted-lists/) | [Merge K Sorted Lists](leetcode/src/ruichen/MergeKSortedLists.java) | Hard | Linked List, Merge Sort, Heap |
 | [26](https://leetcode.com/problems/remove-duplicates-from-sorted-array/) | [Remove Duplicates from Sorted Array](leetcode/src/ruichen/RemoveDuplicatesFromSortedArray.java) | Easy | Array, Two Pointers |
 | [27](https://leetcode.com/problems/remove-element/) | [Remove Element](leetcode/src/ruichen/RemoveElement.java) | Easy | Array, Two Pointers |
+| [28](https://leetcode.com/problems/implement-strstr/) | [Implement strStr()](leetcode/src/ruichen/ImplementStrStr.java) | Easy | String, Two Pointers |
 | [34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Find First and Last Position of Element in Sorted Array](leetcode/src/ruichen/FindFirstAndLastPositionOfElementInSortedArray.java) | Medium | Array, Binary Search |
 | [35](https://leetcode.com/problems/search-insert-position/) | [Search Insert Position](leetcode/src/ruichen/SearchInsertPosition.java) | Easy | Array, Binary Search |
 | [38](https://leetcode.com/problems/count-and-say/) | [Count and Say](leetcode/src/ruichen/CountAndSay.java) | Easy | String |
@@ -74,6 +75,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [143](https://leetcode.com/problems/reorder-list/) | [Reorder List](leetcode/src/ruichen/ReorderList.java) | Medium | Linked List |
 | [144](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Binary Tree Preorder Traversal](leetcode/src/ruichen/BinaryTreePreorderTraversal.java) | Medium | Stack, Tree |
 | [145](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Binary Tree Postorder Traversal](leetcode/src/ruichen/BinaryTreePostorderTraversal.java) | Easy | Stack, Tree |
+| [151](https://leetcode.com/problems/reverse-words-in-a-string/) | [Reverse Words in a String](leetcode/src/ruichen/ReverseWordsInAString.java) | Medium | String, Two Pointers |
 | [155](https://leetcode.com/problems/min-stack/) | [Min Stack](leetcode/src/ruichen/MinStack.java) | Easy | Stack, Design |
 | [160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Intersection of Two Linked Lists](leetcode/src/ruichen/IntersectionOfTwoLinkedLists.java) | Easy | Linked List, Hash Table, Two Pointers |
 | [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Two Sum II - Input array is sorted](leetcode/src/ruichen/TwoSumII.java) | Easy | Array, Two Pointers |
@@ -93,6 +95,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [278](https://leetcode.com/problems/first-bad-version/) | [First Bad Version](leetcode/src/ruichen/FirstBadVersion.java) | Easy | Binary Search |
 | [283](https://leetcode.com/problems/move-zeroes/) | [Move Zeroes](leetcode/src/ruichen/MoveZeros.java) | Easy | Array, Two Pointers |
 | [329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Longest Increasing Path in a Matrix](leetcode/src/ruichen/LongestIncreasingPathInAMatrix.java) | Hard | Depth-first Search, Memoization |
+| [344](https://leetcode.com/problems/reverse-string/) | [Reverse String](leetcode/src/ruichen/ReverseString.java) | Easy | String, Two Pointers |
 | [345](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Reverse Vowels of a String](leetcode/src/ruichen/ReverseVowelsOfAString.java) | Easy | String, Two Pointers |
 | [371](https://leetcode.com/problems/sum-of-two-integers/) | [Sum of Two Integers](leetcode/src/ruichen/SumOfTwoIntegers.java) | Medium | Bit Manipulation |
 | [373](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Find K Pairs with Smallest Sums](leetcode/src/ruichen/FindKPairsWithSmallestSums.java) | Medium | Heap |
@@ -109,7 +112,9 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [463](https://leetcode.com/problems/island-perimeter/) | [Island Perimeter](leetcode/src/ruichen/IslandPerimeter.java) | Easy | Array |
 | [486](https://leetcode.com/problems/predict-the-winner/) | [Predict the Winner](leetcode/src/ruichen/PredictTheWinner.java) | Medium | Minimax, Dynamic Programming |
 | [509](https://leetcode.com/problems/fibonacci-number/) | [Fibonacci Number](leetcode/src/ruichen/FibonacciNumber.java) | Easy | Array |
+| [541](https://leetcode.com/problems/reverse-string-ii/) | [Reverse String II](leetcode/src/ruichen/ReverseStringII.java) | Easy | String, Two Pointers |
 | [543](https://leetcode.com/problems/diameter-of-binary-tree/) | [Diameter of Binary Tree](leetcode/src/ruichen/DiameterOfBinaryTree.java) | Easy | Tree |
+| [557](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Reverse Words in a String III](leetcode/src/ruichen/ReverseWordsInAStringIII.java) | Easy | String, Two Pointers |
 | [559](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [Maximum Depth of N-ary Tree](leetcode/src/ruichen/MaximumDepthOfNaryTree.java) | Easy | Tree, Depth-first Search |
 | [589](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [N-ary Tree Preorder Traversal](leetcode/src/ruichen/NaryTreePreorderTraversal.java) | Easy | Tree |
 | [590](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [N-ary Tree Postorder Traversal](leetcode/src/ruichen/NaryTreePostorderTraversal.java) | Easy | Tree |
@@ -142,7 +147,6 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [1676](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/) | [Lowest Common Ancestor of a Binary Tree IV](leetcode/src/ruichen/LowestCommonAncestorOfABinaryTreeIV.java) | Medium | Tree, Depth-first Search |
 | [-](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | [Straight in Poker](leetcode/src/ruichen/StraightInPoker.java) | - | - |
 
-Contributed by *Ruichen Zhang*
+<br>Contributed by *Ruichen Zhang*
 
 Jan 24, 2021
-
