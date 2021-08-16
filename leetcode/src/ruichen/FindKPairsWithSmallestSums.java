@@ -26,7 +26,7 @@ public class FindKPairsWithSmallestSums {
             PriorityQueue<int[]> minHeap = new PriorityQueue<>((pair1, pair2) -> nums1[pair1[0]] - nums1[pair2[0]] + nums2[pair1[1]] - nums2[pair2[1]]);
 
             // seed minHeap with k elements: {0, 0}, {0, 1}, ..., {0, k-1 or nums2.length - 1}
-            for (int i = 0; i < nums2.length; i++) {
+            for (int i = 0; i < nums2.length; i++) { // i < min(k, nums2.length)
                 if (i == k) {
                     break;
                 }
@@ -51,3 +51,13 @@ public class FindKPairsWithSmallestSums {
         }
     }
 }
+
+// What's wrong this solving this using two pointers?
+// Won't work for this case:
+// nums1: [1, 1, 11]
+//            i
+// nums2: [2, 4, 6]
+//               j
+// k = 4
+// add [1,2] [1,2] [1,4] [1,6] (won't detect [1,4] since the first 1 is used)
+// expected result [1,2] [1,2] [1,4] [1,4]
