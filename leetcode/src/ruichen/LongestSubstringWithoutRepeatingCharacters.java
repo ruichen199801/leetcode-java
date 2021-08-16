@@ -6,7 +6,7 @@ import java.util.Set;
 public class LongestSubstringWithoutRepeatingCharacters {
 
     // #3 https://leetcode.com/problems/longest-substring-without-repeating-characters/
-    // String, Sliding window
+    // String, Sliding Window
 
     class Solution {
 

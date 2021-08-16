@@ -6,7 +6,7 @@ import java.util.Map;
 public class LongestSubstringWithAtMostTwoDistinctCharacters {
 
     // #159 https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/
-    // String, Sliding window
+    // String, Sliding Window
     // TC = O(n), SC = O(3) = O(1) (at most 3 unique elements in the hash map)
 
     class Solution {

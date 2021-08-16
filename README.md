@@ -16,7 +16,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | :----: | :----: | :----: | :----: |
 | [1](https://leetcode.com/problems/two-sum/) | [Two Sum](leetcode/src/ruichen/TwoSum.java) | Easy | Array, Hash Table |
 | [2](https://leetcode.com/problems/add-two-numbers/) | [Add Two Numbers](leetcode/src/ruichen/AddTwoNumbers.java) | Medium | Math, Linked List |
-| [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Longest Substring Without Repeating Characters](leetcode/src/ruichen/LongestSubstringWithoutRepeatingCharacters.java) | Medium | String, Sliding window |
+| [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Longest Substring Without Repeating Characters](leetcode/src/ruichen/LongestSubstringWithoutRepeatingCharacters.java) | Medium | String, Sliding Window |
 | [4](https://leetcode.com/problems/median-of-two-sorted-arrays/) | [Median of Two Sorted Arrays](leetcode/src/ruichen/MedianOfTwoSortedArrays.java) | Hard | Array, Binary Search |
 | [5](https://leetcode.com/problems/longest-palindromic-substring/) | [Longest Palindromic Substring](leetcode/src/ruichen/LongestPalindromicSubstring.java) | Medium | String, Dynamic Programming |
 | [7](https://leetcode.com/problems/reverse-integer/) | [Reverse Integer](leetcode/src/ruichen/ReverseInteger.java) | Easy | Math |
@@ -81,7 +81,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [145](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Binary Tree Postorder Traversal](leetcode/src/ruichen/BinaryTreePostorderTraversal.java) | Easy | Stack, Tree |
 | [151](https://leetcode.com/problems/reverse-words-in-a-string/) | [Reverse Words in a String](leetcode/src/ruichen/ReverseWordsInAString.java) | Medium | String, Two Pointers |
 | [155](https://leetcode.com/problems/min-stack/) | [Min Stack](leetcode/src/ruichen/MinStack.java) | Easy | Stack, Design |
-| [159](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [Longest Substring with At Most Two Distinct Characters](leetcode/src/ruichen/LongestSubstringWithAtMostTwoDistinctCharacters.java) | Medium | String, Sliding window |
+| [159](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [Longest Substring with At Most Two Distinct Characters](leetcode/src/ruichen/LongestSubstringWithAtMostTwoDistinctCharacters.java) | Medium | String, Sliding Window |
 | [160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Intersection of Two Linked Lists](leetcode/src/ruichen/IntersectionOfTwoLinkedLists.java) | Easy | Linked List, Hash Table, Two Pointers |
 | [167](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) | [Two Sum II - Input array is sorted](leetcode/src/ruichen/TwoSumII.java) | Easy | Array, Two Pointers |
 | [168](https://leetcode.com/problems/excel-sheet-column-title/) | [Excel Sheet Column Title](leetcode/src/ruichen/ExcelSheetColumnTitle.java) | Easy | Math |
@@ -101,7 +101,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [278](https://leetcode.com/problems/first-bad-version/) | [First Bad Version](leetcode/src/ruichen/FirstBadVersion.java) | Easy | Binary Search |
 | [283](https://leetcode.com/problems/move-zeroes/) | [Move Zeroes](leetcode/src/ruichen/MoveZeros.java) | Easy | Array, Two Pointers |
 | [329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Longest Increasing Path in a Matrix](leetcode/src/ruichen/LongestIncreasingPathInAMatrix.java) | Hard | Depth-first Search, Memoization |
-| [340](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [Longest Substring with At Most K Distinct Characters](leetcode/src/ruichen/LongestSubstringWithAtMostKDistinctCharacters.java) | Medium | String, Sliding window |
+| [340](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [Longest Substring with At Most K Distinct Characters](leetcode/src/ruichen/LongestSubstringWithAtMostKDistinctCharacters.java) | Medium | String, Sliding Window |
 | [344](https://leetcode.com/problems/reverse-string/) | [Reverse String](leetcode/src/ruichen/ReverseString.java) | Easy | String, Two Pointers |
 | [345](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Reverse Vowels of a String](leetcode/src/ruichen/ReverseVowelsOfAString.java) | Easy | String, Two Pointers |
 | [371](https://leetcode.com/problems/sum-of-two-integers/) | [Sum of Two Integers](leetcode/src/ruichen/SumOfTwoIntegers.java) | Medium | Bit Manipulation |

@@ -6,7 +6,7 @@ import java.util.Map;
 public class LongestSubstringWithAtMostKDistinctCharacters {
 
     // #340 https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
-    // String, Sliding window
+    // String, Sliding Window
     // TC = O(2n) = O(n), SC = O(min(k, n)) = O(max size of hash map)
 
     class Solution {
