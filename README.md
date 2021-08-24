@@ -68,6 +68,8 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Minimum Depth of Binary Tree](leetcode/src/ruichen/MinimumDepthOfBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
 | [112](https://leetcode.com/problems/path-sum/) | [Path Sum](leetcode/src/ruichen/PathSum.java) | Easy | Tree, Depth-first Search |
 | [113](https://leetcode.com/problems/path-sum-ii/) | [Path Sum II](leetcode/src/ruichen/PathSumII.java) | Medium | Tree, Depth-first Search |
+| [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Best Time to Buy and Sell Stock](leetcode/src/ruichen/BestTimeToBuyAndSellStock.java) | Easy | Dynamic Programming |
+| [122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Best Time to Buy and Sell Stock II](leetcode/src/ruichen/BestTimeToBuyAndSellStockII.java) | Easy | Dynamic Programming |
 | [124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [ Binary Tree Maximum Path Sum](leetcode/src/ruichen/BinaryTreeMaximumPathSum.java) | Hard | Tree, Depth-first Search, Recursion |
 | [127](https://leetcode.com/problems/word-ladder/) | [Word Ladder](leetcode/src/ruichen/WordLadder.java) | Hard | Breadth-first Search |
 | [129](https://leetcode.com/problems/sum-root-to-leaf-numbers/) | [Sum Root to Leaf Numbers](leetcode/src/ruichen/SumRootToLeafNumbers.java) | Medium | Tree, Recursion, Depth-first Search |
@@ -144,6 +146,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [700](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Search in a Binary Search Tree](leetcode/src/ruichen/SearchInABinarySearchTree.java) | Easy | Tree |
 | [704](https://leetcode.com/problems/binary-search/) | [Binary Search](leetcode/src/ruichen/BinarySearch.java) | Easy | Array, Binary Search |
 | [707](https://leetcode.com/problems/design-linked-list/) | [Design Linked List](leetcode/src/ruichen/DesignLinkedList.java) | Medium | Design, Linked List |
+| [746](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Min Cost Climbing Stairs](leetcode/src/ruichen/MinCostClimbingStairs.java) | Easy | Dynamic Programming |
 | [785](https://leetcode.com/problems/is-graph-bipartite/) | [Is Graph Bipartite?](leetcode/src/ruichen/IsGraphBipartite.java) | Medium | Graph, Breadth-first Search |
 | [797](https://leetcode.com/problems/all-paths-from-source-to-target/) | [All Paths From Source to Target](leetcode/src/ruichen/AllPathsFromSourceToTarget.java) | Medium | Breadth-first Search, Graph |
 | [827](https://leetcode.com/problems/making-a-large-island/) | [Making a Large Island](leetcode/src/ruichen/MakingALargeIsland.java) | Hard | Depth-first Search |
@@ -157,6 +160,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [1095](https://leetcode.com/problems/find-in-mountain-array/) | [Find in Mountain Array](leetcode/src/ruichen/FindInMountainArray.java) | Hard | Array, Binary Search |
 | [1099](https://leetcode.com/problems/two-sum-less-than-k/) | [Two Sum Less Than K](leetcode/src/ruichen/TwoSumLessThanK.java) | Easy | Array, Two Pointers |
 | [1123](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | [Lowest Common Ancestor of Deepest Leaves](leetcode/src/ruichen/LowestCommonAncestorOfDeepestLeaves.java) | Medium | Tree, Depth-first Search |
+| [1137](https://leetcode.com/problems/n-th-tribonacci-number/) | [N-th Tribonacci Number](leetcode/src/ruichen/NthTribonacciNumber.java) | Easy | Dynamic Programming |
 | [1207](https://leetcode.com/problems/unique-number-of-occurrences/) | [Unique Number of Occurrences](leetcode/src/ruichen/UniqueNumberOfOccurrences.java) | Easy | Array, Hash Table |
 | [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Remove All Adjacent Duplicates in String II](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInStringII.java) | Medium | Stack |
 | [1367](https://leetcode.com/problems/linked-list-in-binary-tree/) | [Linked List in Binary Tree](leetcode/src/ruichen/LinkedListInBinaryTree.java) | Medium | Tree, Linked List, Depth-first Search, Breadth-first Search |

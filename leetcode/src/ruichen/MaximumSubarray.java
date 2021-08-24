@@ -7,7 +7,7 @@ public class MaximumSubarray {
 	// TC = O(n), SC = O(1)
 
 	class Solution {
-
+		// Kadane's Algorithm
 		public int maxSubArray(int[] nums) {
 			int result = nums[0];
 			int cur = nums[0];

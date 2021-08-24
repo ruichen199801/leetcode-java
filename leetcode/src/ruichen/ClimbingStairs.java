@@ -20,23 +20,23 @@ public class ClimbingStairs {
 	        return res[n - 1];
 	    }
 	}
-	
+
 	class Solution2 {
-	    // DP, TC = O(n), SC = O(1) (improved)
-	    public int climbStairs(int n) {
-	        if (n == 1) {
-	            return 1;
-	        }
-	        int a = 1;
-	        int b = 2;
-	        while (n > 2) {
-	            int temp = b;
-	            b = a + b;
-	            a = temp;
-	            n--;
-	        }
-	        return b;
-	    }
+		public int climbStairs(int n) {
+			// DP, TC = O(n), SC = O(1) (improved)
+			// Fib(n) = Fib(n - 1) + Fib(n - 2), 1 <= n <= 45
+			if (n == 1) {
+				return 1;
+			}
+			int first = 1;
+			int second = 2;
+			for (int i = 3; i <= n; i++) {
+				int third = first + second;
+				first = second;
+				second = third;
+			}
+			return second;
+		}
 	}
 
 }
