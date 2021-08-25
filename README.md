@@ -24,6 +24,10 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [11](https://leetcode.com/problems/container-with-most-water/) | [Container with Most Water](leetcode/src/ruichen/UnivaluedBinaryTree.java) | Medium | Array, Two Pointers |
 | [12](https://leetcode.com/problems/integer-to-roman/) | [Integer to Roman](leetcode/src/ruichen/IntegerToRoman.java) | Medium | Math |
 | [13](https://leetcode.com/problems/roman-to-integer/) | [Roman to Integer](leetcode/src/ruichen/RomanToInteger.java) | Easy | Hash Table, String |
+| [14](https://leetcode.com/problems/longest-common-prefix/) | [Longest Common Prefix](leetcode/src/ruichen/LongestCommonPrefix.java) | Easy | String |
+| [15](https://leetcode.com/problems/3sum/) | [3Sum](leetcode/src/ruichen/ThreeSum.java) | Medium | Array, Two Pointers |
+| [16](https://leetcode.com/problems/3sum-closest/) | [3Sum Closest](leetcode/src/ruichen/ThreeSumClosest.java) | Medium | Array, Two Pointers |
+| [18](https://leetcode.com/problems/4sum/) | [4Sum](leetcode/src/ruichen/FourSum.java) | Medium | Array, Two Pointers |
 | [19](https://leetcode.com/problems/remove-nth-node-from-end-of-list/) | [Remove Nth Node From End of List](leetcode/src/ruichen/RemoveNthNodeFromEndOfList.java) | Medium | Linked List, Two Pointers |
 | [20](https://leetcode.com/problems/valid-parentheses/) | [Valid Parentheses](leetcode/src/ruichen/ValidParentheses.java) | Easy | Stack |
 | [21](https://leetcode.com/problems/merge-two-sorted-lists/) | [Merge Two Sorted Lists](leetcode/src/ruichen/MergeTwoSortedLists.java) | Easy | Linked List |
@@ -104,6 +108,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [236](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree/) | [Lowest Common Ancestor of a Binary Tree](leetcode/src/ruichen/LowestCommonAncestorOfABinaryTree.java) | Medium | Tree, Depth-first Search |
 | [237](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Delete Node in a Linked List](leetcode/src/ruichen/DeleteNodeInLinkedList.java) | Easy | Linked List |
 | [242](https://leetcode.com/problems/valid-anagram/) | [Valid Anagram](leetcode/src/ruichen/ValidAnagram.java) | Easy | Hash Table |
+| [259](https://leetcode.com/problems/3sum-smaller/) | [3Sum](leetcode/src/ruichen/ThreeSumSmaller.java) | Medium | Array, Two Pointers |
 | [278](https://leetcode.com/problems/first-bad-version/) | [First Bad Version](leetcode/src/ruichen/FirstBadVersion.java) | Easy | Binary Search |
 | [283](https://leetcode.com/problems/move-zeroes/) | [Move Zeroes](leetcode/src/ruichen/MoveZeros.java) | Easy | Array, Two Pointers |
 | [329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Longest Increasing Path in a Matrix](leetcode/src/ruichen/LongestIncreasingPathInAMatrix.java) | Hard | Depth-first Search, Memoization |
