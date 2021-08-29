@@ -120,6 +120,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [340](https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/) | [Longest Substring with At Most K Distinct Characters](leetcode/src/ruichen/LongestSubstringWithAtMostKDistinctCharacters.java) | Medium | String, Sliding Window |
 | [344](https://leetcode.com/problems/reverse-string/) | [Reverse String](leetcode/src/ruichen/ReverseString.java) | Easy | String, Two Pointers |
 | [345](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Reverse Vowels of a String](leetcode/src/ruichen/ReverseVowelsOfAString.java) | Easy | String, Two Pointers |
+| [347](https://leetcode.com/problems/top-k-frequent-elements/) | [Top K Frequent Elements](leetcode/src/ruichen/TopKFrequentElements.java) | Medium | Hash Table, Heap, Quick Select |
 | [371](https://leetcode.com/problems/sum-of-two-integers/) | [Sum of Two Integers](leetcode/src/ruichen/SumOfTwoIntegers.java) | Medium | Bit Manipulation |
 | [373](https://leetcode.com/problems/find-k-pairs-with-smallest-sums/) | [Find K Pairs with Smallest Sums](leetcode/src/ruichen/FindKPairsWithSmallestSums.java) | Medium | Heap |
 | [374](https://leetcode.com/problems/guess-number-higher-or-lower/) | [Guess Number Higher or Lower](leetcode/src/ruichen/GuessNumberHigherOrLower.java) | Easy | Array, Binary Search |
@@ -188,16 +189,6 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 <br>Contributed by *Ruichen Zhang*
 
 Jan 24, 2021
-
-
-
-
-
-
-
-
-
-
 
 
 
