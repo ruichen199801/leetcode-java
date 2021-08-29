@@ -45,9 +45,12 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [46](https://leetcode.com/problems/permutations/) | [Permutations](leetcode/src/ruichen/Permutations.java) | Medium | Depth-first Search |
 | [47](https://leetcode.com/problems/permutations-ii/) | [Permutations II](leetcode/src/ruichen/PermutationsII.java) | Medium | Depth-first Search |
 | [48](https://leetcode.com/problems/rotate-image/) | [Rotate Image](leetcode/src/ruichen/RotateImage.java) | Medium | Array, Math |
+| [51](https://leetcode.com/problems/n-queens/) | [N Queens](leetcode/src/ruichen/NQueens.java) | Hard | Depth-first Search |
 | [53](https://leetcode.com/problems/maximum-subarray/) | [Maximum Subarray](leetcode/src/ruichen/MaximumSubarray.java) | Easy | Dynamic Programming |
 | [55](https://leetcode.com/problems/jump-game/) | [Jump Game](leetcode/src/ruichen/JumpGame.java) | Medium | Dynamic Programming |
 | [56](https://leetcode.com/problems/merge-intervals/) | [Merge Intervals](leetcode/src/ruichen/MergeIntervals.java) | Medium | Array |
+| [62](https://leetcode.com/problems/unique-paths/) | [Unique Paths](leetcode/src/ruichen/UniquePaths.java) | Medium | Dynamic Programming |
+| [63](https://leetcode.com/problems/unique-paths-ii/) | [Unique Paths II](leetcode/src/ruichen/UniquePathsII.java) | Medium | Dynamic Programming |
 | [64](https://leetcode.com/problems/minimum-path-sum/) | [Minimum Path Sum](leetcode/src/ruichen/MinimumPathSum.java) | Medium | Dynamic Programming |
 | [66](https://leetcode.com/problems/plus-one/) | [Plus One](leetcode/src/ruichen/PlusOne.java) | Easy | Math |
 | [67](https://leetcode.com/problems/add-binary/) | [Add Binary](leetcode/src/ruichen/AddBinary.java) | Easy | Math, String |
@@ -72,6 +75,8 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [111](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | [Minimum Depth of Binary Tree](leetcode/src/ruichen/MinimumDepthOfBinaryTree.java) | Easy | Tree, Depth-first Search, Recursion |
 | [112](https://leetcode.com/problems/path-sum/) | [Path Sum](leetcode/src/ruichen/PathSum.java) | Easy | Tree, Depth-first Search |
 | [113](https://leetcode.com/problems/path-sum-ii/) | [Path Sum II](leetcode/src/ruichen/PathSumII.java) | Medium | Tree, Depth-first Search |
+| [118](https://leetcode.com/problems/pascals-triangle/) | [Pascal's Triangle](leetcode/src/ruichen/PascalsTriangle.java) | Easy | Dynamic Programming |
+| [119](https://leetcode.com/problems/pascals-triangle-ii/) | [Pascal's Triangle II](leetcode/src/ruichen/PascalsTriangleII.java) | Easy | Dynamic Programming |
 | [121](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/) | [Best Time to Buy and Sell Stock](leetcode/src/ruichen/BestTimeToBuyAndSellStock.java) | Easy | Dynamic Programming |
 | [122](https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/) | [Best Time to Buy and Sell Stock II](leetcode/src/ruichen/BestTimeToBuyAndSellStockII.java) | Easy | Dynamic Programming |
 | [124](https://leetcode.com/problems/binary-tree-maximum-path-sum/) | [ Binary Tree Maximum Path Sum](leetcode/src/ruichen/BinaryTreeMaximumPathSum.java) | Hard | Tree, Depth-first Search, Recursion |
@@ -146,11 +151,13 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [617](https://leetcode.com/problems/merge-two-binary-trees/) | [Merge Two Binary Trees](leetcode/src/ruichen/MergeTwoBinaryTrees.java) | Easy | Tree, Depth-first Search |
 | [637](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Average of Levels in Binary Tree](leetcode/src/ruichen/AverageOfLevelsInBinaryTree.java) | Easy | Tree, Breadth-first Search |
 | [653](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Two Sum IV - Input is a BST](leetcode/src/ruichen/TwoSumIV.java) | Easy | Hash Table, Tree, Depth-first Search |
+| [692](https://leetcode.com/problems/top-k-frequent-words/) | [Top K Frequent Words](leetcode/src/ruichen/TopKFrequentWords.java) | Medium | Hash Table, Heap |
 | [694](https://leetcode.com/problems/number-of-distinct-islands/) | [Number of Distinct Islands](leetcode/src/ruichen/NumberOfDistinctIslands.java) | Medium | Depth-first Search |
 | [695](https://leetcode.com/problems/max-area-of-island/) | [Max Area of Island](leetcode/src/ruichen/MaxAreaOfIsland.java) | Medium | Breadth-first Search, Depth-first Search |
 | [700](https://leetcode.com/problems/search-in-a-binary-search-tree/) | [Search in a Binary Search Tree](leetcode/src/ruichen/SearchInABinarySearchTree.java) | Easy | Tree |
 | [704](https://leetcode.com/problems/binary-search/) | [Binary Search](leetcode/src/ruichen/BinarySearch.java) | Easy | Array, Binary Search |
 | [707](https://leetcode.com/problems/design-linked-list/) | [Design Linked List](leetcode/src/ruichen/DesignLinkedList.java) | Medium | Design, Linked List |
+| [735](https://leetcode.com/problems/asteroid-collision/) | [Asteroid Collision](leetcode/src/ruichen/AsteroidCollision.java) | Medium | Stack |
 | [746](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Min Cost Climbing Stairs](leetcode/src/ruichen/MinCostClimbingStairs.java) | Easy | Dynamic Programming |
 | [785](https://leetcode.com/problems/is-graph-bipartite/) | [Is Graph Bipartite?](leetcode/src/ruichen/IsGraphBipartite.java) | Medium | Graph, Breadth-first Search |
 | [797](https://leetcode.com/problems/all-paths-from-source-to-target/) | [All Paths From Source to Target](leetcode/src/ruichen/AllPathsFromSourceToTarget.java) | Medium | Breadth-first Search, Graph |
@@ -158,6 +165,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [872](https://leetcode.com/problems/leaf-similar-trees/) | [Leaf-Similar Trees](leetcode/src/ruichen/LeafSimilarTrees.java) | Easy | Tree, Depth-first Search |
 | [876](https://leetcode.com/problems/middle-of-the-linked-list/) | [Middle of the Linked List](leetcode/src/ruichen/MiddleoftheLinkedList.java) | Easy | Linked List |
 | [937](https://leetcode.com/problems/reorder-data-in-log-files/) | [Reorder Data in Log Files](leetcode/src/ruichen/ReorderDataInLogFiles.java) | Easy | Array, Sorting |
+| [946](https://leetcode.com/problems/validate-stack-sequences/) | [Validate Stack Sequences](leetcode/src/ruichen/ValidateStackSequences.java) | Medium | Stack |
 | [965](https://leetcode.com/problems/univalued-binary-tree/) | [Univalued Binary Tree](leetcode/src/ruichen/UnivaluedBinaryTree.java) | Easy | Tree |
 | [981](https://leetcode.com/problems/time-based-key-value-store/) | [Time Based Key Value Store](leetcode/src/ruichen/TimeBasedKeyValueStore.java) | Medium | Binary Search, Hash Table, Design |
 | [989](https://leetcode.com/problems/add-to-array-form-of-integer/) | [Add to Array-Form of Integer](leetcode/src/ruichen/AddToArrayFormOfInteger.java) | Easy | Math, String |
@@ -168,6 +176,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [1137](https://leetcode.com/problems/n-th-tribonacci-number/) | [N-th Tribonacci Number](leetcode/src/ruichen/NthTribonacciNumber.java) | Easy | Dynamic Programming |
 | [1207](https://leetcode.com/problems/unique-number-of-occurrences/) | [Unique Number of Occurrences](leetcode/src/ruichen/UniqueNumberOfOccurrences.java) | Easy | Array, Hash Table |
 | [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Remove All Adjacent Duplicates in String II](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInStringII.java) | Medium | Stack |
+| [1324](https://leetcode.com/problems/print-words-vertically/) | [Print Words Vertically](leetcode/src/ruichen/PrintWordsVertically.java) | Medium | String |
 | [1367](https://leetcode.com/problems/linked-list-in-binary-tree/) | [Linked List in Binary Tree](leetcode/src/ruichen/LinkedListInBinaryTree.java) | Medium | Tree, Linked List, Depth-first Search, Breadth-first Search |
 | [1396](https://leetcode.com/problems/design-underground-system/) | [Design Underground System](leetcode/src/ruichen/DesignUndergroundSystem.java) | Medium | Hash Table, Design |
 | [1614](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | [Maximum Nesting Depth of the Parentheses](leetcode/src/ruichen/MaximumNestingDepthOfTheParentheses.java) | Easy | String |
@@ -179,3 +188,23 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 <br>Contributed by *Ruichen Zhang*
 
 Jan 24, 2021
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

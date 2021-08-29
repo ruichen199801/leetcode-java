@@ -4,6 +4,7 @@ public class MinimumPathSum {
 
     // #64 https://leetcode.com/problems/minimum-path-sum/
     // Dynamic Programming
+    // Similar to #62 Unique Paths
 
     class Solution {
 
