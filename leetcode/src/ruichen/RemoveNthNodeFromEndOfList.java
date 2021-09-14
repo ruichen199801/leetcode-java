@@ -22,6 +22,13 @@ public class RemoveNthNodeFromEndOfList {
 	        // when fast reaches end, slow stops right before the note to be deleted
 	        //   1->2->3->4->5, n = 2
 	        // s f
+
+			// maintain a dummy node to play around NPE (1 <= sz <= 30, 1 <= n <= sz, sz = size of linked list)
+			// 1 -> null, n = 1
+			// dummmy -> 1 -> null
+			//   s       f
+			//   s.next = s.next.next, which is null
+
 	        ListNode dummy = new ListNode(0);
 	        dummy.next = head;
 	        ListNode slow = dummy, fast = head;

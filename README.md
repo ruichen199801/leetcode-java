@@ -87,6 +87,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [133](https://leetcode.com/problems/clone-graph/) | [Clone Graph](leetcode/src/ruichen/CloneGraph.java) | Medium | Graph, Depth-first Search, Breadth-first Search |
 | [136](https://leetcode.com/problems/single-number/) | [Single Number](leetcode/src/ruichen/SingleNumber.java) | Easy | Bit Manipulation, Hash Table |
 | [137](https://leetcode.com/problems/single-number-ii/) | [Single Number II](leetcode/src/ruichen/SingleNumberII.java) | Medium | Bit Manipulation |
+| [138](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Copy List with Random Pointer](leetcode/src/ruichen/CopyListWithRandomPointer.java) | Medium | Linked List, Hash Table |
 | [141](https://leetcode.com/problems/linked-list-cycle/) | [Linked List Cycle](leetcode/src/ruichen/LinkedListCycle.java) | Easy | Linked List, Two Pointers |
 | [142](https://leetcode.com/problems/linked-list-cycle-ii/) | [Linked List Cycle II](leetcode/src/ruichen/LinkedListCycleII.java) | Medium | Linked List, Hash Table |
 | [143](https://leetcode.com/problems/reorder-list/) | [Reorder List](leetcode/src/ruichen/ReorderList.java) | Medium | Linked List |
@@ -164,6 +165,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [797](https://leetcode.com/problems/all-paths-from-source-to-target/) | [All Paths From Source to Target](leetcode/src/ruichen/AllPathsFromSourceToTarget.java) | Medium | Breadth-first Search, Graph |
 | [827](https://leetcode.com/problems/making-a-large-island/) | [Making a Large Island](leetcode/src/ruichen/MakingALargeIsland.java) | Hard | Depth-first Search |
 | [872](https://leetcode.com/problems/leaf-similar-trees/) | [Leaf-Similar Trees](leetcode/src/ruichen/LeafSimilarTrees.java) | Easy | Tree, Depth-first Search |
+| [875](https://leetcode.com/problems/koko-eating-bananas/) | [Koko Eating Bananas](leetcode/src/ruichen/KokoEatingBananas.java) | Medium | Binary Search |
 | [876](https://leetcode.com/problems/middle-of-the-linked-list/) | [Middle of the Linked List](leetcode/src/ruichen/MiddleoftheLinkedList.java) | Easy | Linked List |
 | [937](https://leetcode.com/problems/reorder-data-in-log-files/) | [Reorder Data in Log Files](leetcode/src/ruichen/ReorderDataInLogFiles.java) | Easy | Array, Sorting |
 | [946](https://leetcode.com/problems/validate-stack-sequences/) | [Validate Stack Sequences](leetcode/src/ruichen/ValidateStackSequences.java) | Medium | Stack |
@@ -180,6 +182,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [1324](https://leetcode.com/problems/print-words-vertically/) | [Print Words Vertically](leetcode/src/ruichen/PrintWordsVertically.java) | Medium | String |
 | [1367](https://leetcode.com/problems/linked-list-in-binary-tree/) | [Linked List in Binary Tree](leetcode/src/ruichen/LinkedListInBinaryTree.java) | Medium | Tree, Linked List, Depth-first Search, Breadth-first Search |
 | [1396](https://leetcode.com/problems/design-underground-system/) | [Design Underground System](leetcode/src/ruichen/DesignUndergroundSystem.java) | Medium | Hash Table, Design |
+| [1474](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/) | [Delete N Nodes after M Nodes of a Linked List](leetcode/src/ruichen/DeleteNNodesAfterMNodesOfALinkedList.java) | Easy | Linked List |
 | [1614](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | [Maximum Nesting Depth of the Parentheses](leetcode/src/ruichen/MaximumNestingDepthOfTheParentheses.java) | Easy | String |
 | [1644](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/) | [Lowest Common Ancestor of a Binary Tree II](leetcode/src/ruichen/LowestCommonAncestorOfABinaryTreeII.java) | Medium | Tree, Depth-first Search |
 | [1650](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) | [Lowest Common Ancestor of a Binary Tree III](leetcode/src/ruichen/LowestCommonAncestorOfABinaryTreeIII.java) | Medium | Tree, Depth-first Search |
@@ -189,13 +192,3 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 <br>Contributed by *Ruichen Zhang*
 
 Jan 24, 2021
-
-
-
-
-
-
-
-
-
-
