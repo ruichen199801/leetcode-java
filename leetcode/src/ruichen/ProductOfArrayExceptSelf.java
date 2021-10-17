@@ -6,6 +6,8 @@ public class ProductOfArrayExceptSelf {
     // Array, Prefix Sum
 
     class Solution1 {
+        // No division allowed
+
         // Method 1: 3 arrays + 3 pass, TC = O(n), SC = O(n)
         public int[] productExceptSelf(int[] nums) {
             // nums    1  2  3 4
