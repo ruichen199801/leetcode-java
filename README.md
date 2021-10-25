@@ -190,6 +190,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [981](https://leetcode.com/problems/time-based-key-value-store/) | [Time Based Key Value Store](leetcode/src/ruichen/TimeBasedKeyValueStore.java) | Medium | Binary Search, Hash Table, Design |
 | [989](https://leetcode.com/problems/add-to-array-form-of-integer/) | [Add to Array-Form of Integer](leetcode/src/ruichen/AddToArrayFormOfInteger.java) | Easy | Math, String |
 | [1023](https://leetcode.com/problems/camelcase-matching/) | [Camelcase Matching](leetcode/src/ruichen/CamelcaseMatching.java) | Medium | Two Pointers, String |
+| [1041](https://leetcode.com/problems/robot-bounded-in-circle/) | [Robot Bounded in Circle](leetcode/src/ruichen/RobotBoundedInCircle.java) | Medium | Math, Simulation |
 | [1047](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Remove All Adjacent Duplicates in String](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInString.java) | Easy | Stack |
 | [1089](https://leetcode.com/problems/duplicate-zeros/) | [Duplicate Zeros](leetcode/src/ruichen/DuplicateZeros.java) | Easy | Array, Two Pointers |
 | [1095](https://leetcode.com/problems/find-in-mountain-array/) | [Find in Mountain Array](leetcode/src/ruichen/FindInMountainArray.java) | Hard | Array, Binary Search |
