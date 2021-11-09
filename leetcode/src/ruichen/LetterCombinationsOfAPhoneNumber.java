@@ -9,7 +9,8 @@ public class LetterCombinationsOfAPhoneNumber {
 
     // #17 https://leetcode.com/problems/letter-combinations-of-a-phone-number/
     // Depth-first Search
-    // TC = O(n * 3^n), SC = O(n^2), n = number of digits
+    // TC = O(n * 4^n), 4^n: worst case, digits only contain 7s and 9s; n: cost to build the combination each run
+    // SC = O(n), n = number of digits (= depth of recursion stack)
 
     class Solution {
         public List<String> letterCombinations(String digits) {
