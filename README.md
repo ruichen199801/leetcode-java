@@ -1,7 +1,7 @@
 ## LeetCode Solutions
 
 <ul>
-<li>My own solutions to LeetCode questions in Java programming language</li>
+<li>Solutions to LeetCode questions in Java programming language</li>
 <li>All solutions have been accepted on LeetCode, and most of them have the best performance in terms of time and space complexity</li> 
 <li>I will be updating new questions and their solutions on a daily basis (hopefully)</li>
 <li>It would be great if you could share better solutions or kindly point out any mistake I may have made</li>
@@ -51,9 +51,12 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [49](https://leetcode.com/problems/group-anagrams/) | [Group Anagrams](leetcode/src/ruichen/GroupAnagrams.java) | Medium | Hash Table, String, Sorting |
 | [51](https://leetcode.com/problems/n-queens/) | [N Queens](leetcode/src/ruichen/NQueens.java) | Hard | Depth-first Search |
 | [53](https://leetcode.com/problems/maximum-subarray/) | [Maximum Subarray](leetcode/src/ruichen/MaximumSubarray.java) | Easy | Dynamic Programming |
+| [54](https://leetcode.com/problems/spiral-matrix/) | [Spiral Matrix](leetcode/src/ruichen/SpiralMatrix.java) | Medium | Array, Simulation |
 | [55](https://leetcode.com/problems/jump-game/) | [Jump Game](leetcode/src/ruichen/JumpGame.java) | Medium | Dynamic Programming |
 | [56](https://leetcode.com/problems/merge-intervals/) | [Merge Intervals](leetcode/src/ruichen/MergeIntervals.java) | Medium | Array |
 | [58](https://leetcode.com/problems/length-of-last-word/) | [Length of Last Word](leetcode/src/ruichen/LengthOfLastWord.java) | Easy | String |
+| [59](https://leetcode.com/problems/spiral-matrix-ii/) | [Spiral Matrix II](leetcode/src/ruichen/SpiralMatrixII.java) | Medium | Array, Simulation |
+| [61](https://leetcode.com/problems/rotate-list/) | [Rotate List](leetcode/src/ruichen/RotateList.java) | Medium | Linked List, Two Pointers |
 | [62](https://leetcode.com/problems/unique-paths/) | [Unique Paths](leetcode/src/ruichen/UniquePaths.java) | Medium | Dynamic Programming |
 | [63](https://leetcode.com/problems/unique-paths-ii/) | [Unique Paths II](leetcode/src/ruichen/UniquePathsII.java) | Medium | Dynamic Programming |
 | [64](https://leetcode.com/problems/minimum-path-sum/) | [Minimum Path Sum](leetcode/src/ruichen/MinimumPathSum.java) | Medium | Dynamic Programming |
@@ -71,6 +74,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [88](https://leetcode.com/problems/merge-sorted-array/) | [Merge Sorted Array](leetcode/src/ruichen/MergeSortedArray.java) | Easy | Array, Two Pointers |
 | [90](https://leetcode.com/problems/subsets-ii/) | [Subsets II](leetcode/src/ruichen/SubsetsII.java) | Medium | Depth-first Search |
 | [92](https://leetcode.com/problems/reverse-linked-list-ii/) | [Reverse Linked List II](leetcode/src/ruichen/ReverseLinkedListII.java) | Medium | Linked List |
+| [93](https://leetcode.com/problems/restore-ip-addresses/) | [Restore IP Addresses](leetcode/src/ruichen/RestoreIPAddresses.java) | Medium | String, Depth-first Search |
 | [94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Binary Tree Inorder Traversal](leetcode/src/ruichen/BinaryTreeInorderTraversal.java) | Easy | Stack, Tree |
 | [95](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Unique Binary Search Trees II](leetcode/src/ruichen/UniqueBinarySearchTreesII.java) | Medium | Tree, Depth-first Search, Dynamic Programming |
 | [96](https://leetcode.com/problems/unique-binary-search-trees/) | [Unique Binary Search Trees](leetcode/src/ruichen/UniqueBinarySearchTrees.java) | Medium | Dynamic Programming |
@@ -98,6 +102,8 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [136](https://leetcode.com/problems/single-number/) | [Single Number](leetcode/src/ruichen/SingleNumber.java) | Easy | Bit Manipulation, Hash Table |
 | [137](https://leetcode.com/problems/single-number-ii/) | [Single Number II](leetcode/src/ruichen/SingleNumberII.java) | Medium | Bit Manipulation |
 | [138](https://leetcode.com/problems/copy-list-with-random-pointer/) | [Copy List with Random Pointer](leetcode/src/ruichen/CopyListWithRandomPointer.java) | Medium | Linked List, Hash Table |
+| [139](https://leetcode.com/problems/word-break/) | [Word Break](leetcode/src/ruichen/WordBreak.java) | Medium | String, Hash Table, Dynamic Programming |
+| [140](https://leetcode.com/problems/word-break-ii/) | [Word Break II](leetcode/src/ruichen/WordBreakII.java) | Hard | String, Hash Table, Depth-first Search |
 | [141](https://leetcode.com/problems/linked-list-cycle/) | [Linked List Cycle](leetcode/src/ruichen/LinkedListCycle.java) | Easy | Linked List, Two Pointers |
 | [142](https://leetcode.com/problems/linked-list-cycle-ii/) | [Linked List Cycle II](leetcode/src/ruichen/LinkedListCycleII.java) | Medium | Linked List, Hash Table, Two Pointers |
 | [143](https://leetcode.com/problems/reorder-list/) | [Reorder List](leetcode/src/ruichen/ReorderList.java) | Medium | Linked List |
@@ -113,6 +119,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [169](https://leetcode.com/problems/majority-element/) | [Majority Element](leetcode/src/ruichen/MajorityElement.java) | Easy | Array |
 | [170](https://leetcode.com/problems/two-sum-iii-data-structure-design/) | [Two Sum III - Data structure design](leetcode/src/ruichen/TwoSumIII.java) | Easy | Hash Table, Design |
 | [171](https://leetcode.com/problems/excel-sheet-column-number/) | [Excel Sheet Column Number](leetcode/src/ruichen/ExcelSheetColumnNumber.java) | Easy | Math |
+| [189](https://leetcode.com/problems/rotate-array/) | [Rotate Array](leetcode/src/ruichen/RotateArray.java) | Medium | Array, Two Pointers |
 | [191](https://leetcode.com/problems/number-of-1-bits/) | [Number of 1 Bits](leetcode/src/ruichen/NumberOf1Bits.java) | Easy | Bit Manipulation |
 | [198](https://leetcode.com/problems/house-robber/) | [House Robber](leetcode/src/ruichen/HouseRobber.java) | Medium | Dynamic Programming |
 | [199](https://leetcode.com/problems/binary-tree-right-side-view/) | [Binary Tree Right Side View](leetcode/src/ruichen/BinaryTreeRightSideView.java) | Medium | Tree, Depth-first Search, Breadth-first Search |
@@ -162,6 +169,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Find All Numbers Disappeared in an Array](leetcode/src/ruichen/FindAllNumbersDisappearedInAnArray.java) | Easy | Array |
 | [463](https://leetcode.com/problems/island-perimeter/) | [Island Perimeter](leetcode/src/ruichen/IslandPerimeter.java) | Easy | Array |
 | [486](https://leetcode.com/problems/predict-the-winner/) | [Predict the Winner](leetcode/src/ruichen/PredictTheWinner.java) | Medium | Minimax, Dynamic Programming |
+| [490](https://leetcode.com/problems/the-maze/) | [The Maze](leetcode/src/ruichen/TheMaze.java) | Medium | Breadth-first Search |
 | [509](https://leetcode.com/problems/fibonacci-number/) | [Fibonacci Number](leetcode/src/ruichen/FibonacciNumber.java) | Easy | Array |
 | [523](https://leetcode.com/problems/continuous-subarray-sum/) | [Continuous Subarray Sum](leetcode/src/ruichen/ContinuousSubarraySum.java) | Medium | Array, Math, Prefix Sum |
 | [539](https://leetcode.com/problems/minimum-time-difference/) | [Minimum Time Difference](leetcode/src/ruichen/MinimumTimeDifference.java) | Medium | Array, Sorting |
@@ -190,16 +198,19 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [735](https://leetcode.com/problems/asteroid-collision/) | [Asteroid Collision](leetcode/src/ruichen/AsteroidCollision.java) | Medium | Stack |
 | [746](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Min Cost Climbing Stairs](leetcode/src/ruichen/MinCostClimbingStairs.java) | Easy | Dynamic Programming |
 | [785](https://leetcode.com/problems/is-graph-bipartite/) | [Is Graph Bipartite?](leetcode/src/ruichen/IsGraphBipartite.java) | Medium | Graph, Breadth-first Search |
+| [796](https://leetcode.com/problems/rotate-string/) | [Rotate String](leetcode/src/ruichen/RotateString.java) | Easy | String |
 | [797](https://leetcode.com/problems/all-paths-from-source-to-target/) | [All Paths From Source to Target](leetcode/src/ruichen/AllPathsFromSourceToTarget.java) | Medium | Breadth-first Search, Graph |
 | [827](https://leetcode.com/problems/making-a-large-island/) | [Making a Large Island](leetcode/src/ruichen/MakingALargeIsland.java) | Hard | Depth-first Search |
 | [872](https://leetcode.com/problems/leaf-similar-trees/) | [Leaf-Similar Trees](leetcode/src/ruichen/LeafSimilarTrees.java) | Easy | Tree, Depth-first Search |
 | [875](https://leetcode.com/problems/koko-eating-bananas/) | [Koko Eating Bananas](leetcode/src/ruichen/KokoEatingBananas.java) | Medium | Binary Search |
 | [876](https://leetcode.com/problems/middle-of-the-linked-list/) | [Middle of the Linked List](leetcode/src/ruichen/MiddleoftheLinkedList.java) | Easy | Linked List |
+| [885](https://leetcode.com/problems/spiral-matrix-iii/) | [Spiral Matrix III](leetcode/src/ruichen/SpiralMatrixIII.java) | Medium | Array, Simulation |
 | [926](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | [Flip String to Monotone Increasing](leetcode/src/ruichen/FlipStringToMonotoneIncreasing.java) | Medium | String, Dynamic Programming |
 | [937](https://leetcode.com/problems/reorder-data-in-log-files/) | [Reorder Data in Log Files](leetcode/src/ruichen/ReorderDataInLogFiles.java) | Easy | Array, Sorting |
 | [946](https://leetcode.com/problems/validate-stack-sequences/) | [Validate Stack Sequences](leetcode/src/ruichen/ValidateStackSequences.java) | Medium | Stack |
 | [951](https://leetcode.com/problems/flip-equivalent-binary-trees/) | [Flip Equivalent Binary Trees](leetcode/src/ruichen/FlipEquivalentBinaryTrees.java) | Medium | Tree, Depth-first Search |
 | [965](https://leetcode.com/problems/univalued-binary-tree/) | [Univalued Binary Tree](leetcode/src/ruichen/UnivaluedBinaryTree.java) | Easy | Tree |
+| [980](https://leetcode.com/problems/unique-paths-iii/) | [Unique Paths III](leetcode/src/ruichen/UniquePathsIII.java) | Hard | Array, Depth-first Search |
 | [981](https://leetcode.com/problems/time-based-key-value-store/) | [Time Based Key Value Store](leetcode/src/ruichen/TimeBasedKeyValueStore.java) | Medium | Binary Search, Hash Table, Design |
 | [989](https://leetcode.com/problems/add-to-array-form-of-integer/) | [Add to Array-Form of Integer](leetcode/src/ruichen/AddToArrayFormOfInteger.java) | Easy | Math, String |
 | [1023](https://leetcode.com/problems/camelcase-matching/) | [Camelcase Matching](leetcode/src/ruichen/CamelcaseMatching.java) | Medium | Two Pointers, String |
@@ -215,10 +226,14 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Remove All Adjacent Duplicates in String II](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInStringII.java) | Medium | Stack |
 | [1219](https://leetcode.com/problems/path-with-maximum-gold/) | [Path with Maximum Gold](leetcode/src/ruichen/PathWithMaximumGold.java) | Medium | Depth-first Search |
 | [1221](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [Split a String in Balanced Strings](leetcode/src/ruichen/SplitAStringInBalancedStrings.java) | Easy | String, Counting |
+| [1306](https://leetcode.com/problems/jump-game-iii/) | [Jump Game III](leetcode/src/ruichen/JumpGameIII.java) | Medium | Array, Depth-first Search, Breadth-first Search |
 | [1324](https://leetcode.com/problems/print-words-vertically/) | [Print Words Vertically](leetcode/src/ruichen/PrintWordsVertically.java) | Medium | String |
+| [1340](https://leetcode.com/problems/jump-game-v/) | [Jump Game V](leetcode/src/ruichen/JumpGameV.java) | Hard | Array, Depth-first Search |
+| [1345](https://leetcode.com/problems/jump-game-iv/) | [Jump Game IV](leetcode/src/ruichen/JumpGameIV.java) | Hard | Array, Hash Table, Breadth-first Search |
 | [1367](https://leetcode.com/problems/linked-list-in-binary-tree/) | [Linked List in Binary Tree](leetcode/src/ruichen/LinkedListInBinaryTree.java) | Medium | Tree, Linked List, Depth-first Search, Breadth-first Search |
 | [1396](https://leetcode.com/problems/design-underground-system/) | [Design Underground System](leetcode/src/ruichen/DesignUndergroundSystem.java) | Medium | Hash Table, Design |
 | [1446](https://leetcode.com/problems/consecutive-characters/) | [Consecutive Characters](leetcode/src/ruichen/ConsecutiveCharacters.java) | Easy | String, Counting |
+| [1470](https://leetcode.com/problems/shuffle-the-array/) | [Shuffle the Array](leetcode/src/ruichen/ShuffleTheArray.java) | Easy | Array |
 | [1474](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/) | [Delete N Nodes after M Nodes of a Linked List](leetcode/src/ruichen/DeleteNNodesAfterMNodesOfALinkedList.java) | Easy | Linked List |
 | [1556](https://leetcode.com/problems/thousand-separator/) | [Thousand Separator](leetcode/src/ruichen/ThousandSeparator.java) | Easy | String |
 | [1592](https://leetcode.com/problems/rearrange-spaces-between-words/) | [Rearrange Spaces Between Words](leetcode/src/ruichen/RearrangeSpacesBetweenWords.java) | Easy | String |
