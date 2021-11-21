@@ -19,7 +19,7 @@ public class ReorderDataInLogFiles {
 
             // TC = O(n log n)
             // Arrays.sort(): dual-pivot quick sort for primitive types, modified merge sort for object[] types that demand stability
-            // SC = O(log n)
+            // SC = O(log n) in average, O(n) worst case
 
             Arrays.sort(logs, (log1, log2) -> {
                 // log1 < log2: return -1

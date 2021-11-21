@@ -20,11 +20,11 @@ public class MergeIntervals {
             // }
             // else if (overlap: previous interval's second index >= current interval's first index) {
             //     merge: set previous interval's second index to max(the two intervals' second index)
-            //            e.g. [1,3], [2,6] -> [1,6]
+            //            e.g. [1,3], [2,6] -> [1,6], [1, 4] [2, 3] -> [1, 4]
             // }
 
             // Time complexity: depends on sorting, O(n log n) for Java
-            // Space complexity: O(log n) for sorting (O(n) for storing output, may not count)
+            // Space complexity: O(n) for sorting (O(n) for storing output, may not count)
 
             if (intervals == null || intervals.length == 0) {
                 return null;

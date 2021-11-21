@@ -41,7 +41,7 @@ public class TopKFrequentElements {
 
     class Solution2 {
         // Method 2: Quick Select
-        // TC = O(n) in average, O(n^2) at worst
+        // TC = O(n) in average, O(n^2) at worst (we only care about top k half instead of processing both parts of the array, so O(n) not O(n log n))
         // SC = O(n)
         public int[] topKFrequent(int[] nums, int k) {
             Map<Integer, Integer> map = new HashMap<>();
