@@ -115,6 +115,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [143](https://leetcode.com/problems/reorder-list/) | [Reorder List](leetcode/src/ruichen/ReorderList.java) | Medium | Linked List |
 | [144](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Binary Tree Preorder Traversal](leetcode/src/ruichen/BinaryTreePreorderTraversal.java) | Medium | Stack, Tree |
 | [145](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Binary Tree Postorder Traversal](leetcode/src/ruichen/BinaryTreePostorderTraversal.java) | Easy | Stack, Tree |
+| [146](https://leetcode.com/problems/lru-cache/) | [LRU Cache](leetcode/src/ruichen/LRUCache.java) | Medium | Linked List, Hash Table, Design |
 | [151](https://leetcode.com/problems/reverse-words-in-a-string/) | [Reverse Words in a String](leetcode/src/ruichen/ReverseWordsInAString.java) | Medium | String, Two Pointers |
 | [155](https://leetcode.com/problems/min-stack/) | [Min Stack](leetcode/src/ruichen/MinStack.java) | Easy | Stack, Design |
 | [159](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [Longest Substring with At Most Two Distinct Characters](leetcode/src/ruichen/LongestSubstringWithAtMostTwoDistinctCharacters.java) | Medium | String, Sliding Window |
@@ -135,9 +136,12 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [203](https://leetcode.com/problems/remove-linked-list-elements/) | [Remove Linked List Elements](leetcode/src/ruichen/RemoveLinkedListElements.java) | Easy | Linked List |
 | [205](https://leetcode.com/problems/isomorphic-strings/) | [Isomorphic Strings](leetcode/src/ruichen/IsomorphicStrings.java) | Easy | String, Hash Table |
 | [206](https://leetcode.com/problems/reverse-linked-list/) | [Reverse Linked List](leetcode/src/ruichen/ReverseLinkedList.java) | Easy | Linked List |
+| [207](https://leetcode.com/problems/course-schedule/) | [Course Schedule](leetcode/src/ruichen/CourseSchedule.java) | Medium | Graph, Breadth-first Search, Topological Sort |
 | [208](https://leetcode.com/problems/implement-trie-prefix-tree/) | [Implement Trie (Prefix Tree)](leetcode/src/ruichen/ImplementTrie.java) | Medium | Design, Trie |
+| [210](https://leetcode.com/problems/course-schedule-ii/) | [Course Schedule II](leetcode/src/ruichen/CourseScheduleII.java) | Medium | Graph, Breadth-first Search, Topological Sort |
 | [213](https://leetcode.com/problems/house-robber-ii/) | [House Robber II](leetcode/src/ruichen/HouseRobberII.java) | Medium | Dynamic Programming |
 | [226](https://leetcode.com/problems/invert-binary-tree/) | [Invert Binary Tree](leetcode/src/ruichen/InvertBinaryTree.java) | Easy | Tree |
+| [230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Kth Smallest Element in a BST](leetcode/src/ruichen/KthSmallestElementInABST.java) | Medium | Tree, Binary Search Tree, Depth-first Search |
 | [231](https://leetcode.com/problems/power-of-two/) | [Power of Two](leetcode/src/ruichen/PowerOfTwo.java) | Easy | Bit Manipulation, Math |
 | [234](https://leetcode.com/problems/palindrome-linked-list/) | [Palindrome Linked List](leetcode/src/ruichen/PalindromeLinkedList.java) | Easy | Linked List, Two Pointers |
 | [235](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-search-tree/) | [Lowest Common Ancestor of a Binary Search Tree](leetcode/src/ruichen/LowestCommonAncestorOfABinarySearchTree.java) | Medium | Tree, Depth-first Search |

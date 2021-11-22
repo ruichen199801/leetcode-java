@@ -48,14 +48,13 @@ public class PermutationsII {
                 return new ArrayList<>();
             }
             Arrays.sort(nums);
-            Set<List<Integer>> result = new HashSet<>();
-            List<Integer> curr = new ArrayList<>();
+            List<List<Integer>> result = new ArrayList<>();
             boolean[] used = new boolean[nums.length];
-            helper(nums, used, curr, result);
-            return new ArrayList<>(result);
+            helper(nums, used, new ArrayList<>(), result);
+            return result;
         }
 
-        private void helper(int[] nums, boolean[] used, List<Integer> curr, Set<List<Integer>> result) {
+        private void helper(int[] nums, boolean[] used, List<Integer> curr, List<List<Integer>> result) {
             if (curr.size() == nums.length) {
                 result.add(new ArrayList<>(curr));
                 return;
