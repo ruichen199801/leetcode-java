@@ -71,6 +71,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [75](https://leetcode.com/problems/sort-colors/) | [Sort Colors](leetcode/src/ruichen/SortColors.java) | Medium | Array, Sorting |
 | [76](https://leetcode.com/problems/minimum-window-substring/) | [Minimum Window Substring](leetcode/src/ruichen/MinimumWindowSubstring.java) | Hard | String, Sliding Window |
 | [78](https://leetcode.com/problems/subsets/) | [Subsets](leetcode/src/ruichen/Subsets.java) | Medium | Depth-first Search |
+| [79](https://leetcode.com/problems/word-search/) | [Word Search](leetcode/src/ruichen/WordSearch.java) | Medium | Array, Depth-first Search |
 | [81](https://leetcode.com/problems/search-in-rotated-sorted-array-ii/) | [Search in Rotated Sorted Array II](leetcode/src/SearchInRotatedSortedArrayII.java) | Medium | Array, Binary Search |
 | [82](https://leetcode.com/problems/remove-duplicates-from-sorted-list-ii/) | [Remove Duplicates from Sorted List II](leetcode/src/ruichen/RemoveDuplicatesFromSortedListII.java) | Medium | Linked List |
 | [83](https://leetcode.com/problems/remove-duplicates-from-sorted-list/) | [Remove Duplicates from Sorted List](leetcode/src/ruichen/RemoveDuplicatesFromSortedList.java) | Easy | Linked List |
@@ -117,6 +118,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [145](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Binary Tree Postorder Traversal](leetcode/src/ruichen/BinaryTreePostorderTraversal.java) | Easy | Stack, Tree |
 | [146](https://leetcode.com/problems/lru-cache/) | [LRU Cache](leetcode/src/ruichen/LRUCache.java) | Medium | Linked List, Hash Table, Design |
 | [151](https://leetcode.com/problems/reverse-words-in-a-string/) | [Reverse Words in a String](leetcode/src/ruichen/ReverseWordsInAString.java) | Medium | String, Two Pointers |
+| [152](https://leetcode.com/problems/maximum-product-subarray/) | [Maximum Product Subarray](leetcode/src/ruichen/MaximumProductSubarray.java) | Medium | Array, Dynamic Programming |
 | [155](https://leetcode.com/problems/min-stack/) | [Min Stack](leetcode/src/ruichen/MinStack.java) | Easy | Stack, Design |
 | [159](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [Longest Substring with At Most Two Distinct Characters](leetcode/src/ruichen/LongestSubstringWithAtMostTwoDistinctCharacters.java) | Medium | String, Sliding Window |
 | [160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Intersection of Two Linked Lists](leetcode/src/ruichen/IntersectionOfTwoLinkedLists.java) | Easy | Linked List, Hash Table, Two Pointers |
@@ -184,6 +186,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [442](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Find All Duplicates in an Array](leetcode/src/ruichen/FindAllDuplicatesInAnArray.java) | Medium | Array |
 | [445](https://leetcode.com/problems/add-two-numbers-ii/) | [Add Two Numbers II](leetcode/src/ruichen/AddTwoNumbersII.java) | Medium | Math, Linked List |
 | [448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Find All Numbers Disappeared in an Array](leetcode/src/ruichen/FindAllNumbersDisappearedInAnArray.java) | Easy | Array |
+| [455](https://leetcode.com/problems/assign-cookies/) | [Assign Cookies](leetcode/src/ruichen/AssignCookies.java) | Easy | Array, Greedy, Sorting |
 | [463](https://leetcode.com/problems/island-perimeter/) | [Island Perimeter](leetcode/src/ruichen/IslandPerimeter.java) | Easy | Array |
 | [486](https://leetcode.com/problems/predict-the-winner/) | [Predict the Winner](leetcode/src/ruichen/PredictTheWinner.java) | Medium | Minimax, Dynamic Programming |
 | [490](https://leetcode.com/problems/the-maze/) | [The Maze](leetcode/src/ruichen/TheMaze.java) | Medium | Breadth-first Search |
@@ -202,6 +205,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [599](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Minimum Index Sum of Two Lists](leetcode/src/ruichen/MinimumIndexSumOfTwoLists.java) | Easy | Array, Hash Table |
 | [605](https://leetcode.com/problems/can-place-flowers/) | [Can Place Flowers](leetcode/src/ruichen/CanPlaceFlowers.java) | Easy | Array |
 | [617](https://leetcode.com/problems/merge-two-binary-trees/) | [Merge Two Binary Trees](leetcode/src/ruichen/MergeTwoBinaryTrees.java) | Easy | Tree, Depth-first Search |
+| [628](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [Maximum Product of Three Numbers](leetcode/src/ruichen/MaximumProductOfThreeNumbers.java) | Easy | Array, Math |
 | [637](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Average of Levels in Binary Tree](leetcode/src/ruichen/AverageOfLevelsInBinaryTree.java) | Easy | Tree, Breadth-first Search |
 | [653](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Two Sum IV - Input is a BST](leetcode/src/ruichen/TwoSumIV.java) | Easy | Hash Table, Tree, Depth-first Search |
 | [680](https://leetcode.com/problems/valid-palindrome-ii/) | [Valid Palindrome II](leetcode/src/ruichen/ValidPalindromeII.java) | Easy | String, Two Pointers |
@@ -231,6 +235,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [946](https://leetcode.com/problems/validate-stack-sequences/) | [Validate Stack Sequences](leetcode/src/ruichen/ValidateStackSequences.java) | Medium | Stack |
 | [951](https://leetcode.com/problems/flip-equivalent-binary-trees/) | [Flip Equivalent Binary Trees](leetcode/src/ruichen/FlipEquivalentBinaryTrees.java) | Medium | Tree, Depth-first Search |
 | [965](https://leetcode.com/problems/univalued-binary-tree/) | [Univalued Binary Tree](leetcode/src/ruichen/UnivaluedBinaryTree.java) | Easy | Tree |
+| [973](https://leetcode.com/problems/k-closest-points-to-origin/) | [K Closest Points to Origin](leetcode/src/ruichen/KClosestPointsToOrigin.java) | Medium | Array, Divide and Conquer, Heap |
 | [980](https://leetcode.com/problems/unique-paths-iii/) | [Unique Paths III](leetcode/src/ruichen/UniquePathsIII.java) | Hard | Array, Depth-first Search |
 | [981](https://leetcode.com/problems/time-based-key-value-store/) | [Time Based Key Value Store](leetcode/src/ruichen/TimeBasedKeyValueStore.java) | Medium | Binary Search, Hash Table, Design |
 | [988](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | [Smallest String Starting from Leaf](leetcode/src/SmallestStringStartingFromLeaf.java) | Medium | Tree, String, Depth-first Search |
@@ -253,6 +258,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [1324](https://leetcode.com/problems/print-words-vertically/) | [Print Words Vertically](leetcode/src/ruichen/PrintWordsVertically.java) | Medium | String |
 | [1340](https://leetcode.com/problems/jump-game-v/) | [Jump Game V](leetcode/src/ruichen/JumpGameV.java) | Hard | Array, Depth-first Search |
 | [1345](https://leetcode.com/problems/jump-game-iv/) | [Jump Game IV](leetcode/src/ruichen/JumpGameIV.java) | Hard | Array, Hash Table, Breadth-first Search |
+| [1353](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/) | [Maximum Number of Events That Can Be Attended](leetcode/src/ruichen/MaximumNumberOfEventsThatCanBeAttended.java) | Medium | Array, Greedy, Heap |
 | [1367](https://leetcode.com/problems/linked-list-in-binary-tree/) | [Linked List in Binary Tree](leetcode/src/ruichen/LinkedListInBinaryTree.java) | Medium | Tree, Linked List, Depth-first Search, Breadth-first Search |
 | [1396](https://leetcode.com/problems/design-underground-system/) | [Design Underground System](leetcode/src/ruichen/DesignUndergroundSystem.java) | Medium | Hash Table, Design |
 | [1446](https://leetcode.com/problems/consecutive-characters/) | [Consecutive Characters](leetcode/src/ruichen/ConsecutiveCharacters.java) | Easy | String, Counting |
