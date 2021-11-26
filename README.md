@@ -151,6 +151,9 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [237](https://leetcode.com/problems/delete-node-in-a-linked-list/) | [Delete Node in a Linked List](leetcode/src/ruichen/DeleteNodeInLinkedList.java) | Easy | Linked List |
 | [238](https://leetcode.com/problems/product-of-array-except-self/) | [Product of Array Except Self](leetcode/src/ruichen/ProductOfArrayExceptSelf.java) | Medium | Array, Prefix Sum |
 | [242](https://leetcode.com/problems/valid-anagram/) | [Valid Anagram](leetcode/src/ruichen/ValidAnagram.java) | Easy | Hash Table |
+| [243](https://leetcode.com/problems/shortest-word-distance/) | [Shortest Word Distance](leetcode/src/ruichen/ShortestWordDistance.java) | Easy | Array, String |
+| [244](https://leetcode.com/problems/shortest-word-distance-ii/) | [Shortest Word Distance II](leetcode/src/ruichen/ShortestWordDistanceII.java) | Medium | Hash Table, Two Pointers, Design |
+| [245](https://leetcode.com/problems/shortest-word-distance-iii/) | [Shortest Word Distance III](leetcode/src/ruichen/ShortestWordDistanceIII.java) | Medium | Array, String |
 | [252](https://leetcode.com/problems/meeting-rooms/) | [Meeting Rooms](leetcode/src/MeetingRooms.java) | Easy | Array, Sorting |
 | [253](https://leetcode.com/problems/meeting-rooms-ii/) | [Meeting Rooms II](leetcode/src/MeetingRoomsII.java) | Medium | Array, Sorting, Heap |
 | [257](https://leetcode.com/problems/binary-tree-paths/) | [Binary Tree Paths](leetcode/src/ruichen/BinaryTreePaths.java) | Easy | Tree, String, Depth-first Search |
