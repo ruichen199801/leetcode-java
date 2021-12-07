@@ -156,8 +156,10 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [245](https://leetcode.com/problems/shortest-word-distance-iii/) | [Shortest Word Distance III](leetcode/src/ruichen/ShortestWordDistanceIII.java) | Medium | Array, String |
 | [252](https://leetcode.com/problems/meeting-rooms/) | [Meeting Rooms](leetcode/src/MeetingRooms.java) | Easy | Array, Sorting |
 | [253](https://leetcode.com/problems/meeting-rooms-ii/) | [Meeting Rooms II](leetcode/src/MeetingRoomsII.java) | Medium | Array, Sorting, Heap |
+| [256](https://leetcode.com/problems/paint-house/) | [Paint House](leetcode/src/ruichen/PaintHouse.java) | Medium | Array, Dynamic Programming |
 | [257](https://leetcode.com/problems/binary-tree-paths/) | [Binary Tree Paths](leetcode/src/ruichen/BinaryTreePaths.java) | Easy | Tree, String, Depth-first Search |
 | [259](https://leetcode.com/problems/3sum-smaller/) | [3Sum](leetcode/src/ruichen/ThreeSumSmaller.java) | Medium | Array, Two Pointers |
+| [266](https://leetcode.com/problems/palindrome-permutation/) | [Palindrome Permutation](leetcode/src/ruichen/PalindromePermutation.java) | Easy | Hash Table, String |
 | [278](https://leetcode.com/problems/first-bad-version/) | [First Bad Version](leetcode/src/ruichen/FirstBadVersion.java) | Easy | Binary Search |
 | [279](https://leetcode.com/problems/perfect-squares/) | [Perfect Squares](leetcode/src/ruichen/PerfectSquares.java) | Medium | Breadth-first Search |
 | [283](https://leetcode.com/problems/move-zeroes/) | [Move Zeroes](leetcode/src/ruichen/MoveZeros.java) | Easy | Array, Two Pointers |
@@ -257,6 +259,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Remove All Adjacent Duplicates in String II](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInStringII.java) | Medium | Stack |
 | [1219](https://leetcode.com/problems/path-with-maximum-gold/) | [Path with Maximum Gold](leetcode/src/ruichen/PathWithMaximumGold.java) | Medium | Depth-first Search |
 | [1221](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [Split a String in Balanced Strings](leetcode/src/ruichen/SplitAStringInBalancedStrings.java) | Easy | String, Counting |
+| [1290](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | [Convert Binary Number in a Linked List to Integer](leetcode/src/ruichen/ConvertBinaryNumberInALinkedListToInteger.java) | Easy | Linked List, Math |
 | [1306](https://leetcode.com/problems/jump-game-iii/) | [Jump Game III](leetcode/src/ruichen/JumpGameIII.java) | Medium | Array, Depth-first Search, Breadth-first Search |
 | [1324](https://leetcode.com/problems/print-words-vertically/) | [Print Words Vertically](leetcode/src/ruichen/PrintWordsVertically.java) | Medium | String |
 | [1340](https://leetcode.com/problems/jump-game-v/) | [Jump Game V](leetcode/src/ruichen/JumpGameV.java) | Hard | Array, Depth-first Search |
