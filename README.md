@@ -166,6 +166,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [290](https://leetcode.com/problems/word-pattern/) | [Word Pattern](leetcode/src/ruichen/WordPattern.java) | Easy | String, Hash Table |
 | [295](https://leetcode.com/problems/find-median-from-data-stream/) | [Find Median from Data Stream](leetcode/src/ruichen/FindMedianFromDataStream.java) | Hard | Heap, Design |
 | [314](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [Binary Tree Vertical Order Traversal](leetcode/src/ruichen/BinaryTreeVerticalOrderTraversal.java) | Medium | Tree, Breadth-first Search, Hash Table |
+| [323](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Number of Connected Components in an Undirected Graph](leetcode/src/ruichen/NumberOfConnectedComponentsInAnUndirectedGraph.java) | Medium | Graph, Depth-first Search, Breadth-first Search, Union Find |
 | [326](https://leetcode.com/problems/power-of-three/) | [Power of Three](leetcode/src/ruichen/PowerOfThree.java) | Easy | Math |
 | [329](https://leetcode.com/problems/longest-increasing-path-in-a-matrix/) | [Longest Increasing Path in a Matrix](leetcode/src/ruichen/LongestIncreasingPathInAMatrix.java) | Hard | Depth-first Search, Memoization |
 | [337](https://leetcode.com/problems/house-robber-iii/) | [House Robber III](leetcode/src/ruichen/HouseRobberIII.java) | Medium | Tree, Depth-first Search, Dynamic Programming |
@@ -279,7 +280,10 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [1650](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) | [Lowest Common Ancestor of a Binary Tree III](leetcode/src/ruichen/LowestCommonAncestorOfABinaryTreeIII.java) | Medium | Tree, Depth-first Search |
 | [1676](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/) | [Lowest Common Ancestor of a Binary Tree IV](leetcode/src/ruichen/LowestCommonAncestorOfABinaryTreeIV.java) | Medium | Tree, Depth-first Search |
 | [1710](https://leetcode.com/problems/maximum-units-on-a-truck/) | [Maximum Units on a Truck](leetcode/src/ruichen/MaximumUnitsOnATruck.java) | Easy | Array, Sorting |
+| [1822](https://leetcode.com/problems/sign-of-the-product-of-an-array/) | [Sign of the Product of an Array](leetcode/src/ruichen/SignOfTheProductOfAnArray.java) | Easy | Array, Math |
 | [1881](https://leetcode.com/problems/maximum-value-after-insertion/) | [Maximum Value after Insertion](leetcode/src/ruichen/MaximumValueAfterInsertion.java) | Medium | String |
+| [1971](https://leetcode.com/problems/find-if-path-exists-in-graph/) | [Find if Path Exists in Graph](leetcode/src/ruichen/FindIfPathExistsInGraph.java) | Easy | Graph, Depth-first Search, Breadth-first Search, Union Find |
+| [2259](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | [Remove Digit From Number to Maximize Result](leetcode/src/ruichen/RemoveDigitFromNumberToMaximizeResult.java) | Easy | String |
 | [-](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | [Straight in Poker](leetcode/src/ruichen/StraightInPoker.java) | - | - |
 
 <br>Contributed by *Ruichen Zhang*
