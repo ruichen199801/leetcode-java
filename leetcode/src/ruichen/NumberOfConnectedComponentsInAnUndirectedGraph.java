@@ -17,14 +17,15 @@ public class NumberOfConnectedComponentsInAnUndirectedGraph {
 
     class Solution1 {
         // Method 1: BFS
-        // TC = O(n + E), SC = O(n + E)
+        // TC = O(V + E), SC = O(V + E) (consider hash map in SC)
         public int countComponents(int n, int[][] edges) {
             Map<Integer, List<Integer>> paths = new HashMap<>();
             for (int[] edge : edges) {
                 int u = edge[0], v = edge[1];
-                // computeIfAbsent changes the map if key doesn't exist, while getOrDefault does not
-                paths.computeIfAbsent(u, e -> new ArrayList<>()).add(v);
-                paths.computeIfAbsent(v, e -> new ArrayList<>()).add(u);
+                if (!paths.containsKey(u)) paths.put(u, new ArrayList<>());
+                if (!paths.containsKey(v)) paths.put(v, new ArrayList<>());
+                paths.get(u).add(v);
+                paths.get(v).add(u);
             }
             boolean[] visited = new boolean[n];
             int numOfComponents = 0;
@@ -43,7 +44,6 @@ public class NumberOfConnectedComponentsInAnUndirectedGraph {
             visited[i] = true;
             while (!queue.isEmpty()) {
                 int cur = queue.poll();
-                // corner case: n = 4, edges = [[2,3],[1,2],[1,3]]
                 if (paths.get(cur) == null) {
                     break;
                 }
@@ -59,13 +59,15 @@ public class NumberOfConnectedComponentsInAnUndirectedGraph {
 
     class Solution2 {
         // Method 2: DFS
-        // TC = O(n + E), SC = O(n + E)
+        // TC = O(V + E), SC = O(V + E) (consider hash map in SC)
         public int countComponents(int n, int[][] edges) {
             Map<Integer, List<Integer>> paths = new HashMap<>();
             for (int[] edge : edges) {
                 int u = edge[0], v = edge[1];
-                paths.computeIfAbsent(u, e -> new ArrayList<>()).add(v);
-                paths.computeIfAbsent(v, e -> new ArrayList<>()).add(u);
+                if (!paths.containsKey(u)) paths.put(u, new ArrayList<>());
+                if (!paths.containsKey(v)) paths.put(v, new ArrayList<>());
+                paths.get(u).add(v);
+                paths.get(v).add(u);
             }
             boolean[] visited = new boolean[n];
             int numOfComponents = 0;
@@ -93,10 +95,10 @@ public class NumberOfConnectedComponentsInAnUndirectedGraph {
 
     class Solution3 {
         // Method 3: Union Find (with path compression, without union by rank)
-        // TC = O(n + E log n)
-        //    = O(n * E) without path compression
-        //    = O(n + E * amortized log n) with path compression + union by rank, close to constant * E
-        // SC = O(n)
+        // TC = O(V + E log V)
+        //    = O(V * E) without path compression
+        //    = O(V + E * amortized log V) with path compression + union by rank, close to constant * E
+        // SC = O(V)
         public int countComponents(int n, int[][] edges) {
             int[] root = new int[n];
             for (int i = 0; i < n; i++) {

@@ -14,16 +14,17 @@ public class FindIfPathExistsInGraph {
 
     class Solution1 {
         // Method 1: BFS
-        // TC: O(V + E) (build hash map: E, enqueue and dequeue: 2V)
-        // SC: O(V + E) (hash map: E, visited boolean array: V, queue: V)
+        // TC = O(V + E), SC = O(V + E) (consider hash map in SC)
         public boolean validPath(int n, int[][] edges, int source, int destination) {
             // Store paths in map for O(1) lookup
             Map<Integer, List<Integer>> paths = new HashMap<>();
             for (int[] edge : edges) {
                 int u = edge[0], v = edge[1];
                 // bidirectional: add both u->v and v->u for (u, v)
-                paths.computeIfAbsent(u, e -> new ArrayList<>()).add(v);
-                paths.computeIfAbsent(v, e -> new ArrayList<>()).add(u);
+                if (!paths.containsKey(u)) paths.put(u, new ArrayList<>());
+                if (!paths.containsKey(v)) paths.put(v, new ArrayList<>());
+                paths.get(u).add(v);
+                paths.get(v).add(u);
             }
             // Keep track of visited nodes
             boolean[] visited = new boolean[n];
@@ -37,7 +38,7 @@ public class FindIfPathExistsInGraph {
                 if (cur == destination) {
                     return true;
                 }
-                for (int nei: paths.get(cur)) {
+                for (int nei : paths.get(cur)) {
                     if (!visited[nei]) {
                         queue.offer(nei);
                     }
@@ -51,15 +52,16 @@ public class FindIfPathExistsInGraph {
 
     class Solution2 {
         // Method 2: DFS
-        // TC: O(V + E) (build hash map: E, use dfs to visit each node once: V)
-        // SC: O(V + E) (hash map: E, visited boolean array: V, dfs recursive stack: V)
+        // TC = O(V + E), SC = O(V + E) (consider hash map in SC)
         public boolean validPath(int n, int[][] edges, int source, int destination) {
             // Build adjacency list
             Map<Integer, List<Integer>> paths = new HashMap<>();
             for (int[] edge : edges) {
                 int u = edge[0], v = edge[1];
-                paths.computeIfAbsent(u, e -> new ArrayList<>()).add(v);
-                paths.computeIfAbsent(v, e -> new ArrayList<>()).add(u);
+                if (!paths.containsKey(u)) paths.put(u, new ArrayList<>());
+                if (!paths.containsKey(v)) paths.put(v, new ArrayList<>());
+                paths.get(u).add(v);
+                paths.get(v).add(u);
             }
             // Track visited nodes
             boolean[] visited = new boolean[n];
