@@ -230,6 +230,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [707](https://leetcode.com/problems/design-linked-list/) | [Design Linked List](leetcode/src/ruichen/DesignLinkedList.java) | Medium | Design, Linked List |
 | [709](https://leetcode.com/problems/to-lower-case/) | [To Lower Case](leetcode/src/ruichen/ToLowerCase.java) | Easy | String |
 | [716](https://leetcode.com/problems/max-stack/) | [Max Stack](leetcode/src/ruichen/MaxStack.java) | Easy | Stack, Design |
+| [725](https://leetcode.com/problems/split-linked-list-in-parts/) | [Split Linked List in Parts](leetcode/src/ruichen/SplitLinkedListInParts.java) | Medium | Linked List |
 | [735](https://leetcode.com/problems/asteroid-collision/) | [Asteroid Collision](leetcode/src/ruichen/AsteroidCollision.java) | Medium | Stack |
 | [746](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Min Cost Climbing Stairs](leetcode/src/ruichen/MinCostClimbingStairs.java) | Easy | Dynamic Programming |
 | [785](https://leetcode.com/problems/is-graph-bipartite/) | [Is Graph Bipartite?](leetcode/src/ruichen/IsGraphBipartite.java) | Medium | Graph, Breadth-first Search |
@@ -267,8 +268,10 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Remove All Adjacent Duplicates in String II](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInStringII.java) | Medium | Stack |
 | [1219](https://leetcode.com/problems/path-with-maximum-gold/) | [Path with Maximum Gold](leetcode/src/ruichen/PathWithMaximumGold.java) | Medium | Depth-first Search |
 | [1221](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [Split a String in Balanced Strings](leetcode/src/ruichen/SplitAStringInBalancedStrings.java) | Easy | String, Counting |
+| [1232](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [Check If It Is a Straight Line](leetcode/src/ruichen/CheckIfItIsAStraightLine.java) | Easy | Array, Math |
 | [1290](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | [Convert Binary Number in a Linked List to Integer](leetcode/src/ruichen/ConvertBinaryNumberInALinkedListToInteger.java) | Easy | Linked List, Math |
 | [1306](https://leetcode.com/problems/jump-game-iii/) | [Jump Game III](leetcode/src/ruichen/JumpGameIII.java) | Medium | Array, Depth-first Search, Breadth-first Search |
+| [1313](https://leetcode.com/problems/decompress-run-length-encoded-list/) | [Decompress Run-Length Encoded List](leetcode/src/ruichen/DecompressRunLengthEncodedList.java) | Easy | Array |
 | [1324](https://leetcode.com/problems/print-words-vertically/) | [Print Words Vertically](leetcode/src/ruichen/PrintWordsVertically.java) | Medium | String |
 | [1340](https://leetcode.com/problems/jump-game-v/) | [Jump Game V](leetcode/src/ruichen/JumpGameV.java) | Hard | Array, Depth-first Search |
 | [1345](https://leetcode.com/problems/jump-game-iv/) | [Jump Game IV](leetcode/src/ruichen/JumpGameIV.java) | Hard | Array, Hash Table, Breadth-first Search |
@@ -285,6 +288,7 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 | [1614](https://leetcode.com/problems/maximum-nesting-depth-of-the-parentheses/) | [Maximum Nesting Depth of the Parentheses](leetcode/src/ruichen/MaximumNestingDepthOfTheParentheses.java) | Easy | String |
 | [1644](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-ii/) | [Lowest Common Ancestor of a Binary Tree II](leetcode/src/ruichen/LowestCommonAncestorOfABinaryTreeII.java) | Medium | Tree, Depth-first Search |
 | [1650](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iii/) | [Lowest Common Ancestor of a Binary Tree III](leetcode/src/ruichen/LowestCommonAncestorOfABinaryTreeIII.java) | Medium | Tree, Depth-first Search |
+| [1669](https://leetcode.com/problems/merge-in-between-linked-lists/) | [Merge In Between Linked Lists](leetcode/src/ruichen/MergeInBetweenLinkedLists.java) | Medium | Linked List |
 | [1676](https://leetcode.com/problems/lowest-common-ancestor-of-a-binary-tree-iv/) | [Lowest Common Ancestor of a Binary Tree IV](leetcode/src/ruichen/LowestCommonAncestorOfABinaryTreeIV.java) | Medium | Tree, Depth-first Search |
 | [1710](https://leetcode.com/problems/maximum-units-on-a-truck/) | [Maximum Units on a Truck](leetcode/src/ruichen/MaximumUnitsOnATruck.java) | Easy | Array, Sorting |
 | [1721](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | [Swapping Nodes in a Linked List](leetcode/src/ruichen/SwappingNodesInALinkedList.java) | Medium | Linked List |
@@ -299,21 +303,3 @@ Click <strong>Question Name</strong> : my solution link on GitHub (including tim
 <br>Contributed by *Ruichen Zhang*
 
 Jan 24, 2021
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
