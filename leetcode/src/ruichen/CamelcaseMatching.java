@@ -4,12 +4,18 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class CamelcaseMatching {
+    // FooBarTest
+    //       i
+    // FoBar
+    //      j
 
-    // #1023 https://leetcode.com/problems/camelcase-matching/
-    // Two Pointers, String
+    // FootBall
+    //         i
+    // FoBaT
+    //     j
+
     // TC = O(l * (m + n)), l = len(queries), m = len(query), n = len(pattern)
     // SC = O(l)
-
     class Solution {
         public List<Boolean> camelMatch(String[] queries, String pattern) {
             List<Boolean> result = new ArrayList<>();
@@ -20,17 +26,6 @@ public class CamelcaseMatching {
         }
 
         private boolean matches(String query, String pattern) {
-
-            // FooBarTest
-            //       i
-            // FoBar
-            //      j
-
-            // FootBall
-            //         i
-            // FoBaT
-            //     j
-
             int i = 0, j = 0;
             while (i < query.length()) {
                 char ch = query.charAt(i);

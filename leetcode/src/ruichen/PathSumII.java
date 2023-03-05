@@ -1,35 +1,16 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class PathSumII {
-
-    // #113 https://leetcode.com/problems/path-sum-ii/
-    // Tree, Depth-first Search
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) {
-            this.val = val;
-        }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
+    // DFS
+    // TC = O(n^2) For n/2 leaves at worst, each deep copy to the result list costs O(n), so n/2 * O(n) = O(n^2)
+    // SC = O(n) for the curr list (additional space we use, result list doesn't count)
+    // No BFS: too much space overhead, need a huge queue size
     class Solution {
-
-        // DFS
-        // TC = O(n^2) For n/2 leaves at worst, each deep copy to the result list costs O(n), so n/2 * O(n) = O(n^2)
-        // SC = O(n) for the curr list (additional space we use, result list doesn't count)
-        // No BFS: too much space overhead, need a huge queue size
-
         public List<List<Integer>> pathSum(TreeNode root, int targetSum) {
             List<List<Integer>> result = new ArrayList<>();
             List<Integer> curr = new ArrayList<>();

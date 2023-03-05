@@ -1,20 +1,15 @@
 package ruichen;
 
 public class DesignLinkedList {
-
-    // #707 https://leetcode.com/problems/design-linked-list/
-    // Design, Linked List
-
     class MyLinkedList1 {
-
         // Singly Linked List
         // addAtHead: O(1)
         // get, deleteAtIndex: O(k), k = index
         // addAtTail: O(n), n = # of nodes
-
         public class ListNode {
             int val;
             ListNode next;
+
             ListNode(int val) {
                 this.val = val;
             }
@@ -23,13 +18,17 @@ public class DesignLinkedList {
         private int size; // update size as we insert or delete nodes
         private ListNode head; // a sentinel node such that linked list is never empty
 
-        /** Initialize your data structure here. */
+        /**
+         * Initialize your data structure here.
+         */
         public MyLinkedList1() {
             size = 0;
             head = new ListNode(0);
         }
 
-        /** Get the value of the index-th node in the linked list. If the index is invalid, return -1. */
+        /**
+         * Get the value of the index-th node in the linked list. If the index is invalid, return -1.
+         */
         public int get(int index) {
             if (index < 0 || index >= size) {
                 return -1;
@@ -41,17 +40,23 @@ public class DesignLinkedList {
             return cur.val;
         }
 
-        /** Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list. */
+        /**
+         * Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list.
+         */
         public void addAtHead(int val) {
             addAtIndex(0, val);
         }
 
-        /** Append a node of value val to the last element of the linked list. */
+        /**
+         * Append a node of value val to the last element of the linked list.
+         */
         public void addAtTail(int val) {
             addAtIndex(size, val);
         }
 
-        /** Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. */
+        /**
+         * Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted.
+         */
         public void addAtIndex(int index, int val) {
             if (index < 0 || index > size) {
                 return;
@@ -66,7 +71,9 @@ public class DesignLinkedList {
             size++;
         }
 
-        /** Delete the index-th node in the linked list, if the index is valid. */
+        /**
+         * Delete the index-th node in the linked list, if the index is valid.
+         */
         public void deleteAtIndex(int index) {
             if (index < 0 || index >= size) {
                 return;
@@ -81,11 +88,9 @@ public class DesignLinkedList {
     }
 
     class MyLinkedList2 {
-
         // Doubly Linked List
         // addAtHead, addAtTail: O(1)
         // get, deleteAtIndex: O(min(k, N − k)), k is an index of the element to get, add or delete
-
         private int size;
         private ListNode head;
         private ListNode tail;
@@ -94,12 +99,15 @@ public class DesignLinkedList {
             int val;
             ListNode prev;
             ListNode next;
+
             public ListNode(int val) {
                 this.val = val;
             }
         }
 
-        /** Initialize your data structure here. */
+        /**
+         * Initialize your data structure here.
+         */
         public MyLinkedList2() {
             size = 0;
             head = new ListNode(0);
@@ -108,7 +116,9 @@ public class DesignLinkedList {
             tail.prev = head;
         }
 
-        /** Get the value of the index-th node in the linked list. If the index is invalid, return -1. */
+        /**
+         * Get the value of the index-th node in the linked list. If the index is invalid, return -1.
+         */
         public int get(int index) {
             // corner case
             if (index < 0 || index >= size) {
@@ -131,17 +141,23 @@ public class DesignLinkedList {
             return cur.val;
         }
 
-        /** Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list. */
+        /**
+         * Add a node of value val before the first element of the linked list. After the insertion, the new node will be the first node of the linked list.
+         */
         public void addAtHead(int val) {
             addAtIndex(0, val);
         }
 
-        /** Append a node of value val to the last element of the linked list. */
+        /**
+         * Append a node of value val to the last element of the linked list.
+         */
         public void addAtTail(int val) {
             addAtIndex(size, val);
         }
 
-        /** Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted. */
+        /**
+         * Add a node of value val before the index-th node in the linked list. If index equals to the length of linked list, the node will be appended to the end of linked list. If index is greater than the length, the node will not be inserted.
+         */
         public void addAtIndex(int index, int val) {
             if (index < 0 || index > size) {
                 return;
@@ -171,7 +187,9 @@ public class DesignLinkedList {
             size++;
         }
 
-        /** Delete the index-th node in the linked list, if the index is valid. */
+        /**
+         * Delete the index-th node in the linked list, if the index is valid.
+         */
         public void deleteAtIndex(int index) {
             if (index < 0 || index >= size) {
                 return;

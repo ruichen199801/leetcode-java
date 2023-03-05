@@ -6,19 +6,16 @@ import java.util.List;
 import java.util.Map;
 
 public class TimeBasedKeyValueStore {
-
-    // #981 https://leetcode.com/problems/time-based-key-value-store/
-    // Binary Search, Hash Table, Design
-
     class TimeMap {
-
-        private Map<String, List<Data>> map;
         // key1: [<value1, ts1>, <value2, ts2>]
         // define a class to store <value, ts> as tuples
         // time complexity: set O(1) get O(log n)
         // space complexity: O(n) to store n entries
+        private Map<String, List<Data>> map;
 
-        /** Initialize your data structure here. */
+        /**
+         * Initialize your data structure here.
+         */
         public TimeMap() {
             map = new HashMap<>();
         }
@@ -59,11 +56,11 @@ public class TimeBasedKeyValueStore {
         class Data {
             private String value;
             private int timestamp;
+
             public Data(String value, int timestamp) {
                 this.value = value;
                 this.timestamp = timestamp;
             }
         }
     }
-
 }

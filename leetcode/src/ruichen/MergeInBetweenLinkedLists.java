@@ -1,25 +1,11 @@
 package ruichen;
 
+import ruichen.common.ListNode;
+
 public class MergeInBetweenLinkedLists {
-
-    // #1669 https://leetcode.com/problems/merge-in-between-linked-lists/
-    // Linked List
     // TC = O(n), SC = O(1)
-
-    class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution {
         public ListNode mergeInBetween(ListNode list1, int a, int b, ListNode list2) {
-            // 3 <= list1.length <= 10^4
-            // 1 <= a <= b < list1.length - 1
-            // 1 <= list2.length <= 10^4
             ListNode cur1 = list1, cur2 = list2;
             for (int i = 0; i < a - 1; i++) {
                 cur1 = cur1.next;

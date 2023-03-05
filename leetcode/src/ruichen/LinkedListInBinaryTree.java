@@ -1,34 +1,14 @@
 package ruichen;
 
+import ruichen.common.ListNode;
+import ruichen.common.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.Queue;
 
 public class LinkedListInBinaryTree {
-
-    // #1367 https://leetcode.com/problems/linked-list-in-binary-tree/
-    // Tree, Linked List, Depth-first Search, Breadth-first Search
     // TC = O(N * min(L, H)), SC = O(H)
     // N = # of nodes in the tree, H = height of the tree, L = length of linked list
-
-    class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int val) {
-            this.val = val;
-        }
-    }
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
     class Solution1 {
         // DFS + BFS: DFS to summarize results of boolean checks + BFS to do the check (Not recommended)
         public boolean isSubPath(ListNode head, TreeNode root) {

@@ -1,15 +1,9 @@
 package ruichen;
 
 public class MaximumNumberOfBalloons {
-
+    // TC = O(m + n), SC = O(26 * 2) = O(1)
     class Solution {
-
-        // #1189 https://leetcode.com/problems/maximum-number-of-balloons/
-        // Hash Table, String, Counting
-        // TC = O(m + n), SC = O(26 * 2) = O(1)
-
         public int maxNumberOfBalloons(String text) {
-            // pattern and text consist of lower case English letters only.
             String pattern = "balloon";
             return maxNumberOfPattern(pattern, text);
         }

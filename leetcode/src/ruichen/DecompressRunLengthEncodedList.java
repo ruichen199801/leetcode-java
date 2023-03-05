@@ -4,11 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class DecompressRunLengthEncodedList {
-
-    // #1313 https://leetcode.com/problems/decompress-run-length-encoded-list/
-    // Array
     // TC = O(n), SC = O(n)
-
     class Solution {
         public int[] decompressRLElist(int[] nums) {
             List<Integer> res = new ArrayList<>();
@@ -17,7 +13,7 @@ public class DecompressRunLengthEncodedList {
                     res.add(nums[i + 1]);
                 }
             }
-            return res.stream().mapToInt(i->i).toArray(); // List<Integer> to int[]
+            return res.stream().mapToInt(i -> i).toArray(); // List<Integer> to int[]
         }
     }
 }

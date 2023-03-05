@@ -1,16 +1,13 @@
 package ruichen;
 
 public class RotateImage {
+    // 1. transpose (row to column)
+    // 2. reverse (reverse each column)
+    // process the matrix from outer to inner
 
-    // #48 https://leetcode.com/problems/rotate-image/
-    // Array, Math
     // TC = O(n^2), SC = O(1)
-
     class Solution {
         public void rotate(int[][] matrix) {
-            // 1. transpose (row to column)
-            // 2. reverse (reverse each column)
-            // process the matrix from outer to inner
             if (matrix == null || matrix.length == 0) {
                 return;
             }

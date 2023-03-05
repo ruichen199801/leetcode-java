@@ -1,27 +1,11 @@
 package ruichen;
 
 public class FindInMountainArray {
-
-    /**
-     * // This is MountainArray's API interface.
-     * // You should not implement it, or speculate about its implementation
-     * interface MountainArray {
-     *     public int get(int index) {}
-     *     public int length() {}
-     * }
-     */
-
+    // TC = O(log n), SC = O(1)
     class Solution {
-
-        // #1095 https://leetcode.com/problems/find-in-mountain-array/
-        // Array, Binary Search
-        // TC = O(log n), SC = O(1)
-
         public int findInMountainArray(int target, MountainArray mountainArr) {
             // 1 2 3 4  5  4 3 2 1
-            //   bs1   peak   bs2
-
-            // find the peak
+            //   bs1   peak   bs2  -> find the peak
             int n = mountainArr.length();
             int l = 0, r = n - 1, p = 0;
             while (l < r) {
@@ -65,15 +49,15 @@ public class FindInMountainArray {
             }
 
             return -1;
-
         }
     }
 
-    class MountainArray {     // to avoid IntelliJ's syntax check :(
+    class MountainArray { // placeholder
         public int length() {
             return 0;
         }
-        public int get (int index) {
+
+        public int get(int index) {
             return 0;
         }
     }

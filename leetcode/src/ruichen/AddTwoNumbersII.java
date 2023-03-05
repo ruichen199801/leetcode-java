@@ -1,20 +1,9 @@
 package ruichen;
 
+import ruichen.common.ListNode;
+
 public class AddTwoNumbersII {
-
-    // #445 https://leetcode.com/problems/add-two-numbers-ii/
-    // Math, Linked list
     // TC = O(N1 + N2), SC = O(1) without considering output, O(max(N1, N2)) -> "new" to store output list
-
-    class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution {
         public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
             l1 = reverse(l1);
@@ -33,7 +22,7 @@ public class AddTwoNumbersII {
                 }
                 carry = sum / 10;
                 // update result: insert at head (reverse)
-                ListNode curr = new ListNode(sum % 10); // takes space
+                ListNode curr = new ListNode(sum % 10);
                 curr.next = head;
                 head = curr;
             }

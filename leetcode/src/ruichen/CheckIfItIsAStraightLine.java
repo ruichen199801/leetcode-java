@@ -1,11 +1,7 @@
 package ruichen;
 
 public class CheckIfItIsAStraightLine {
-
-    // #1232 https://leetcode.com/problems/check-if-it-is-a-straight-line/
-    // Array, Math
     // TC = O(n), SC = O(1)
-
     class Solution {
         public boolean checkStraightLine(int[][] coordinates) {
             if (coordinates.length <= 2) {

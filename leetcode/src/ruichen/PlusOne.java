@@ -1,11 +1,7 @@
 package ruichen;
 
 public class PlusOne {
-
-    // #66 https://leetcode.com/problems/plus-one/
-    // Math
     // TC = O(n), SC = O(1) average, O(n) worst (99999 case)
-
     class Solution {
         public int[] plusOne(int[] digits) {
             int len = digits.length;

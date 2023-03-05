@@ -4,14 +4,10 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 public class NumberOfProvinces {
-
-    // #547 https://leetcode.com/problems/number-of-provinces/
-    // Graph, Depth-first Search, Breath-first Search
-
     class Solution1 {
+        // DFS: TC = O(n^2), SC = O(n) for n * n matrix
+        // adjacency matrix: dfs + a set to track visited nodes
         public int findCircleNum(int[][] isConnected) {
-            // DFS: TC = O(n^2), SC = O(n) for n * n matrix
-            // adjacency matrix: dfs + a set to track visited nodes
             boolean[] visited = new boolean[isConnected.length];
             int count = 0;
             for (int i = 0; i < isConnected.length; i++) {

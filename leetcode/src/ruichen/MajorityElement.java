@@ -4,15 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MajorityElement {
-
-    // #169 https://leetcode.com/problems/majority-element/
-    // Array
-
+    // Hash Table: TC = O(n), SC = O(n)
     class Solution1 {
-        // Hash Table: TC = O(n), SC = O(n)
         public int majorityElement(int[] nums) {
             Map<Integer, Integer> count = new HashMap<>();
-            for (int num: nums) {
+            for (int num : nums) {
                 count.put(num, count.getOrDefault(num, 0) + 1);
                 if (count.get(num) > nums.length / 2) {
                     return num;

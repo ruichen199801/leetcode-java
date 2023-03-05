@@ -1,17 +1,15 @@
 package ruichen;
 
 public class DuplicateZeros {
+    // Count the number of zeros to be duplicated
+    // do not count the zeros to be trimmed
+    // edge case: a zero present on the last boundary: copy it exactly once
 
-    // #1089 https://leetcode.com/problems/duplicate-zeros/
-    // Array, Two Pointers
     // TC = O(n), SC = O(1)
-
     class Solution {
         public void duplicateZeros(int[] arr) {
             int zeros = 0, len = arr.length;
-            // Count the number of zeros to be duplicated
-            // do not count the zeros to be trimmed
-            // edge case: a zero present on the last boundary: copy it exactly once
+
             for (int i = 0; i < len - zeros; i++) {
                 if (arr[i] == 0) {
                     if (i == len - zeros - 1) {
@@ -22,6 +20,7 @@ public class DuplicateZeros {
                     zeros++;
                 }
             }
+
             // construct result from end of array to avoid overwriting original values
             for (int i = len - zeros - 1; i >= 0; i--) {
                 if (arr[i] == 0) {

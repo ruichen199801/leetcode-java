@@ -4,10 +4,6 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 public class MaxAreaOfIsland {
-
-    // #695 https://leetcode.com/problems/max-area-of-island/
-    // Breadth-first Search, Depth-first Search
-
     class Solution1 {
         // DFS: TC = O(n * m), SC = O(n * m)
         public int maxAreaOfIsland(int[][] grid) {

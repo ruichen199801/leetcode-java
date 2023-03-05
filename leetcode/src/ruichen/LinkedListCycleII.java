@@ -1,26 +1,13 @@
 package ruichen;
 
+import ruichen.common.ListNode;
+
 import java.util.HashSet;
 import java.util.Set;
 
 public class LinkedListCycleII {
-
-    // #142 https://leetcode.com/problems/linked-list-cycle-ii/
-    // Linked List, Hash Table, Two Pointers
-
-    public class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
-
     public class Solution1 {
-
         // Hash Table: TC = O(n), SC = O(n)
-
         public ListNode detectCycle(ListNode head) {
             if (head == null || head.next == null) {
                 return null;
@@ -39,11 +26,9 @@ public class LinkedListCycleII {
     }
 
     public class Solution2 {
-
         // Floyd's Cycle-Finding Algorithm： TC = O(n), SC = O(1)
         // Step 1: Find intersection where slow and fast pointer meet
         // Step 2: Have two pointers starting at head and intersection, traverse at the same speed
-
         public ListNode detectCycle(ListNode head) {
             if (head == null || head.next == null) {
                 return null;

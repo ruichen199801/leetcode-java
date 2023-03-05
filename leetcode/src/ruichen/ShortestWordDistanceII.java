@@ -6,15 +6,10 @@ import java.util.List;
 import java.util.Map;
 
 public class ShortestWordDistanceII {
-
-    // #244 https://leetcode.com/problems/shortest-word-distance-ii/
-    // Hash Table, Two Pointers, Design
     // constructor: TC = O(n), n = # of words in the input list
     // find shortest: TC = O(n) worst case
     // SC = O(n) for hash map
-
     class WordDistance {
-
         Map<String, List<Integer>> dict;
 
         public WordDistance(String[] wordsDict) {

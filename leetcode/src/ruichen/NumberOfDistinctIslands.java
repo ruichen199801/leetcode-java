@@ -4,21 +4,18 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class NumberOfDistinctIslands {
+    // differentiate islands by direction of recursive calls
+    // 'X': start
+    // 'O': out of bounds or 0
+    // 'U': up
+    // 'R': right
+    // 'D': down
+    // 'L': left
+    // don't forget to change land to water after visited
 
-    // #694 https://leetcode.com/problems/number-of-distinct-islands/
-    // Depth-first Search
     // TC = O(n * m), SC = O(n * m)
-
     class Solution {
         public int numDistinctIslands(int[][] grid) {
-            // differentiate islands by direction of recursive calls
-            // 'X': start
-            // 'O': out of bounds or 0
-            // 'U': up
-            // 'R': right
-            // 'D': down
-            // 'L': left
-            // don't forget to change land to water after visited
             if (grid == null || grid.length == 0) {
                 return 0;
             }

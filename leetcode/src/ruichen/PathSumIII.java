@@ -1,31 +1,13 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class PathSumIII {
-
-    // #437 https://leetcode.com/problems/path-sum-iii/
-    // Tree, Depth-first Search, Prefix Sum
     // TC = O(n), SC = O(n) (hash map)
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) {
-            this.val = val;
-        }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
     class Solution {
-
         private int count = 0;
         private int k;
         private Map<Integer, Integer> map = new HashMap<>(); // <prefixSum, frequency>

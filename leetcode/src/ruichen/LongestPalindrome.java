@@ -4,10 +4,6 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class LongestPalindrome {
-
-    // #409 https://leetcode.com/problems/longest-palindrome
-    // Hash Table, String
-
     class Solution1 {
         // TC = O(n), SC = O(n)
         public int longestPalindrome(String s) {
@@ -48,5 +44,4 @@ public class LongestPalindrome {
             return maxLen + (oddCount > 0 ? 1 : 0);
         }
     }
-
 }

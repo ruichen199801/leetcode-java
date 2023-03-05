@@ -1,28 +1,10 @@
 package ruichen;
 
+import ruichen.common.ListNode;
+import ruichen.common.TreeNode;
+
 public class ConvertSortedListToBinarySearchTree {
-
-    // #109 https://leetcode.com/problems/convert-sorted-list-to-binary-search-tree/
-    // Tree, Binary Search Tree, Divide and Conquer
     // TC = O(n), SC = O(h)
-
-    class ListNode {
-        int val;
-        ListNode next;
-        ListNode(int val) {
-            this.val = val;
-        }
-    }
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution {
         public TreeNode sortedListToBST(ListNode head) {
             return helper(head, null);

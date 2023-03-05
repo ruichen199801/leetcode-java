@@ -1,27 +1,14 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class BinarySearchTreeIterator {
-
-    // #173 https://leetcode.com/problems/binary-search-tree-iterator/
-    // Tree, Binary Search Tree, Stack, Design
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
-
+    // To achieve in-order: maintain a stack to store left children from root
+    // When next() be called, pop one element and process its right child as new root
     class BSTIterator {
-
-        // To achieve in-order: maintain a stack to store left children from root
-        // When next() be called, pop one element and process its right child as new root
-
         private Deque<TreeNode> stack;
 
         public BSTIterator(TreeNode root) {
@@ -45,6 +32,5 @@ public class BinarySearchTreeIterator {
                 node = node.left;
             }
         }
-
     }
 }

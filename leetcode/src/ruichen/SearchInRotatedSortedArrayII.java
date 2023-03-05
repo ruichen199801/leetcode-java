@@ -1,11 +1,7 @@
 package ruichen;
 
 public class SearchInRotatedSortedArrayII {
-
-    // #81 https://leetcode.com/problems/search-in-rotated-sorted-array-ii/
-    // Array, Binary Search
     // TC = O(log n) in average, O(n) worst case (all elements are the same); SC = O(1)
-
     class Solution {
         public boolean search(int[] nums, int target) {
             // move pointers to skip duplicates

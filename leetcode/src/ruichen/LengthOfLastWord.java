@@ -1,11 +1,7 @@
 package ruichen;
 
 public class LengthOfLastWord {
-
-    // #58 https://leetcode.com/problems/length-of-last-word/
-    // String
     // TC = O(n), SC = O(1)
-
     class Solution {
         public int lengthOfLastWord(String s) {
             // corner case

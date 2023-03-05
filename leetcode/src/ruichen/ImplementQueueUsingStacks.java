@@ -4,10 +4,6 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class ImplementQueueUsingStacks {
-
-    // #232 https://leetcode.com/problems/implement-queue-using-stacks/
-    // Stack, Queue, Design
-
     /*
     Stack 1: take input  [  <- 1 2 3
     Stack 2: output      [  ->  3 2 1
@@ -21,7 +17,6 @@ public class ImplementQueueUsingStacks {
     offer(): TC = O(1)  SC = O(n)
     size(), isEmpty(): TC = O(1)  SC = O(1)
      */
-
     class MyQueue {
         Deque<Integer> stack1;
         Deque<Integer> stack2;

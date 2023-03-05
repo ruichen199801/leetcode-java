@@ -4,25 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class CopyListWithRandomPointer {
-
-    // #138 https://leetcode.com/problems/copy-list-with-random-pointer/
-    // Linked List, Hash Table
-    // TC = O(n), SC = O(n)
-
-    class Node {
-        int val;
-        Node next;
-        Node random;
-
-        public Node(int val) {
-            this.val = val;
-            this.next = null;
-            this.random = null;
-        }
-    }
-
     class Solution1 {
-        // iterative
+        // Iterative: TC = O(n), SC = O(n)
         public Node copyRandomList(Node head) {
             if (head == null) {
                 return head;
@@ -53,14 +36,13 @@ public class CopyListWithRandomPointer {
     }
 
     class Solution2 {
-        // recursive
+        // Recursive: : TC = O(n), SC = O(n)
         public Node copyRandomList(Node head) {
             Map<Node, Node> map = new HashMap<>();
             return copyRandomList(head, map);
         }
 
         private Node copyRandomList(Node head, Map<Node, Node> map) {
-            // base case
             if (head == null) {
                 return null;
             }
@@ -72,6 +54,18 @@ public class CopyListWithRandomPointer {
             newHead.next = copyRandomList(head.next, map);
             newHead.random = copyRandomList(head.random, map);
             return newHead;
+        }
+    }
+
+    class Node {
+        int val;
+        Node next;
+        Node random;
+
+        public Node(int val) {
+            this.val = val;
+            this.next = null;
+            this.random = null;
         }
     }
 }

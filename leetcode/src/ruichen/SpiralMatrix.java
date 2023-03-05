@@ -4,11 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class SpiralMatrix {
-
-    // #54 https://leetcode.com/problems/spiral-matrix/
-    // Array, Simulation
     // TC = O(m * n), SC = O(m * n) (count result list, otherwise O(1))
-
     class Solution {
         public List<Integer> spiralOrder(int[][] matrix) {
             List<Integer> result = new ArrayList<>();

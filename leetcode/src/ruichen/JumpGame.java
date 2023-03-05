@@ -1,13 +1,8 @@
 package ruichen;
 
 public class JumpGame {
-
+    // TC = O(n), SC = O(1)
     class Solution {
-
-        // #55 https://leetcode.com/problems/jump-game/
-        // Dynamic Programming
-        // TC = O(n), SC = O(1)
-
         public boolean canJump(int[] nums) {
             int len = nums.length;
             int end = len - 1;

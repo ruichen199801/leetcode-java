@@ -1,26 +1,9 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 public class SumRootToLeafNumbers {
-
-    // #129 https://leetcode.com/problems/sum-root-to-leaf-numbers/
-    // Tree, Recursion, Depth-first Search
     // TC = O(n), SC = O(height)
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) {
-            this.val = val;
-        }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
     class Solution {
         public int sumNumbers(TreeNode root) {
             int[] sum = {0};

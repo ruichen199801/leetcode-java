@@ -1,16 +1,12 @@
 package ruichen;
 
 public class MinimumPathSum {
-
-    // #64 https://leetcode.com/problems/minimum-path-sum/
-    // Dynamic Programming
-    // Similar to #62 Unique Paths
-
+    // Similar to #62
     class Solution1 {
+        // grid[i][j] = min(grid[i-1][j], grid[i][j-1]) + grid[i][j]
+        // TC = O(m * n), SC = O(1)
+        // We modified input in place to save memory (clarify with interviewer whether we are allowed to do this)
         public int minPathSum(int[][] grid) {
-            // grid[i][j] = min(grid[i-1][j], grid[i][j-1]) + grid[i][j]
-            // TC = O(m * n), SC = O(1)
-            // We modified input in place to save memory (clarify with interviewer whether we are allowed to do this)
             if (grid == null || grid.length == 0) {
                 return 0;
             }

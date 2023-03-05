@@ -1,25 +1,19 @@
 package ruichen;
 
-import java.util.*;
+import ruichen.common.TreeNode;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Queue;
 
 public class BinaryTreeVerticalOrderTraversal {
-
-    // #314 https://leetcode.com/problems/binary-tree-vertical-order-traversal/
-    // Tree, Breadth-first Search, Hash Table
+    // Compute column offset to root, print nodes ordered by their associated column
     // TC = O(n log n) (while loop * map.put()), SC = O(n) (queue + map)
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution {
         public List<List<Integer>> verticalOrder(TreeNode root) {
-            // compute column offset to root, print nodes ordered by their associated column
             List<List<Integer>> result = new ArrayList<>();
             if (root == null) {
                 return result;

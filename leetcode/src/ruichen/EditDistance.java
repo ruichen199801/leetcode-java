@@ -1,28 +1,25 @@
 package ruichen;
 
 public class EditDistance {
+    //    '' f r o g
+    // '' 0  1 2 3 4
+    // d  1    b
+    // o  2  a x
+    // g  3
 
-    // #72 https://leetcode.com/problems/edit-distance/
-    // String, Dynamic Programming
+    // x: do -> fr
+    // a: do -> f: +r
+    // b: d -> fr: -o
+
+    // fill in first row and first col first
+    // state transfer function:
+    // if c1 != c2: min(insert, delete, replace) + 1
+    //              min(dp[i][j-1], dp[i-1][j], dp[i-1][j-1]) + 1
+    // if c1 == c2: dp[i-1][j-1]
+
     // TC = O(m * n), SC = O(m * n)
-
     class Solution {
         public int minDistance(String word1, String word2) {
-            //    '' f r o g
-            // '' 0  1 2 3 4
-            // d  1    b
-            // o  2  a x
-            // g  3
-
-            // x: do -> fr
-            // a: do -> f: +r
-            // b: d -> fr: -o
-
-            // fill in first row and first col first
-            // state transfer function:
-            // if c1 != c2: min(insert, delete, replace) + 1
-            //              min(dp[i][j-1], dp[i-1][j], dp[i-1][j-1]) + 1
-            // if c1 == c2: dp[i-1][j-1]
             int len1 = word1.length(), len2 = word2.length();
             int[][] dp = new int[len1 + 1][len2 + 1];
             for (int i = 0; i <= len1; i++) {

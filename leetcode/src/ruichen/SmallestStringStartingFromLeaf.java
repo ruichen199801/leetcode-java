@@ -1,22 +1,10 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 public class SmallestStringStartingFromLeaf {
-
-    // #988 https://leetcode.com/problems/smallest-string-starting-from-leaf/
-    // Tree, String, Depth-first Search
     // TC = O(n), SC = O(n)
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution {
-
         String res = "~"; // make this global, store anything > 'z' (Integer.MAX_VALUE)
 
         public String smallestFromLeaf(TreeNode root) {

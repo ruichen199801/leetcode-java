@@ -4,11 +4,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 public class KClosestPointsToOrigin {
-
-    // #973 https://leetcode.com/problems/k-closest-points-to-origin/
-    // Array, Divide and Conquer, Heap
     // See #347, #692
-
     class Solution1 {
         // Max heap solution: TC = O(n log k), SC = O(k) (if we do not consider the output matrix)
         public int[][] kClosest(int[][] points, int k) {

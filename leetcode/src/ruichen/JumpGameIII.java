@@ -4,21 +4,17 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 public class JumpGameIII {
-
-    // #1306 https://leetcode.com/problems/jump-game-iii/
-    // Array, Depth-first Search, Breadth-first Search
-
     class Solution1 {
-        public boolean canReach(int[] arr, int start) {
-            // mark as visited: make the number negative (all entries are positive numbers)
-            // BFS: enqueue index of the array
-            // TC = O(n), SC = O(n) (queue on heap)
+        // mark as visited: make the number negative (all entries are positive numbers)
+        // BFS: enqueue index of the array
+        // TC = O(n), SC = O(n) (queue on heap)
 
-            // arr = [4,2,3,0,3,1,2], start = 5
-            // 5 -> 4 6
-            // 4 -> 1
-            // 1 -> 3
-            // 3 -> arr[3] == 0, true
+        // arr = [4,2,3,0,3,1,2], start = 5
+        // 5 -> 4 6
+        // 4 -> 1
+        // 1 -> 3
+        // 3 -> arr[3] == 0, true
+        public boolean canReach(int[] arr, int start) {
             Queue<Integer> queue = new ArrayDeque<>();
             queue.offer(start);
             while (!queue.isEmpty()) {
@@ -55,7 +51,8 @@ public class JumpGameIII {
                 return true;
             }
             arr[start] = -arr[start];
-            return canReach(arr, start + arr[start]) || canReach(arr, start - arr[start]);
+            return canReach(arr, start + arr[start])
+                    || canReach(arr, start - arr[start]);
         }
     }
 }

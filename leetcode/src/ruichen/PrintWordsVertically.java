@@ -4,19 +4,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PrintWordsVertically {
+    // step 1: calculate max string length
+    // step 2: iterate maxLength times to add results
+    // step 3: trim right spaces
 
-    // #1324 https://leetcode.com/problems/print-words-vertically/
-    // String
     // TC = O(m * n), m = maximum string length, n = # of strings (after split)
     // SC = O(n), split into a string array
-
     class Solution {
         public List<String> printVertically(String s) {
-
-            // step 1: calculate max string length
-            // step 2: iterate maxLength times to add results
-            // step 3: trim right spaces
-
             List<String> result = new ArrayList<>();
             if (s == null || s.length() == 0) {
                 return result;
@@ -45,7 +40,7 @@ public class PrintWordsVertically {
             return maxLen;
         }
 
-        // Notice: allows leading space, only remove trailing space
+        // allows leading space, only remove trailing space
         private String trimRight(String word) {
             int len = word.length();
             for (int i = len - 1; i >= 0; i--) {

@@ -6,11 +6,7 @@ import java.util.Map;
 import java.util.Queue;
 
 public class IsGraphBipartite {
-
-    // #785 https://leetcode.com/problems/is-graph-bipartite/
-    // Graph, Breadth-first Search
     // TC = O(n + e), n for node and e for edge; SC = O(n)
-
     class Solution {
         public boolean isBipartite(int[][] graph) {
             if (graph == null || graph.length == 0) {
@@ -53,4 +49,3 @@ public class IsGraphBipartite {
         }
     }
 }
-

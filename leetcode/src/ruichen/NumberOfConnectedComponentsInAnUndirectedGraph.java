@@ -10,11 +10,7 @@ import java.util.Queue;
 import java.util.Set;
 
 public class NumberOfConnectedComponentsInAnUndirectedGraph {
-
-    // #323 https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/
-    // Graph, Depth-first Search, Breadth-first Search, Union Find
     // Same as #1971
-
     class Solution1 {
         // Method 1: BFS
         // TC = O(V + E), SC = O(V + E) (consider hash map in SC)

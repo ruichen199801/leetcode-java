@@ -1,24 +1,13 @@
 package ruichen;
 
+import ruichen.common.Node;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class NaryTreePreorderTraversal {
-
-    // #589 https://leetcode.com/problems/n-ary-tree-preorder-traversal/
-    // Tree
-
-    class Node {
-        int val;
-        List<Node> children;
-        public Node(int val, List<Node> children) {
-            this.val = val;
-            this.children = children;
-        }
-    }
-
+    // Recursive Solution: TC = O(n), SC = O(n) at worst
     class Solution {
-        // Recursive Solution: TC = O(n), SC = O(n) at worst
         public List<Integer> preorder(Node root) {
             List<Integer> res = new ArrayList<>();
             helper(root, res);
@@ -30,7 +19,7 @@ public class NaryTreePreorderTraversal {
                 return;
             }
             res.add(root.val);
-            for (Node node: root.children) {
+            for (Node node : root.children) {
                 helper(node, res);
             }
         }

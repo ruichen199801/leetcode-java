@@ -1,18 +1,12 @@
 package ruichen;
 
 public class ExcelSheetColumnNumber {
-
+    // TC = O(n), SC = O(1)
     class Solution {
-
-        // #171 https://leetcode.com/problems/excel-sheet-column-number/
-        // Math
-        // TC = O(n), SC = O(1)
-
         public int titleToNumber(String columnTitle) {
-            // 26-nary representation
             int res = 0;
-            for (char ch: columnTitle.toCharArray()) {
-                res = res * 26 + ch - 'A' + 1;
+            for (char ch : columnTitle.toCharArray()) {
+                res = res * 26 + ch - 'A' + 1; // 26-nary representation
             }
             return res;
         }

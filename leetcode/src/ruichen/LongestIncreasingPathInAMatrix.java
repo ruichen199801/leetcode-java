@@ -1,15 +1,9 @@
 package ruichen;
 
 public class LongestIncreasingPathInAMatrix {
-
-    // #329 https://leetcode.com/problems/longest-increasing-path-in-a-matrix/
-    // Depth-first Search, Memoization
-
+    // DFS + Memoization: use memoization to cache results of previous recursive calls, otherwise stack overflow
+    // TC = O(m * n), SC = O(m * n)
     class Solution {
-
-        // DFS + Memoization: use memoization to cache results of previous recursive calls, otherwise stack overflow
-        // TC = O(m * n), SC = O(m * n)
-
         private int[][] DIRECTIONS = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
 
         public int longestIncreasingPath(int[][] matrix) {

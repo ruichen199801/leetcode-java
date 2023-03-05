@@ -4,11 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class MinStack {
-
-    // #155 https://leetcode.com/problems/min-stack/
-    // Stack, Design
     // TC = O(1) (for all operations), SC = O(n)
-
     class MinStack1 {
         private Deque<Integer> stack;
         private Deque<Integer> minStack;
@@ -42,9 +38,7 @@ public class MinStack {
     }
 
     class MinStack2 {
-
         // Optimization: store <min, count> pairs to avoid same number being pushed repeatedly onto minStack
-
         private Deque<Integer> stack;
         private Deque<int[]> minStack;
 
@@ -80,8 +74,4 @@ public class MinStack {
             return minStack.peekFirst()[0];
         }
     }
-
-
 }
-
-

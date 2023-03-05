@@ -1,13 +1,8 @@
 package ruichen;
 
 public class MedianOfTwoSortedArrays {
-
-    // #4 https://leetcode.com/problems/median-of-two-sorted-arrays/
-    // Array, Binary Search
-
+    // Binary Search: TC = O(log m + n), SC = O(1)
     class Solution {
-        // Binary Search
-        // TC: O(log m + n), SC: O(1)
         public double findMedianSortedArrays(int[] nums1, int[] nums2) {
             int len = nums1.length + nums2.length;
             if (len % 2 != 0) {

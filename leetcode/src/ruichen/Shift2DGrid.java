@@ -4,12 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Shift2DGrid {
-
-    // #1260 https://leetcode.com/problems/shift-2d-grid/
-    // Array
-    // TC = O(mn), SC = O(mn)
     // See #189
-
+    // TC = O(m * n), SC = O(m * n)
     class Solution {
         public List<List<Integer>> shiftGrid(int[][] grid, int k) {
             List<List<Integer>> res = new ArrayList<>();

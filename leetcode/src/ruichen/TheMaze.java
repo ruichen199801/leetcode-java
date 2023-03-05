@@ -4,11 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 public class TheMaze {
-
-    // #490 https://leetcode.com/problems/the-maze/
-    // Breadth-first Search
-    // TC = O(m * n), SC = O(m * n) (island)
-
+    // TC = O(m * n), SC = O(m * n) (similar to island problem)
     class Solution {
         public boolean hasPath(int[][] maze, int[] start, int[] destination) {
             int[][] dirs = {{1, 0}, {-1, 0}, {0, 1}, {0, -1}};
@@ -34,7 +30,7 @@ public class TheMaze {
                     x -= dir[0];
                     y -= dir[1];
                     if (!visited[x][y]) {
-                        queue.offer(new int[] {x, y});
+                        queue.offer(new int[]{x, y});
                         visited[x][y] = true;
                     }
                 }

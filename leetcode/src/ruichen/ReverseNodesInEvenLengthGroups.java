@@ -1,22 +1,11 @@
 package ruichen;
 
+import ruichen.common.ListNode;
+
 public class ReverseNodesInEvenLengthGroups {
-
-    // #2074 https://leetcode.com/problems/reverse-nodes-in-even-length-groups/
-    // Linked list
+    // See #25
     // TC = O(n), SC = O(1)
-
-    class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution {
-        // based on #25
         public ListNode reverseEvenLengthGroups(ListNode head) {
             if (head == null || head.next == null) {
                 return head;
@@ -27,7 +16,7 @@ public class ReverseNodesInEvenLengthGroups {
             dummy.next = head;
             ListNode cur = dummy;
             while (cur.next != null) {
-                k = nodesLeft < k ? nodesLeft : k;
+                k = Math.min(nodesLeft, k);
                 if (k % 2 == 1) {
                     for (int i = 0; i < k; i++) {
                         cur = cur.next;

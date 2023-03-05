@@ -5,10 +5,6 @@ import java.util.List;
 import java.util.Queue;
 
 public class KeysAndRooms {
-
-    // #841 https://leetcode.com/problems/keys-and-rooms/
-    // Graph, Depth-first Search, Breadth-first Search
-
     class Solution1 {
         // BFS: TC = O(V + E), SC = O(V)
         public boolean canVisitAllRooms(List<List<Integer>> rooms) {
@@ -44,7 +40,6 @@ public class KeysAndRooms {
         }
     }
 
-
     class Solution2 {
         // DFS: TC = O(V + E), SC = O(V)
         public boolean canVisitAllRooms(List<List<Integer>> rooms) {
@@ -79,5 +74,4 @@ public class KeysAndRooms {
             }
         }
     }
-
 }

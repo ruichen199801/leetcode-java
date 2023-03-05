@@ -1,17 +1,14 @@
 package ruichen;
 
 public class NextPermutation {
+    // 9 4 7 5 3 1
+    //   i   j
+    // Step 1: swap i, j
+    // Step 2: reverse [i+1:]
 
-    // #31 https://leetcode.com/problems/next-permutation/
-    // Array, Two Pointers
     // TC = O(n), SC = O(1)
-
     class Solution {
         public void nextPermutation(int[] nums) {
-            // 9 4 7 5 3 1
-            //   i   j
-            // Step 1: swap i, j
-            // Step 2: reverse [i+1:]
             int i = nums.length - 2;
             while (i >= 0 && nums[i + 1] <= nums[i]) { // =
                 i--;

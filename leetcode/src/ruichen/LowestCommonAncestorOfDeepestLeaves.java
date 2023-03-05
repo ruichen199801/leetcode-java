@@ -1,29 +1,12 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 public class LowestCommonAncestorOfDeepestLeaves {
-
-    // #1123 https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/
-    // Same as: #865 https://leetcode.com/problems/smallest-subtree-with-all-the-deepest-nodes/
-    // Tree, Depth-first Search
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) {
-            this.val = val;
-        }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
+    // Same as: #865
     class Solution1 {
+        // TC = O(n^2), expensive because we compute height for every node, SC = O(n)
         public TreeNode lcaDeepestLeaves(TreeNode root) {
-            // TC = O(n^2), expensive b/c we compute height for every node, SC = O(n)
             if (root == null) {
                 return null;
             }
@@ -44,8 +27,8 @@ public class LowestCommonAncestorOfDeepestLeaves {
     }
 
     class Solution2 {
+        // TC = O(n), SC = O(h)
         public TreeNode lcaDeepestLeaves(TreeNode root) {
-            // TC = O(n), SC = O(h)
             Pair p = helper(root, 0); // get LCA, pass Pair instead of TreeNode between tree levels -> one pass, O(n)
             return p.node;
         }
@@ -65,11 +48,11 @@ public class LowestCommonAncestorOfDeepestLeaves {
         class Pair {
             TreeNode node;
             int d;
+
             public Pair(TreeNode node, int d) {
                 this.node = node;
                 this.d = d;
             }
         }
     }
-
 }

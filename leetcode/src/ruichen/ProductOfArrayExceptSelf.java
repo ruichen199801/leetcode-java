@@ -1,19 +1,14 @@
 package ruichen;
 
 public class ProductOfArrayExceptSelf {
-
-    // #238 https://leetcode.com/problems/product-of-array-except-self/
-    // Array, Prefix Sum
-
     class Solution1 {
-        // No division allowed
-
         // Method 1: 3 arrays + 3 pass, TC = O(n), SC = O(n)
+
+        // nums    1  2  3 4
+        // prefix  1  1  2 6
+        // suffix  24 12 4 1
+        // result  24 12 8 6
         public int[] productExceptSelf(int[] nums) {
-            // nums    1  2  3 4
-            // prefix  1  1  2 6
-            // suffix  24 12 4 1
-            // result  24 12 8 6
             int len = nums.length;
             int[] left = new int[len]; // prefix product
             int[] right = new int[len]; // suffix product
@@ -53,5 +48,4 @@ public class ProductOfArrayExceptSelf {
             return result;
         }
     }
-
 }

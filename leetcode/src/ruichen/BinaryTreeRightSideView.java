@@ -1,30 +1,17 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
 public class BinaryTreeRightSideView {
-
-    // #199 https://leetcode.com/problems/binary-tree-right-side-view/
-    // Tree, Depth-first Search, Breadth-first Search
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
     class Solution1 {
+        // DFS: traverse right first, then left
+        // TC = O(n), SC = O(h) (worst case: skewed tree)
         public List<Integer> rightSideView(TreeNode root) {
-            // DFS: traverse right first, then left
-            // TC = O(n), SC = O(h) (worst case: skewed tree)
             List<Integer> result = new ArrayList<>();
             if (root == null) {
                 return result;
@@ -34,9 +21,10 @@ public class BinaryTreeRightSideView {
         }
 
         private void helper(TreeNode root, int index, List<Integer> result) {
-            // we add one rightmost element per level
-            // no need to return, the program ends when all nodes are traversed, and we only add to
-            // result list when # of levels = # of elements in list
+            /*
+            We add one rightmost element per level. There is no need to return, the program ends when
+            all nodes are traversed, and we only add to result when # of levels = # of elements in list.
+            */
             if (index == result.size()) {
                 result.add(root.val);
             }
@@ -51,9 +39,9 @@ public class BinaryTreeRightSideView {
     }
 
     class Solution2 {
+        // BFS: return a list of last elements from all levels
+        // TC = O(n), SC = O(n) (worst case: complete tree)
         public List<Integer> rightSideView(TreeNode root) {
-            // BFS: return a list of last elements from all levels
-            // TC = O(n), SC = O(n) (worst case: complete tree)
             List<Integer> result = new ArrayList<>();
             if (root == null) {
                 return result;

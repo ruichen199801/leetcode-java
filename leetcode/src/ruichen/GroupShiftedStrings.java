@@ -6,11 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class GroupShiftedStrings {
-
-    // #249 https://leetcode.com/problems/group-shifted-strings/
-    // Hash Table, String
     // TC = O(nk), SC = O(nk)
-
     class Solution {
         public List<List<String>> groupStrings(String[] strings) {
             Map<String, List<String>> map = new HashMap<>();

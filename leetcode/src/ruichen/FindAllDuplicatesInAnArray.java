@@ -4,21 +4,17 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FindAllDuplicatesInAnArray {
-
-    // #442 https://leetcode.com/problems/find-all-duplicates-in-an-array/
-    // Array
-
+    // Hash map in place: TC = O(n), SC = O(1)
+    // Same as #41, #448
     class Solution {
         public List<Integer> findDuplicates(int[] nums) {
-            // Same as #41 #448
-            // HashMap in situ: TC = O(n), SC = O(1)
+
             List<Integer> res = new ArrayList<>();
-            int n = nums.length; // 1 <= nums[i] <= n
+            int n = nums.length;
             for (int i = 0; i < n; i++) {
                 int num = Math.abs(nums[i]);
                 nums[num - 1] = -nums[num - 1];
-                // two negatives make a positve
-                if (nums[num - 1] > 0) {
+                if (nums[num - 1] > 0) { // two negatives make a positive
                     res.add(num); // num - 1 + 1 = num
                 }
             }

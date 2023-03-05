@@ -3,11 +3,7 @@ package ruichen;
 import java.util.Arrays;
 
 public class AssignCookies {
-
-    // #455 https://leetcode.com/problems/assign-cookies/
-    // Array, Greedy, Sorting
     // TC = O(n log n + n), SC = O(n), n = # of elements in g and s
-
     class Solution {
         public int findContentChildren(int[] g, int[] s) {
             if (s == null || s.length == 0) {

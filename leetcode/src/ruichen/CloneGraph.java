@@ -1,45 +1,27 @@
 package ruichen;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Queue;
 
 public class CloneGraph {
-
-    // #133 https://leetcode.com/problems/clone-graph/
-    // Graph, Depth-first Search, Breadth-first Search
-
-    class Node {
-        public int val;
-        public List<Node> neighbors;
-        public Node() {
-            val = 0;
-            neighbors = new ArrayList<Node>();
-        }
-        public Node(int _val) {
-            val = _val;
-            neighbors = new ArrayList<Node>();
-        }
-        public Node(int _val, ArrayList<Node> _neighbors) {
-            val = _val;
-            neighbors = _neighbors;
-        }
-    }
-
     class Solution1 {
+        // DFS
+        // Time: O(n + m), n = # of nodes/vertices, m = # of edges
+        // Space: O(n) on heap (hash map) + O(h) on stack (h = height of the graph), O(n) overall
+
+        // original       clone
+        // A <-> B        A'<-> B'
+        // |     |   ->   |     |
+        // D <-> C        D'<-> C'
+
+        // de-dup to avoid getting stuck in circle
+        // key: original node, value: cloned node
+        // A: A', B: B', C: C', D: D'
         public Node cloneGraph(Node node) {
-
-            // DFS
-            // Time: O(n + m), n = # of nodes/vertices, m = # of edges
-            // Space: O(n) on heap (hash map) + O(h) on stack (h = height of the graph), O(n) overall
-
-            // original       clone
-            // A <-> B        A'<-> B'
-            // |     |   ->   |     |
-            // D <-> C        D'<-> C'
-
-            // de-dup to avoid getting stuck in circle
-            // key: original node, value: cloned node
-            // A: A', B: B', C: C', D: D'
-
             if (node == null) {
                 return null;
             }
@@ -64,13 +46,11 @@ public class CloneGraph {
     }
 
     class Solution2 {
+        // BFS (iterative), not recommended (highly error prone!)
+        // original: node, cur, nei
+        // cloned: cloneNode, visited.get(cur), cloneNei
+        // TC, SC same as DFS, as we change nothing but the sequence of traversal
         public Node cloneGraph(Node node) {
-
-            // BFS (iterative), not recommended (highly error prone!)
-            // original: node, cur, nei
-            // cloned: cloneNode, visited.get(cur), cloneNei
-            // TC, SC same as DFS, as we change nothing butthe sequence of traversal
-
             if (node == null) {
                 return null;
             }
@@ -93,6 +73,26 @@ public class CloneGraph {
                 }
             }
             return cloneNode;
+        }
+    }
+
+    public class Node {
+        int val;
+        List<Node> neighbors;
+
+        public Node() {
+            val = 0;
+            neighbors = new ArrayList<>();
+        }
+
+        public Node(int _val) {
+            val = _val;
+            neighbors = new ArrayList<>();
+        }
+
+        public Node(int _val, ArrayList<Node> _neighbors) {
+            val = _val;
+            neighbors = _neighbors;
         }
     }
 }

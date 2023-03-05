@@ -1,14 +1,10 @@
 package ruichen;
 
 public class DeleteOperationForTwoStrings {
-
-    // #583 https://leetcode.com/problems/delete-operation-for-two-strings/
-    // String, Dynamic Programming
+    // Simplified version of edit distance
     // TC = O(m * n), SC = O(m * n)
-
     class Solution {
         public int minDistance(String word1, String word2) {
-            // simplified ver. of the edit distance problem
             int len1 = word1.length(), len2 = word2.length();
             int[][] dp = new int[len1 + 1][len2 + 1];
             for (int i = 0; i <= len1; i++) {

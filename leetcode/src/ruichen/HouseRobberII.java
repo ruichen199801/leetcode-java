@@ -3,11 +3,7 @@ package ruichen;
 import java.util.Arrays;
 
 public class HouseRobberII {
-
-    // #213 https://leetcode.com/problems/house-robber-ii/
-    // Dynamic Programming
     // TC = O(n), SC = O(n)
-
     class Solution {
         public int rob(int[] nums) {
             if (nums == null || nums.length == 0) {

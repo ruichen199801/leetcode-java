@@ -4,11 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class MaxStack {
-
-    // #716 https://leetcode.com/problems/max-stack/
-    // Stack, Design
     // TC = O(n) for popMax(), O(1) for all other operations; SC = O(n)
-
     private Deque<Integer> stack;
     private Deque<Integer> maxStack;
 
@@ -55,5 +51,4 @@ public class MaxStack {
         }
         return curMax;
     }
-
 }

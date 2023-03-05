@@ -1,10 +1,7 @@
 package ruichen;
 
 public class NthTribonacciNumber {
-
-    // #1137 https://leetcode.com/problems/n-th-tribonacci-number/
     // DP, TC = O(n), SC = O(1)
-
     class Solution {
         public int tribonacci(int n) {
             if (n == 0) {

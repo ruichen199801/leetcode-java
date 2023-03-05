@@ -1,26 +1,16 @@
 package ruichen;
 
-public class SplitLinkedListInParts {
+import ruichen.common.ListNode;
 
-    // #725 https://leetcode.com/problems/split-linked-list-in-parts/
-    // Linked List
+public class SplitLinkedListInParts {
+    // 12 / 3 = 4， 12 % 3 = 0 -> 3, 3, 3, 3
+    // 13 / 3 = 4， 13 % 3 = 1 -> 4, 3, 3, 3 (first 13 % 3 = 1 part have one more item)
+    // 14 / 3 = 4， 14 % 3 = 2 -> 4, 4, 3, 3 (first 14 % 3 = 2 parts have one more item)
+
     // TC = O(n + k) (if k >> n, answer will be a list of empty listnodes)
     // SC = O(k) (for storing answer)
-
-    class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution {
         public ListNode[] splitListToParts(ListNode head, int k) {
-            // 12 / 3 = 4， 12 % 3 = 0 -> 3, 3, 3, 3
-            // 13 / 3 = 4， 13 % 3 = 1 -> 4, 3, 3, 3 (first 13 % 3 = 1 part have one more item)
-            // 14 / 3 = 4， 14 % 3 = 2 -> 4, 4, 3, 3 (first 14 % 3 = 2 parts have one more item)
             ListNode[] res = new ListNode[k];
             ListNode prev = head, cur = head; // prev: head, cur: tail
             int len = computeLen(head); // length of the linked list

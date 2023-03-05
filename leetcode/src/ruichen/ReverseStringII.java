@@ -1,11 +1,7 @@
 package ruichen;
 
 public class ReverseStringII {
-
-    // #541 https://leetcode.com/problems/reverse-string-ii/
-    // String, Two Pointers
     // TC = O(n), SC = O(n) to store results
-
     class Solution {
         public String reverseStr(String s, int k) {
             char[] arr = s.toCharArray();

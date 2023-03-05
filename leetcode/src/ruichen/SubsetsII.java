@@ -5,11 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class SubsetsII {
-
-    // #90 https://leetcode.com/problems/subsets-ii/
-    // Depth-first Search
     // TC = O(2^ * n), SC = O(n) (Java's Arrays.sort: variant of quick sort, O(log n))
-
     class Solution {
         public List<List<Integer>> subsetsWithDup(int[] nums) {
             Arrays.sort(nums); // sort the input array to put duplicates together
@@ -24,6 +20,7 @@ public class SubsetsII {
                 result.add(new ArrayList<>(curr));
                 return;
             }
+
             // case 1: add the current element
             curr.add(nums[index]);
             helper(nums, index + 1, curr, result);

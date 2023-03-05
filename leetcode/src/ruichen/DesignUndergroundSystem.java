@@ -4,13 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class DesignUndergroundSystem {
-
-    // #1396 https://leetcode.com/problems/design-underground-system/
-    // Hash Table, Design
     // TC = O(1) for checkIn(), checkOut() and getAverageTime(), SC = O(n)
-
     class UndergroundSystem {
-
         Map<Integer, Event> customer;
         Map<String, Average> travelTime;
 
@@ -46,6 +41,7 @@ public class DesignUndergroundSystem {
         class Event {
             String stationName;
             int timestamp;
+
             public Event(String stationName, int timestamp) {
                 this.stationName = stationName;
                 this.timestamp = timestamp;
@@ -55,14 +51,15 @@ public class DesignUndergroundSystem {
         class Average {
             int sum;
             int count;
+
             public Average(int sum, int count) {
                 this.sum = sum;
                 this.count = count;
             }
+
             public double getAverage() {
                 return 1.0 * sum / count;
             }
         }
     }
-
 }

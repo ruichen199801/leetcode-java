@@ -1,11 +1,7 @@
 package ruichen;
 
 public class NonDecreasingArray {
-
-    // #665 https://leetcode.com/problems/non-decreasing-array/
-    // Array
     // TC = O(n), SC = O(1)
-
     class Solution {
         public boolean checkPossibility(int[] nums) {
             // store the index of the element that needs to be modified (if any)

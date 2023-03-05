@@ -4,11 +4,7 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 public class FloodFill {
-
-    // #733 https://leetcode.com/problems/flood-fill/
-    // Breadth-first Search, Depth-first Search
     // See #200
-
     class Solution1 {
         // DFS: TC = O(mn), SC = O(mn)
         public int[][] floodFill(int[][] image, int sr, int sc, int newColor) {
@@ -62,5 +58,4 @@ public class FloodFill {
             return image;
         }
     }
-
 }

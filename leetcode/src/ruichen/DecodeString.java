@@ -4,24 +4,18 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class DecodeString {
+    // s = "3[a2[c]]"
+    //              i
 
-    // #394 https://leetcode.com/problems/decode-string/
-    // Stack, String
+    // countStack [ : stores duplicate times of the current word
+    // wordStack [  : stores "prefix" of the current word
+    // number = 2
+    // word = "accaccacc"
+
     // TC = O(n * m), n = word length, m = count
     // SC = O(n + n + m) = O(2n + m) = O(n + m) (string builder + stack)
-
     class Solution {
-
         public String decodeString(String s) {
-
-            // s = "3[a2[c]]"
-            //              i
-
-            // countStack [ : stores duplicate times of the current word
-            // wordStack [  : stores "prefix" of the current word
-            // number = 2
-            // word = "accaccacc"
-
             Deque<Integer> countStack = new ArrayDeque<>();
             Deque<String> wordStack = new ArrayDeque<>();
             int number = 0;
@@ -46,8 +40,7 @@ public class DecodeString {
                     word = duplicateWord;
                 }
             }
-            return word.toString(); // create a new string
+            return word.toString();
         }
     }
-
 }

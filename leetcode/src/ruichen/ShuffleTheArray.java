@@ -1,10 +1,6 @@
 package ruichen;
 
 public class ShuffleTheArray {
-
-    // #1470 https://leetcode.com/problems/shuffle-the-array/
-    // Array
-
     class Solution1 {
         // Method 1: TC = O(n), SC = O(2 * n)
         public int[] shuffle(int[] nums, int n) {

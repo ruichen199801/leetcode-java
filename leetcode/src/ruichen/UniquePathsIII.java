@@ -1,13 +1,8 @@
 package ruichen;
 
 public class UniquePathsIII {
-
-    // #980 https://leetcode.com/problems/unique-paths-iii/
-    // Array, Depth-first Search
     // TC = O(3^n) (brute-force DFS, 4^n -> 3^n), SC = O(n) (recursion stack)
-
     class Solution {
-
         private int count = 0;
         private int sx = 0, sy = 0;
         private int squaresToVisit = 1; // count start point into squares to visit

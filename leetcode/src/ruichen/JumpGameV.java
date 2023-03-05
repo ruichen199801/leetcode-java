@@ -1,12 +1,8 @@
 package ruichen;
 
 public class JumpGameV {
-
-    // #1340 https://leetcode.com/problems/jump-game-v/
-    // Array, Depth-first Search
-
+    // DFS + Memo: TC = O(n * 2d) = O(nd), SC = O(n + n) = O(n)
     class Solution {
-        // DFS + Memo: TC = O(n * 2d) = O(nd), SC = O(n + n) = O(n)
         public int maxJumps(int[] arr, int d) {
             int max = 0;
             int[] memo = new int[arr.length];

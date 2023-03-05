@@ -1,20 +1,9 @@
 package ruichen;
 
+import ruichen.common.ListNode;
+
 public class ReverseLinkedListII {
-
-    // #92 https://leetcode.com/problems/reverse-linked-list-ii/
-    // Linked list
     // TC = O(n), SC = O(1)
-
-    class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution {
         public ListNode reverseBetween(ListNode head, int left, int right) {
             // | xxxx left yyyy right zzzz|

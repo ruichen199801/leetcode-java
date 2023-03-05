@@ -1,18 +1,15 @@
 package ruichen;
 
 public class UniqueBinarySearchTrees {
+    // Cut rope
+    // G(n): num of BSTs at n
+    // F(i, n): nums of BSTs at n, with i as root node (actually "j" in this implementation)
+    // G(n) = SUM(F(i, n)), F(i, n) = G(i - 1) * G(n - i)
+    // Mathematically count is the same, but each count does not represent exactly what the BST looks like
 
-    // #96 https://leetcode.com/problems/unique-binary-search-trees/
-    // Dynamic Programming
     // TC = O(n^2), SC = O(n)
-
     class Solution {
         public int numTrees(int n) {
-            // cut rope
-            // G(n): num of BSTs at n
-            // F(i, n): nums of BSTs at n, with i as root node (actually "j" in this implementation)
-            // G(n) = SUM(F(i, n)), F(i, n) = G(i - 1) * G(n - i)
-            // Mathematically count is the same, but each count does not represent exactly what the BST looks like
             int[] dp = new int[n + 1];
             dp[0] = 1;
             dp[1] = 1;

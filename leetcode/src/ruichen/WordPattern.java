@@ -4,15 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class WordPattern {
-
-    // #290 https://leetcode.com/problems/word-pattern/
-    // String, Hash Table
+    // Same as #205
     // TC = O(max(n1, n2)), n1 = # of chars, n2 = # of words
     // SC = O(m + 26) = O(m), 2 hash maps, m = # of unique words
-
     class Solution {
         public boolean wordPattern(String pattern, String s) {
-            // same as #205
             Map<Character, String> charToWord = new HashMap<>();
             Map<String, Character> wordToChar = new HashMap<>();
             String[] words = s.split(" ");
@@ -37,5 +33,4 @@ public class WordPattern {
             return true;
         }
     }
-
 }

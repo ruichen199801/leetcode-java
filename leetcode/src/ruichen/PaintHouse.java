@@ -1,11 +1,7 @@
 package ruichen;
 
 public class PaintHouse {
-
-    // #256 https://leetcode.com/problems/paint-house/
-    // Array, Dynamic Programming
     // TC = O(n), SC = O(1) (if we are allowed to modify costs matrix)
-
     class Solution {
         public int minCost(int[][] costs) {
             int len = costs.length;

@@ -6,19 +6,14 @@ import java.util.Map;
 import java.util.PriorityQueue;
 
 public class TopKFrequentElements {
-
-    // #347 https://leetcode.com/problems/top-k-frequent-elements/
-    // Hash Table, Heap, Quick Select
-
     class Solution1 {
-        // Method 1: Priority Queue
-        // TC = O(n log k), SC = O(n)
+        // Priority Queue: TC = O(n log k), SC = O(n)
         public int[] topKFrequent(int[] nums, int k) {
             Map<Integer, Integer> map = new HashMap<>();
             for (int num : nums) {
                 map.put(num, map.getOrDefault(num, 0) + 1);
             }
-            PriorityQueue<Integer> minHeap = new PriorityQueue<>((a, b) ->  map.get(a) - map.get(b));
+            PriorityQueue<Integer> minHeap = new PriorityQueue<>((a, b) -> map.get(a) - map.get(b));
             for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
                 minHeap.offer(entry.getKey());
                 if (minHeap.size() > k) {
@@ -34,7 +29,7 @@ public class TopKFrequentElements {
     }
 
     class Solution2 {
-        // Method 2: Quick Select
+        // Quick Select
         // TC = O(n) in average, O(n^2) at worst (we only care about top k half instead of processing both parts of the array, so O(n) not O(n log n))
         // SC = O(n)
         public int[] topKFrequent(int[] nums, int k) {

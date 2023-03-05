@@ -1,19 +1,15 @@
 package ruichen;
 
 public class RobotBoundedInCircle {
-
-    // #1041 https://leetcode.com/problems/robot-bounded-in-circle/
-    // Math, Simulation
     // TC = O(n), SC = O(1) (toCharArray() cost not counted)
-
     class Solution {
         public boolean isRobotBounded(String instructions) {
             // directions[index]: 0 - 3 represent north, east, south, west
             // clockwise: turn right is 1, turn left is 3
-            int[][] directions = new int[][] {{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
+            int[][] directions = new int[][]{{0, 1}, {1, 0}, {0, -1}, {-1, 0}};
             int x = 0, y = 0; // at original point initially
             int index = 0; // face north initially
-            for (char instruction: instructions.toCharArray()) {
+            for (char instruction : instructions.toCharArray()) {
                 if (instruction == 'G') {
                     x += directions[index][0];
                     y += directions[index][1];

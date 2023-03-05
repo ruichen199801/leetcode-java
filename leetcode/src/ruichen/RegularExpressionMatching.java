@@ -1,11 +1,7 @@
 package ruichen;
 
 public class RegularExpressionMatching {
-
-    // #10 https://leetcode.com/problems/regular-expression-matching/
-    // String, Dynamic Programming
     // TC = O(n * m), SC = O(n * m)
-
     class Solution {
         public boolean isMatch(String s, String p) {
 
@@ -62,5 +58,4 @@ public class RegularExpressionMatching {
             return dp[len1][len2];
         }
     }
-
 }

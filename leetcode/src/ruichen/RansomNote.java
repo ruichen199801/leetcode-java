@@ -1,11 +1,7 @@
 package ruichen;
 
 public class RansomNote {
-
-    // #383 https://leetcode.com/problems/ransom-note/
-    // Hash Table, String, Counting
     // TC = O(n), SC = O(1)
-
     class Solution {
         public boolean canConstruct(String ransomNote, String magazine) {
             if (ransomNote.length() > magazine.length()) return false;

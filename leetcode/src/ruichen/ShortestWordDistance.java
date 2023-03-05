@@ -1,12 +1,8 @@
 package ruichen;
 
 public class ShortestWordDistance {
-
-    // #243 https://leetcode.com/problems/shortest-word-distance/
-    // Array, String
     // TC = O(n * m), n = # of words in the input list, m = total length of word1 and word2
     // SC = O(1)
-
     class Solution {
         public int shortestDistance(String[] wordsDict, String word1, String word2) {
             int index = -1, min = Integer.MAX_VALUE;

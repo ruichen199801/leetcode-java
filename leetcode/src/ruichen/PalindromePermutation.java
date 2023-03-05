@@ -4,11 +4,7 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class PalindromePermutation {
-
-    // #266 https://leetcode.com/problems/palindrome-permutation/
-    // Hash Table, String
     // TC = O(n), SC = O(1)
-
     class Solution {
         public boolean canPermutePalindrome(String s) {
             Set<Character> set = new HashSet<>();

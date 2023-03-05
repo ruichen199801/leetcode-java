@@ -1,11 +1,7 @@
 package ruichen;
 
 public class OneEditDistance {
-
-    // #161 https://leetcode.com/problems/one-edit-distance/
-    // String, Two Pointers
     // TC = O(n), SC = O(1)
-
     class Solution {
         public boolean isOneEditDistance(String s, String t) {
             if (s == null && t == null) {
@@ -40,10 +36,6 @@ public class OneEditDistance {
             }
             return true;
         }
-        // s = a b c d f
-        //         f
-        // t = a b d f
-        //       s
 
         private boolean isOneChangeDistance(String s, String t) {
             boolean flag = false;
@@ -58,9 +50,5 @@ public class OneEditDistance {
             }
             return flag; // if s and t are exactly the same: false
         }
-        // s = a b c d f
-        //         f
-        // t = a b e d f
-        //         s
     }
 }

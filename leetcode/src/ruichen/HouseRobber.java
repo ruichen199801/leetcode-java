@@ -1,10 +1,6 @@
 package ruichen;
 
 public class HouseRobber {
-
-    // #198 https://leetcode.com/problems/house-robber/
-    // Dynamic Programming
-
     class Solution1 {
         // DP: TC = O(n), SC = O(n)
 

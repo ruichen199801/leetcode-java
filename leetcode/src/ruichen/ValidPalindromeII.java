@@ -1,11 +1,7 @@
 package ruichen;
 
 public class ValidPalindromeII {
-
-    // #680 https://leetcode.com/problems/valid-palindrome-ii/
-    // String, Two Pointers
     // TC = O(n), SC = O(1)
-
     class Solution {
         public boolean validPalindrome(String s) {
             int i = 0, j = s.length() - 1;

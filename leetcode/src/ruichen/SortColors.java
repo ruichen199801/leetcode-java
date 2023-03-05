@@ -1,17 +1,14 @@
 package ruichen;
 
 public class SortColors {
+    // x x x y y y ? ? ? z z z
+    // i
+    // j
+    //                       k
 
-    // #75 https://leetcode.com/problems/sort-colors/
-    // Array, Sorting
     // TC = O(n), SC = O(1)
-
     class Solution {
         public void sortColors(int[] nums) {
-            // x x x y y y ? ? ? z z z
-            // i
-            // j
-            //                       k
             if (nums == null || nums.length <= 1) {
                 return;
             }

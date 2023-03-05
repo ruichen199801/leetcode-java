@@ -4,20 +4,15 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class ValidateStackSequences {
+    // pushed = [1,2,3,4,5]
+    //           i
+    // popped = [4,5,3,2,1]
+    //           j
+    // stack [
 
-    // #946 https://leetcode.com/problems/validate-stack-sequences/
-    // Stack
     // TC = O(n), SC = O(n)
-
     class Solution {
         public boolean validateStackSequences(int[] pushed, int[] popped) {
-
-            // pushed = [1,2,3,4,5]
-            //           i
-            // popped = [4,5,3,2,1]
-            //           j
-            // stack [
-
             Deque<Integer> stack = new ArrayDeque<>();
             int n = pushed.length, i = 0;
             for (int num : pushed) {
@@ -32,5 +27,4 @@ public class ValidateStackSequences {
             // since popped.length == pushed.length, return i == popped.length is also correct
         }
     }
-
 }

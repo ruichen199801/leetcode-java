@@ -1,22 +1,11 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class UniqueBinarySearchTreesII {
-
-    // #95 https://leetcode.com/problems/unique-binary-search-trees-ii/
-    // Tree, Depth-first Search, Dynamic Programming
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution {
         public List<TreeNode> generateTrees(int n) {
             if (n == 0) {

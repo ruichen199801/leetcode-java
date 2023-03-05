@@ -3,17 +3,13 @@ package ruichen;
 import java.util.*;
 
 public class PermutationsII {
-
-    // #47 https://leetcode.com/problems/permutations-ii/
-    // Depth-first Search
     // TC = O(n! * n)
     // SC = O(n) for recursion + O(n) for storing results along the way;
-    // if we take into account the space needed to hold the results, SC = O(n! * n)
-
+    // If we take into account the space needed to hold the results, SC = O(n! * n)
     class Solution1 {
+        // To get around duplicates: Method 1: use a set instead of an arraylist as result
         public List<List<Integer>> permuteUnique(int[] nums) {
-            // to get around duplicates:
-            // method 1: use a set instead of an arraylist as result
+
             if (nums == null || nums.length == 0) {
                 return new ArrayList<>();
             }
@@ -42,8 +38,8 @@ public class PermutationsII {
     }
 
     class Solution2 {
+        // Method 2: sort the input array, use pointer to skip duplicates (see #90)
         public List<List<Integer>> permuteUnique(int[] nums) {
-            // method 2: sort the input array, use pointer to skip duplicates (see #90)
             if (nums == null || nums.length == 0) {
                 return new ArrayList<>();
             }

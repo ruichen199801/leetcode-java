@@ -3,24 +3,18 @@ package ruichen;
 import java.util.Arrays;
 
 public class ReorderDataInLogFiles {
+    // Rules:
+    // letter "id a b c d"
+    // digit "id 1 2 3 4"
+    // letter vs letter: sort by logs[1] -> logs[0]
+    // letter vs digit: letter comes before digit
+    // digit vs digit: do nothing
 
-    // #937 https://leetcode.com/problems/reorder-data-in-log-files/
-    // Array, Sorting
-
+    // TC = O(n log n)
+    // Arrays.sort(): dual-pivot quick sort for primitive types, modified merge sort for object[] types that demand stability
+    // SC = O(log n) in average, O(n) worst case
     class Solution {
         public String[] reorderLogFiles(String[] logs) {
-
-            // Rules:
-            // letter "id a b c d"
-            // digit "id 1 2 3 4"
-            // letter vs letter: sort by logs[1] -> logs[0]
-            // letter vs digit: letter comes before digit
-            // digit vs digit: do nothing
-
-            // TC = O(n log n)
-            // Arrays.sort(): dual-pivot quick sort for primitive types, modified merge sort for object[] types that demand stability
-            // SC = O(log n) in average, O(n) worst case
-
             Arrays.sort(logs, (log1, log2) -> {
                 // log1 < log2: return -1
                 // log1 == log2:        0

@@ -1,15 +1,11 @@
 package ruichen;
 
 public class SearchInRotatedSortedArray {
-
-    // #33 https://leetcode.com/problems/search-in-rotated-sorted-array/
-    // Array, Binary Search
+    // Intuition: binary search + identify which part is sorted, and which part is rotated
+    // Only aim for the sorted part to figure out the if condition
     // TC = O(log n), SC = O(1)
-
     class Solution {
         public int search(int[] nums, int target) {
-            // Intuition: binary search + identify which part is sorted, and which part is rotated
-            // Only aim for the sorted part to figure out the if condition
             if (nums == null || nums.length == 0) {
                 return -1;
             }

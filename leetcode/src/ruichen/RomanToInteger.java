@@ -4,14 +4,9 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class RomanToInteger {
-
-    // #13 https://leetcode.com/problems/roman-to-integer/
-    // Hash Table, String
     // TC = O(1), SC = O(1) (constant b/c input string size + hashmap size are fixed)
-
     class Solution {
         public int romanToInt(String s) {
-            // 1 <= s.length <= 15
             Map<String, Integer> map = new HashMap<>();
             map.put("M", 1000);
             map.put("CM", 900);

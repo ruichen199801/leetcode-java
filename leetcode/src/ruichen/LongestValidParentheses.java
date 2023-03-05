@@ -1,13 +1,8 @@
 package ruichen;
 
 public class LongestValidParentheses {
-
-    // #32 https://leetcode.com/problems/longest-valid-parentheses/
-    // String, Dynamic Programming
-    // TC = O(n), SC = O(1)
-
+    // Two Passes: TC = O(n), SC = O(1)
     class Solution {
-        // Two passes solution
         public int longestValidParentheses(String s) {
             if (s == null || s.length() == 0) {
                 return 0;

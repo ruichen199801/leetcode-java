@@ -1,17 +1,13 @@
 package ruichen;
 
 public class PathWithMaximumGold {
-
-    // #1219 https://leetcode.com/problems/path-with-maximum-gold/
-    // Depth-first Search
-
+    // DFS + Memoization
+    // Choose any element as a start point: m * n
+    // Each level: can go to 3 directions (cannot go back): 3^(m * n)
+    // Time = O(m * n * 3 ^(m * n))
+    // Space = O(m * n) (boolean array on heap) + O(m * n) (recursion stack) = O(m * n)
     class Solution {
         public int getMaximumGold(int[][] grid) {
-            // DFS + Memoization
-            // Choose any element as a start point: m * n
-            // Each level: can go to 3 directions (cannot go back): 3^(m * n)
-            // Time = O(m * n * 3 ^(m * n))
-            // Space = O(m * n) (boolean array on heap) + O(m * n) (recursion stack) = O(m * n)
             if (grid == null || grid.length == 0) {
                 return 0;
             }
@@ -28,10 +24,10 @@ public class PathWithMaximumGold {
             return max;
         }
 
+        // case 1: out of bounds
+        // case 2: visited[i][j] is true
+        // case 3: grid[i][j] is 0
         private int dfs(int[][] grid, int i, int j, boolean[][] visited) {
-            // case 1: out of bounds
-            // case 2: visited[i][j] is true
-            // case 3: grid[i][j] is 0
             if (i < 0 || i >= grid.length || j < 0 || j >= grid[0].length || grid[i][j] == 0 || visited[i][j]) {
                 return 0;
             }

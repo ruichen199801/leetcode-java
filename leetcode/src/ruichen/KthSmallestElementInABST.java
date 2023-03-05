@@ -1,26 +1,15 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class KthSmallestElementInABST {
-
-    // #230 https://leetcode.com/problems/kth-smallest-element-in-a-bst/
-    // Tree, Binary Search Tree, Depth-first Search
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
-
+    // Inorder traversal of BST: ascending array
+    // Recursive: TC = O(n), SC = O(n)
     class Solution {
         public int kthSmallest(TreeNode root, int k) {
-            // inorder traversal of BST: ascending array
-            // recursive: TC = O(n), SC = O(n)
             List<Integer> res = new ArrayList<>();
             inorder(root, res);
             return res.get(k - 1);

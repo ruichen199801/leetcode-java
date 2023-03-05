@@ -1,24 +1,11 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 import java.util.HashMap;
 import java.util.Map;
 
 public class HouseRobberIII {
-
-    // #337 https://leetcode.com/problems/house-robber-iii/
-    // Tree, Depth-first Search, Dynamic Programming
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
     class Solution1 {
         // Method 1: Recursion + Memoization: TC = O(n),  SC = O(n)
         // Memo: we have overlapping sub-problems, rob(root) does not distinguish b/t rob / not rob, have to re-compare each time
@@ -70,7 +57,7 @@ public class HouseRobberIII {
             int rob = root.val + leftRes[1] + rightRes[1];
             // not rob current node: can rob or not rob next node
             int notRob = Math.max(leftRes[0], leftRes[1]) + Math.max(rightRes[0], rightRes[1]);
-            return new int[] {rob, notRob};
+            return new int[]{rob, notRob};
         }
     }
 }

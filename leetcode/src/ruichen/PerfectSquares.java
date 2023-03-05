@@ -1,14 +1,23 @@
 package ruichen;
 
-import java.util.*;
+
+import java.util.ArrayDeque;
+import java.util.Arrays;
+import java.util.HashSet;
+import java.util.Queue;
+import java.util.Set;
 
 public class PerfectSquares {
-
-    // #279 https://leetcode.com/problems/perfect-squares/
-    // Dynamic Programming, Breadth-first Search
-
     class Solution1 {
         // Method 1: DP: TC = O(n * sqrt(n)), SC = O(n)
+
+        // dp[n] indicates that the perfect squares count of the given n
+        // initialize dp[0] = 0
+        // dp[1] = dp[1 - 1 * 1] + 1 = dp[0] + 1 = 1
+        // dp[2] = dp[2 - 1 * 1] + 1 = dp[1] + 1 = 2
+        // dp[3] = dp[3 - 1 * 1] + 1 = dp[2] + 1 = 3
+        // dp[4] = min{dp[4 - 1 * 1] + 1, dp[4 - 2 * 2] + 1} = min{dp[3] + 1, dp[0] + 1} = min{4, 1} = 1
+        // ... dp[n] is the answer for integer n
         public int numSquares(int n) {
             int[] dp = new int[n + 1];
             Arrays.fill(dp, Integer.MAX_VALUE);
@@ -20,14 +29,6 @@ public class PerfectSquares {
             }
             return dp[n];
         }
-
-        // dp[n] indicates that the perfect squares count of the given n
-        // initialize dp[0] = 0
-        // dp[1] = dp[1 - 1 * 1] + 1 = dp[0] + 1 = 1
-        // dp[2] = dp[2 - 1 * 1] + 1 = dp[1] + 1 = 2
-        // dp[3] = dp[3 - 1 * 1] + 1 = dp[2] + 1 = 3
-        // dp[4] = min{dp[4 - 1 * 1] + 1, dp[4 - 2 * 2] + 1} = min{dp[3] + 1, dp[0] + 1} = min{4, 1} = 1
-        // ... dp[n] is the answer for integer n
     }
 
     class Solution2 {
@@ -37,7 +38,7 @@ public class PerfectSquares {
             Queue<Integer> queue = new ArrayDeque<>();
             queue.offer(n);
             int level = 0;
-            while(!queue.isEmpty()) {
+            while (!queue.isEmpty()) {
                 level++;
                 int size = queue.size();
                 for (int i = 0; i < size; i++) {

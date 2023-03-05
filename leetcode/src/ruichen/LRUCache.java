@@ -4,15 +4,11 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LRUCache {
-
-    // #146 https://leetcode.com/problems/lru-cache/
-    // Linked List, Hash Table, Design
-    // TC = O(1) (put, get), SC = O(capacity)
-
     // Doubly Linked List + Hash Map
     // DLL: pseudo head + pseudo tail to mark the boundary
     // head <-> xxx <-> tail
 
+    // TC = O(1) (put, get), SC = O(capacity)
     class Node {
         int key;
         int value;

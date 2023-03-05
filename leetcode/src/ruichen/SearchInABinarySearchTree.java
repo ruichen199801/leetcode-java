@@ -1,20 +1,8 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 public class SearchInABinarySearchTree {
-
-	// #700 https://leetcode.com/problems/search-in-a-binary-search-tree/
-	// Tree, Binary Search Tree
-
-	class TreeNode {
-		int val;
-		TreeNode left;
-		TreeNode right;
-
-		public TreeNode(int val) {
-			this.val = val;
-		}
-	}
-
 	class Solution1 {
 		// Recursive: TC = O(height), SC = O(height)
 		public TreeNode searchBST(TreeNode root, int val) {

@@ -1,25 +1,15 @@
 package ruichen;
 
+import ruichen.common.ListNode;
+
 public class RotateList {
+    // 1 -> 2 -> 3 -> 4 (newHead) -> 5
+    // |_____________________________|
+    // newHead: n - k % n
 
-    class ListNode {
-        int val;
-        ListNode next;
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
-
+    // TC = O(n), SC = O(1)
     class Solution {
-
-        // #61 https://leetcode.com/problems/rotate-list/
-        // Linked List, Two Pointers
-        // TC = O(n), SC = O(1)
-
         public ListNode rotateRight(ListNode head, int k) {
-            // 1 -> 2 -> 3 -> 4 (newHead) -> 5
-            // |_____________________________|
-            // newHead: n - k % n
             if (head == null || head.next == null) {
                 return head;
             }

@@ -1,25 +1,31 @@
 package ruichen;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Random;
+import java.util.Set;
 
 public class RandomizedCollection {
-
-    // #381 https://leetcode.com/problems/insert-delete-getrandom-o1-duplicates-allowed/
-    // Array, Hash Table, Design
     // TC = O(1) in average, SC = O(n) to store n elements
-
     private List<Integer> list;
     private Map<Integer, Set<Integer>> map; // store <int val, Set<Integer> indices> as <k, v> pairs to handle duplicates
     private Random random;
 
-    /** Initialize your data structure here. */
+    /**
+     * Initialize your data structure here.
+     */
     public RandomizedCollection() {
         list = new ArrayList<>();
         map = new HashMap<>();
         random = new Random();
     }
 
-    /** Inserts a value to the collection. Returns true if the collection did not already contain the specified element. */
+    /**
+     * Inserts a value to the collection. Returns true if the collection did not already contain the specified element.
+     */
     public boolean insert(int val) {
         // execute insert no matter return true or false
         list.add(val);
@@ -30,7 +36,9 @@ public class RandomizedCollection {
         return map.get(val).size() == 1;
     }
 
-    /** Removes a value from the collection. Returns true if the collection contained the specified element. */
+    /**
+     * Removes a value from the collection. Returns true if the collection contained the specified element.
+     */
     public boolean remove(int val) {
         if (!map.containsKey(val) || map.get(val).size() == 0) {
             return false;
@@ -52,7 +60,9 @@ public class RandomizedCollection {
         return true;
     }
 
-    /** Get a random element from the collection. */
+    /**
+     * Get a random element from the collection.
+     */
     public int getRandom() {
         return list.get(random.nextInt(list.size()));
     }
@@ -64,28 +74,28 @@ public class RandomizedCollection {
         // [null,true,true,false,true,false,true,true,true,true]
         RandomizedCollection obj = new RandomizedCollection();
 
-//        List<Boolean> result1 = new ArrayList<>();
-//        result1.add(obj.insert(4));
-//        result1.add(obj.insert(3));
-//        result1.add(obj.insert(4));
-//        result1.add(obj.insert(2));
-//        result1.add(obj.insert(4));
-//        result1.add(obj.remove(4));
-//        result1.add(obj.remove(3));
-//        result1.add(obj.remove(4));
-//        result1.add(obj.remove(4));
-//        System.out.print(result1);
+        List<Boolean> result1 = new ArrayList<>();
+        result1.add(obj.insert(4));
+        result1.add(obj.insert(3));
+        result1.add(obj.insert(4));
+        result1.add(obj.insert(2));
+        result1.add(obj.insert(4));
+        result1.add(obj.remove(4));
+        result1.add(obj.remove(3));
+        result1.add(obj.remove(4));
+        result1.add(obj.remove(4));
+        System.out.print(result1);
 
         // test case 2:
         // ["RandomizedCollection","insert","remove","insert","remove","getRandom"]
         // [[],[0],[0],[-1],[0],[]]
-//        List<Object> result2 = new ArrayList<>();
-//        result2.add(obj.insert(0));
-//        result2.add(obj.remove(0));
-//        result2.add(obj.insert(-1));
-//        result2.add(obj.remove(0));
-//        result2.add(obj.getRandom());
-//        System.out.print(result2);
+        List<Object> result2 = new ArrayList<>();
+        result2.add(obj.insert(0));
+        result2.add(obj.remove(0));
+        result2.add(obj.insert(-1));
+        result2.add(obj.remove(0));
+        result2.add(obj.getRandom());
+        System.out.print(result2);
 
         // test case 3:
         // ["RandomizedCollection","insert","remove","insert","getRandom","remove","insert","getRandom"]

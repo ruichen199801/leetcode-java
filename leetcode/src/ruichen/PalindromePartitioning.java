@@ -4,38 +4,31 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PalindromePartitioning {
+    // DFS recursion tree:
+    //               aab
+    //      /         |         \
+    //     a          aa         aab
+    //    / \         |          (x)
+    //   a   ab       b
+    //   |   (x)
+    //   b
 
-    // #131 https://leetcode.com/problems/palindrome-partitioning/
-    // Depth-first Search
+    // arr    [a, a, b]
+    // index   0  1  2  3
+    // start
+    // end
+    // curr   []
+    // result []
 
+    // Time complexity = O(n * 2^n) -- 2^n: recursion tree, n: generate substring + isPalindrome (similar to #78 Subsets)
+    // For each character in the string we have 2 choices to create new palindrom substrings,
+    // one is to join with previous substring (for(...end++)),
+    // and another is to start a new palindrom substring (dfs(..end+1..)),
+    // thus in the worst case there are 2^N palindrom substrings where all cases are valid palindromes
+
+    // Space complexity = O(n), n = length of the string
     class Solution {
-
         public List<List<String>> partition(String s) {
-
-            // DFS recursion tree:
-            //               aab
-            //      /         |         \
-            //     a          aa         aab
-            //    / \         |          (x)
-            //   a   ab       b
-            //   |   (x)
-            //   b
-
-            // arr    [a, a, b]
-            // index   0  1  2  3
-            // start
-            // end
-            // curr   []
-            // result []
-
-            // Time complexity = O(n * 2^n) -- 2^n: recursion tree, n: generate substring + isPalindrome (similar to #78 Subsets)
-            // For each character in the string we have 2 choices to create new palindrom substrings,
-            // one is to join with previous substring (for(...end++)),
-            // and another is to start a new palindrom substring (dfs(..end+1..)),
-            // thus in the worst case there are 2^N palindrom substrings where all cases are valid palindromes
-
-            // Space complexity = O(n), n = length of the string
-
             List<List<String>> result = new ArrayList<>();
             if (s == null || s.length() == 0) {
                 return result;

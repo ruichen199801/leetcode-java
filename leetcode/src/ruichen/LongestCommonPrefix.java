@@ -1,15 +1,11 @@
 package ruichen;
 
 public class LongestCommonPrefix {
-
-    // #14 https://leetcode.com/problems/longest-common-prefix/
-    // String (-> Trie)
-
     class Solution1 {
+        // Method 1: linear scan (best)
+        // TC = O(n * m), n = length of string array, m = average length of string
+        // SC = O(m), m = length of strs[0] -> substring() cost
         public String longestCommonPrefix(String[] strs) {
-            // Method 1: linear scan (best)
-            // TC = O(n * m), n = length of string array, m = average length of string
-            // SC = O(m), m = length of strs[0] -> substring() cost
             if (strs == null || strs.length == 0) {
                 return " ";
             }
@@ -29,17 +25,16 @@ public class LongestCommonPrefix {
     }
 
     class Solution2 {
+        // Method 2: divide and conquer
+        // TC = O(n * m)
+        // SC = O(m * log n) as we are only storing "valid prefix" which is no longer than m in total
+
+        // At every level, you manipulate half the strings as the previous time. Therefore, the sequence looks geometric:
+        // 1 + 1/2 + 1/4 ... = 2
+        // Except in this case it's: n * m + n/2 * m + n/4 * m ... = 2nm (time)
+        // This calculation is less like merge sort (where each "level" is N steps) and more like the space of a binary tree (where each "level" is half as big as the one below it).
+        // space is O(m*log n), log(n) stack levels are created and each level of the stack holds a prefix (O(m))
         public String longestCommonPrefix(String[] strs) {
-            // Method 2: divide and conquer
-            // TC = O(n * m)
-            // SC = O(m * log n) as we are only storing "valid prefix" which is no longer than m in total
-
-            // At every level, you manipulate half the strings as the previous time. Therefore, the sequence looks geometric:
-            // 1 + 1/2 + 1/4 ... = 2
-            // Except in this case it's: n * m + n/2 * m + n/4 * m ... = 2nm (time)
-            // This calculation is less like merge sort (where each "level" is N steps) and more like the space of a binary tree (where each "level" is half as big as the one below it).
-            // space is O(m*log n), log(n) stack levels are created and each level of the stack holds a prefix (O(m))
-
             if (strs == null || strs.length == 0) {
                 return " ";
             }
@@ -47,7 +42,6 @@ public class LongestCommonPrefix {
         }
 
         private String partition(String[] strs, int left, int right) {
-            // base case
             if (left >= right) {
                 return strs[left];
             }
@@ -67,5 +61,4 @@ public class LongestCommonPrefix {
             return left;
         }
     }
-
 }

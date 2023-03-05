@@ -4,14 +4,10 @@ import java.util.ArrayDeque;
 import java.util.Queue;
 
 public class OneZeroMatrix {
-
-    // #542 https://leetcode.com/problems/01-matrix/
-    // Breadth-first Search
-    // TC = O(mn), SC = O(mn)
-
+    // Do BFS on the 0s. When we expand to 0s' neighbors, update 1's distances and enqueue 1
+    // TC = O(m * n), SC = O(m * n)
     class Solution {
         public int[][] updateMatrix(int[][] mat) {
-            // Do BFS on the 0s. When we expand to 0s' neighbors, update 1's distances and enqueue 1
             int m = mat.length, n = mat[0].length;
             int[][] dist = new int[m][n];
             Queue<int[]> queue = new ArrayDeque<>();
@@ -45,5 +41,4 @@ public class OneZeroMatrix {
             return dist;
         }
     }
-
 }

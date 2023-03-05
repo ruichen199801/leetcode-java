@@ -1,30 +1,15 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class BinaryTreePostorderTraversal {
-
-    // #145 https://leetcode.com/problems/binary-tree-postorder-traversal/
-    // Tree
-
-    public class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
+    // Recursive Solution
+    // TC = O(# of nodes) = O(n)
+    // SC = O(height) = O(log n) in average, O(n) at worst
     class Solution {
-
-        // Recursive Solution
-        // TC = O(# of nodes) = O(n)
-        // SC = O(height) = O(log n) in average, O(n) at worst
-
         public List<Integer> postorderTraversal(TreeNode root) {
             List<Integer> res = new ArrayList<>();
             helper(root, res);
@@ -40,5 +25,4 @@ public class BinaryTreePostorderTraversal {
             res.add(root.val);
         }
     }
-
 }

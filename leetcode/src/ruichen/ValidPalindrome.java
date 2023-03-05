@@ -1,10 +1,6 @@
 package ruichen;
 
 public class ValidPalindrome {
-
-    // #125 https://leetcode.com/problems/valid-palindrome/
-    // String, Two Pointers
-
     class Solution1 {
         // Method 1: Compare with reverse
         // Pretreatment: Only look at letters or numbers, convert to lower case
@@ -18,7 +14,7 @@ public class ValidPalindrome {
             }
             String original = sb.toString();
             String reversed = sb.reverse().toString();
-            return original.equals(reversed); // compare string: .equals(), compare char: ==
+            return original.equals(reversed);
         }
     }
 

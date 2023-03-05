@@ -9,11 +9,6 @@ import java.util.Map;
 import java.util.Queue;
 
 public class GraphValidTree {
-
-    // #261 https://leetcode.com/problems/graph-valid-tree/
-    // Graph, Depth-first Search, Breadth-first Search, Union Find
-    // Similar to #323
-
     /*
     General check if E = V - 1 (can do without it)
 
@@ -34,8 +29,7 @@ public class GraphValidTree {
     Method 3: Union find (with path compression)
 
               TC = O(V + E log V), SC = O(V)
-
-     */
+    */
 
     class Solution1 {
         // Method 1 - BFS

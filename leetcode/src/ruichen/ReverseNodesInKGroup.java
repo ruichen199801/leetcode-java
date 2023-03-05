@@ -1,38 +1,27 @@
 package ruichen;
 
+import ruichen.common.ListNode;
+
 public class ReverseNodesInKGroup {
+    //          1 -> 2 -> 3 -> 4 -> 5    k = 2
+    // dummy  head
+    //  cur
+    //  end   start
+    // end moves k times to 2, so we need to put end before start
 
-    // #25 https://leetcode.com/problems/reverse-nodes-in-k-group/
-    // Linked list
+    // reverse: 2 -> 1, 3 -> 4 -> 5
+    // TODO1: dummy -> 2
+    // TODO2: 1 -> 3
+    // TODO3: move cur to 1
+
+    //          2 -> 1 -> 3 -> 4 -> 5    k = 2
+    // dummy  head
+    //              cur
+    //              end start
+
     // TC = O(n), SC = O(1)
-
-    class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution {
         public ListNode reverseKGroup(ListNode head, int k) {
-            //          1 -> 2 -> 3 -> 4 -> 5    k = 2
-            // dummy  head
-            //  cur
-            //  end   start
-            // end moves k times to 2, so we need to put end before start
-
-            // reverse: 2 -> 1, 3 -> 4 -> 5
-            // TODO1: dummy -> 2
-            // TODO2: 1 -> 3
-            // TODO3: move cur to 1
-
-            //          2 -> 1 -> 3 -> 4 -> 5    k = 2
-            // dummy  head
-            //              cur
-            //              end start
-
             if (head == null || head.next == null || k == 0) {
                 return head;
             }

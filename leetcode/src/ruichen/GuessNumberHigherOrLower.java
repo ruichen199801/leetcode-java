@@ -1,19 +1,7 @@
 package ruichen;
 
 public class GuessNumberHigherOrLower {
-
-    // #374 https://leetcode.com/problems/guess-number-higher-or-lower/
-    // Binary Search
     // TC = O(log n), SC = O(1)
-
-    /**
-     * Forward declaration of guess API.
-     * num:   your guess
-     * @return 	     -1 if num is lower than the guess number
-     *			      1 if num is higher than the guess number
-     *               otherwise return 0
-     * int guess(int num);
-     */
     public class Solution {
         public int guessNumber(int n) { // map n to n+1
             int left = 0;
@@ -31,8 +19,8 @@ public class GuessNumberHigherOrLower {
             return -1;
         }
 
-        private int guess(int i) {
-            return -1; // to play around IntelliJ's syntax check
+        private int guess(int i) { // placeholder
+            return -1;
         }
     }
 }

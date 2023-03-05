@@ -1,19 +1,18 @@
 package ruichen;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Queue;
+import java.util.Set;
 
 public class WordBreak {
-
-    // #139 https://leetcode.com/problems/word-break/
-    // String, Hash Table, Dynamic Programming
-
     class Solution1 {
         // Method 1: DFS + Memoization
         // TC = O(n^3) (2^n -> n^3), SC = O(n)
         public boolean wordBreak(String s, List<String> wordDict) {
             Set<String> dict = new HashSet<>(wordDict);
             return dfs(s, dict, new Boolean[s.length()], 0);
-            // Boolean: null (unvisited), true / false (visited)
         }
 
         private boolean dfs(String s, Set<String> dict, Boolean[] visited, int start) {
@@ -36,16 +35,18 @@ public class WordBreak {
 
     class Solution2 {
         // Method 2: BFS
+
+        // [c a t s a n d d o g], [cats dog sand and cat]
+        //          0
+        //      /       \
+        //   3:cat      3:cats
+        //     |         |
+        //  7:sand      7:and
+        //     |         |
+        //  10:dog     10:dog
+
         // TC = O(n^3) (while loop * for loop * substring API), SC = O(n)
         public boolean wordBreak(String s, List<String> wordDict) {
-            // [c a t s a n d d o g], [cats dog sand and cat]
-            //          0
-            //      /       \
-            //   3:cat      3:cats
-            //     |         |
-            //  7:sand      7:and
-            //     |         |
-            //  10:dog     10:dog
             Set<String> dict = new HashSet<>(wordDict);
             Queue<Integer> queue = new ArrayDeque<>();
             boolean[] visited = new boolean[s.length()];
@@ -81,7 +82,7 @@ public class WordBreak {
             for (int i = 1; i <= s.length(); i++) {
                 for (int j = 0; j < i; j++) {
                     String word = s.substring(j, i);
-                    // check the subproblem (dp[j]) and the rest of the word (s.substring(j, i))
+                    // check the sub-problem (dp[j]) and the rest of the word (s.substring(j, i))
                     // "left big section, right small section"
                     if (dp[j] && dict.contains(word)) {
                         dp[i] = true;

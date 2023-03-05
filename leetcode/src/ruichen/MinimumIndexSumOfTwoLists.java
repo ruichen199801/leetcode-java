@@ -6,11 +6,7 @@ import java.util.List;
 import java.util.Map;
 
 public class MinimumIndexSumOfTwoLists {
-
-    // #599 https://leetcode.com/problems/minimum-index-sum-of-two-lists/
-    // Array, Hash Table
     // TC = O(l1 + l2) linear, SC = O(l1 * x), x = average string length
-
     class Solution {
         public String[] findRestaurant(String[] list1, String[] list2) {
             List<String> result = new ArrayList<>();

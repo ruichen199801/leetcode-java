@@ -4,11 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class GenerateParentheses {
-
-    // #22 https://leetcode.com/problems/generate-parentheses/
-    // Depth-first Search
     // TC = O(2^(2n) * n), SC = O(n)
-
     class Solution {
         public List<String> generateParenthesis(int n) {
             List<String> result = new ArrayList<>();

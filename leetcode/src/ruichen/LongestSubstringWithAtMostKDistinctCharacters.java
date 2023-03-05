@@ -4,19 +4,16 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class LongestSubstringWithAtMostKDistinctCharacters {
+    // e c e b a, k = 2
+    //       i
+    //     j
+    // map: {e:0, c:1, b:1}
+    // count = map.size()
+    // global max
 
-    // #340 https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/
-    // String, Sliding Window
     // TC = O(2n) = O(n), SC = O(min(k, n)) = O(max size of hash map)
-
     class Solution {
         public int lengthOfLongestSubstringKDistinct(String s, int k) {
-            // e c e b a, k = 2
-            //       i
-            //     j
-            // map: {e:0, c:1, b:1}
-            // count = map.size()
-            // global max
             if (s == null || s.length() == 0 || k == 0) {
                 return 0;
             }

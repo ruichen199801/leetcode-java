@@ -4,17 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class FindAllNumbersDisappearedInAnArray {
-
-    // #448 https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/
-    // Array
-
+    // TC = O(n), SC = O(1), same as #41
     class Solution {
-
-        // Same as #41 First Missing Positive
-        // Hash map in situ: TC = O(n), SC = O(1)
-
         public List<Integer> findDisappearedNumbers(int[] nums) {
-            int n = nums.length; // 1 <= nums[i] <= n
+            int n = nums.length;
             for (int i = 0; i < n; i++) {
                 int num = Math.abs(nums[i]);
                 nums[num - 1] = -Math.abs(nums[num - 1]);

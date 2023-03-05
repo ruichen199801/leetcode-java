@@ -1,11 +1,7 @@
 package ruichen;
 
 public class SpiralMatrixII {
-
-    // #59 https://leetcode.com/problems/spiral-matrix-ii/
-    // Array, Simulation
     // TC = O(n^2), SC = O(n^2) (count result matrix, otherwise O(1))
-
     class Solution {
         public int[][] generateMatrix(int n) {
             int[][] result = new int[n][n];

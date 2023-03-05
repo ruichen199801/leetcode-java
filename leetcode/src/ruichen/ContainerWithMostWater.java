@@ -1,15 +1,10 @@
 package ruichen;
 
 public class ContainerWithMostWater {
-
-    // #11 https://leetcode.com/problems/container-with-most-water/
-    // Array, Two Pointers
+    // Two pointers: area = (r - l) * min(height[l], height[r])
     // TC = O(n), SC = O(1)
-
     class Solution {
         public int maxArea(int[] height) {
-            // Two pointers
-            // area = (r - l) * min(height[l], height[r])
             int l = 0, r = height.length - 1;
             int max = 0;
             while (l < r) {

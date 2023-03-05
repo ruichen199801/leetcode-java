@@ -4,11 +4,7 @@ import java.util.Arrays;
 import java.util.PriorityQueue;
 
 public class MeetingRoomsII {
-
-    // #253 https://leetcode.com/problems/meeting-rooms-ii/
-    // Array, Sorting, Heap
     // TC = O(n log n + n) (sorting + for loop), SC = O(n + k) (sorting + heap)
-
     class Solution {
         public int minMeetingRooms(int[][] intervals) {
             if (intervals == null || intervals.length == 0) {

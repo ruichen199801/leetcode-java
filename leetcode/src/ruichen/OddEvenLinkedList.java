@@ -1,20 +1,9 @@
 package ruichen;
 
+import ruichen.common.ListNode;
+
 public class OddEvenLinkedList {
-
-    // #328 https://leetcode.com/problems/odd-even-linked-list/
-    // Linked List
     // TC = O(n), SC = O(1)
-
-    class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution {
         public ListNode oddEvenList(ListNode head) {
             if (head == null || head.next == null) {

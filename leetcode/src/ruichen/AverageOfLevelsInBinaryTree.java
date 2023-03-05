@@ -1,31 +1,14 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Queue;
 
 public class AverageOfLevelsInBinaryTree {
-
-    // #637 https://leetcode.com/problems/average-of-levels-in-binary-tree/
-    // Tree, Breadth-first Search
     // TC = O(n), SC = O(m), where n = # of nodes, m = max # of nodes at any level in the input tree
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) {
-            this.val = val;
-        }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
     class Solution {
         public List<Double> averageOfLevels(TreeNode root) {
             List<Double> result = new ArrayList<>();

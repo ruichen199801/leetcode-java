@@ -1,10 +1,6 @@
 package ruichen;
 
 public class PredictTheWinner {
-
-    // #486 https://leetcode.com/problems/predict-the-winner/
-    // Minimax, Dynamic Programming
-
     class Solution1 {
         // Recursion: TC = O(2^n), SC = O(n)
         public boolean PredictTheWinner(int[] nums) {
@@ -34,7 +30,6 @@ public class PredictTheWinner {
             for (int i = 0; i < len; i++) {
                 offset[i] = nums[i];
             }
-            // dp state transfer func
             // traverse order: result: (i - j) = (0 - 4)
             // so start from (3 - 4), (2 - 3 4), (1 - 2 3 4), (0 - 1 2 3 4)
             for (int i = len - 2; i >= 0; i--) {

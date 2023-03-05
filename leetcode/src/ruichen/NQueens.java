@@ -4,11 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class NQueens {
-
-    // #51 https://leetcode.com/problems/n-queens/
-    // Depth-first Search
     // TC = O(n! * n^2), SC = O(n^2)
-
     class Solution {
         public List<List<String>> solveNQueens(int n) {
             List<List<String>> result = new ArrayList<>();
@@ -39,7 +35,7 @@ public class NQueens {
         private boolean valid(int row, int col, int n, char[][] cur) {
             for (int r = 0; r < row; r++) {
                 for (int c = 0; c < n; c++) {
-                    if (cur[r][c] == 'Q' && (c  == col || Math.abs(col - c) == row - r)) {
+                    if (cur[r][c] == 'Q' && (c == col || Math.abs(col - c) == row - r)) {
                         return false;
                     }
                 }

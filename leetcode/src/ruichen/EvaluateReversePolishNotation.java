@@ -4,20 +4,15 @@ import java.util.ArrayDeque;
 import java.util.Deque;
 
 public class EvaluateReversePolishNotation {
+    /*
+    Case 1: If the token is an operator (+, -, *, /), we pop the top two values from the stack,
+    perform the operation, and push the result back onto the stack;
+    Case 2: If the token is a number, we parse it as an integer and push it onto the stack.
+    */
 
-    // #150 https://leetcode.com/problems/evaluate-reverse-polish-notation/
-    // Array, Math, Stack
     // TC = O(n), SC = O(n)
-
     class Solution {
         public int evalRPN(String[] tokens) {
-
-        /*
-        Case 1: If the token is an operator (+, -, *, /), we pop the top two values from the stack,
-        perform the operation, and push the result back onto the stack;
-        Case 2: If the token is a number, we parse it as an integer and push it onto the stack.
-        */
-
             Deque<Integer> stack = new ArrayDeque<>();
             for (String token : tokens) {
                 if (token.equals("+")) {

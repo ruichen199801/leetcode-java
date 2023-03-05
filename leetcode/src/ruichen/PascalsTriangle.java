@@ -4,14 +4,10 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PascalsTriangle {
-
-    // #118 https://leetcode.com/problems/pascals-triangle/
-    // Dynamic Programming
+    // 1 ... cur[i] = prev[i - 1] + prev[i] ... 1
     // TC = O(n^2) (the double for-loop), SC = O(n^2) (the result list)
-
     class Solution {
         public List<List<Integer>> generate(int numRows) {
-            // 1 ... cur[i] = prev[i - 1] + prev[i] ... 1
             List<List<Integer>> result = new ArrayList<>();
             for (int i = 0; i < numRows; i++) { // row
                 List<Integer> cur = new ArrayList<>();

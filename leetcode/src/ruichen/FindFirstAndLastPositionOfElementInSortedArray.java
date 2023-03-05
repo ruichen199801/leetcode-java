@@ -3,22 +3,18 @@ package ruichen;
 import java.util.Arrays;
 
 public class FindFirstAndLastPositionOfElementInSortedArray {
-
-    // #34 https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/
-    // Array, Binary Search
     // TC = O(log n), SC = O(1)
-
     public int[] searchRange(int[] nums, int target) {
         if (nums.length == 0) {
-            return new int[] {-1, -1};
+            return new int[]{-1, -1};
         }
         int first = search(nums, target, true);
         int last = search(nums, target, false);
-        return new int[] {first, last};
+        return new int[]{first, last};
     }
 
-    // a generalized method to find boundary for both first and last occurrence
-    // only 2 differences between first and last algorithm: 1) mid == target 2) post-process
+    // A generalized method to find boundary for both first and last occurrence.
+    // only 2 differences between first and last algorithm: 1) mid == target 2) post-process.
     private int search(int[] nums, int target, boolean isFirst) {
         // 5, 7, 7, 8, 8, 10, T = 8
         int left = 0, right = nums.length - 1;
@@ -36,7 +32,8 @@ public class FindFirstAndLastPositionOfElementInSortedArray {
                 left = mid;
             }
         }
-        // post-processing the two elements left
+
+        // Post-processing the two elements left.
         if (isFirst) {
             if (nums[left] == target) {
                 return left;

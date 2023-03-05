@@ -1,29 +1,17 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 import java.util.ArrayDeque;
 import java.util.ArrayList;
 import java.util.Deque;
 import java.util.List;
 
 public class BinaryTreeZigzagLevelOrderTraversal {
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
-
+    // Normal append: offerLast, normal pop: pollLast
+    // Insert at head: offerFirst, pop first element: pollFirst
+    // TC = O(n), SC = O(n)
     class Solution {
-
-        // #103 https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/
-        // Tree, Breadth-first Search
-        // TC = O(n), SC = O(n)
-
-        // normal append: offerLast, normal pop: pollLast
-        // insert at head: offerFirst, pop first element: pollFirst
         public List<List<Integer>> zigzagLevelOrder(TreeNode root) {
             List<List<Integer>> result = new ArrayList<>();
             if (root == null) {

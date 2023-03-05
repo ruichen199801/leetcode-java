@@ -1,13 +1,8 @@
 package ruichen;
 
 public class RearrangeSpacesBetweenWords {
-
-    // #1592 https://leetcode.com/problems/rearrange-spaces-between-words/
-    // String
-    // TC = O(n), SC = O(n)
-
     class Solution1 {
-        // Construct the answer char by char
+        // Construct the answer char by char: TC = O(n), SC = O(n)
         public String reorderSpaces(String text) {
             int wordCount = 0, spaceCount = 0;
             char[] arr = text.toCharArray();
@@ -54,7 +49,7 @@ public class RearrangeSpacesBetweenWords {
     }
 
     class Solution2 {
-        // Construct the answer word by word
+        // Construct the answer word by word: TC = O(n), SC = O(n)
         public String reorderSpaces(String text) {
             String[] words = text.trim().split("\\s+");
             int wordCount = words.length;

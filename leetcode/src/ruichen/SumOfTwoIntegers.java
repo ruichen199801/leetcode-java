@@ -1,17 +1,10 @@
 package ruichen;
 
 public class SumOfTwoIntegers {
-
-    // #371 https://leetcode.com/problems/sum-of-two-integers/
-    // Bit Manipulation
     // TC = O(1) (each integer contains 32 bits), SC = O(1)
-
     class Solution {
-
         public int getSum(int a, int b) {
-
             // negative number's binary representation in Java: 2's complement
-
             while (b != 0) {
                 // addition without carry: 1+1=0, 1+0=1, 0+0=0 -> XOR
                 int result = a ^ b;
@@ -24,7 +17,5 @@ public class SumOfTwoIntegers {
             }
             return a;
         }
-
     }
-
 }

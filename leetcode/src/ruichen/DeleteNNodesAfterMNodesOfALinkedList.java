@@ -1,21 +1,10 @@
 package ruichen;
 
+import ruichen.common.ListNode;
+
 public class DeleteNNodesAfterMNodesOfALinkedList {
-
-    // #1474 https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/
-    // Linked List
-    // TC = O(n), SC = O(1)
-
-    class ListNode {
-        int val;
-        ListNode next;
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution1 {
-        // dummy node
+        // Use dummy node: TC = O(n), SC = O(1)
         public ListNode deleteNodes(ListNode head, int m, int n) {
             ListNode dummy = new ListNode(0);
             dummy.next = head;
@@ -36,7 +25,7 @@ public class DeleteNNodesAfterMNodesOfALinkedList {
     }
 
     class Solution2 {
-        // without dummy node
+        // Without dummy node: TC = O(n), SC = O(1)
         public ListNode deleteNodes(ListNode head, int m, int n) {
             // slow: mark result, fast: traverse and process
             ListNode slow = head, fast = head;

@@ -4,19 +4,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class RestoreIPAddresses {
-
-    // #93 https://leetcode.com/problems/restore-ip-addresses/
-    // String, Depth-first Search
-
+    // Classic DFS with two conditions to decide where it ends:
+    // DFS ends when we have 4 ips, and when we reach the last character of the string
+    // TC = O(3 * 3 * 3) = O(27) = O(1), SC = O(1)
+    // if a dot is already placed: next dot: 1, 2, 3 chars away
+    // the first dot only has 3 positions to choose from as well
     class Solution {
         public List<String> restoreIpAddresses(String s) {
-
-            // Classic DFS with two conditions to decide where it ends:
-            // DFS ends when we have 4 ips, and when we reach the last character of the string
-            // TC = O(3 * 3 * 3) = O(27) = O(1), SC = O(1)
-            // if a dot is already placed: next dot: 1, 2, 3 chars away
-            // the first dot only has 3 positions to choose from as well
-
             List<String> result = new ArrayList<>();
             dfs(s, new StringBuilder(), result, 0, 0);
             return result;

@@ -8,10 +8,6 @@ import java.util.Map;
 import java.util.Queue;
 
 public class FindIfPathExistsInGraph {
-
-    // #1971 https://leetcode.com/problems/find-if-path-exists-in-graph/
-    // Graph, Depth-first Search, Breadth-first Search, Union Find
-
     class Solution1 {
         // Method 1: BFS
         // TC = O(V + E), SC = O(V + E) (consider hash map in SC)
@@ -20,7 +16,7 @@ public class FindIfPathExistsInGraph {
             Map<Integer, List<Integer>> paths = new HashMap<>();
             for (int[] edge : edges) {
                 int u = edge[0], v = edge[1];
-                // bidirectional: add both u->v and v->u for (u, v)
+                // Bidirectional: add both u->v and v->u for (u, v)
                 if (!paths.containsKey(u)) paths.put(u, new ArrayList<>());
                 if (!paths.containsKey(v)) paths.put(v, new ArrayList<>());
                 paths.get(u).add(v);
@@ -48,7 +44,6 @@ public class FindIfPathExistsInGraph {
             return false;
         }
     }
-
 
     class Solution2 {
         // Method 2: DFS
@@ -87,11 +82,20 @@ public class FindIfPathExistsInGraph {
         }
     }
 
+    class Solution3 {
+        // Method 3: Disjoint Set Union
+        // TC: O(E * α(V)) (E times union find operations, α(V) is inverse Ackermann function)
+        // One operation: worse case O(n) -> O(log n) (path compression) -> O(α(n)) (union by rank)
+        // SC: O(V) (2V for root array and rank array)
+        public boolean validPath(int n, int[][] edges, int source, int destination) {
+            UnionFind uf = new UnionFind(n);
+            for (int[] edge : edges) {
+                uf.union(edge[0], edge[1]);
+            }
+            return uf.find(source) == uf.find(destination);
+        }
+    }
 
-    // Method 3: Disjoint Set Union
-    // TC: O(E * α(V)) (E times union find operations, α(V) is inverse Ackermann function)
-    // One operation: worse case O(n) -> O(log n) (path compression) -> O(α(n)) (union by rank)
-    // SC: O(V) (2V for root array and rank array)
     class UnionFind {
         private int[] root;
         private int[] rank;
@@ -131,15 +135,4 @@ public class FindIfPathExistsInGraph {
             }
         }
     }
-
-    class Solution3 {
-        public boolean validPath(int n, int[][] edges, int source, int destination) {
-            UnionFind uf = new UnionFind(n);
-            for (int[] edge : edges) {
-                uf.union(edge[0], edge[1]);
-            }
-            return uf.find(source) == uf.find(destination);
-        }
-    }
-
 }

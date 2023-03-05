@@ -1,16 +1,12 @@
 package ruichen;
 
 public class TrappingRainWater {
-
-    // #42 https://leetcode.com/problems/trapping-rain-water/
-    // Dynamic Programming, Two Pointers
-
     class Solution1 {
+        // Unit of water stored = min(L, R) - height[i]
+        // L - max height on the left, R - max height on the right
+        // iterate through array to get leftMax and rightMax for each i, then subtract
+        // TC = O(n), SC = O(n)
         public int trap(int[] height) {
-            // Unit of water stored = min(L, R) - height[i]
-            // L - max height on the left, R - max height on the right
-            // iterate through array to get leftMax and rightMax for each i, then subtract
-            // TC = O(n), SC = O(n)
             if (height == null || height.length == 0) {
                 return 0;
             }
@@ -33,11 +29,11 @@ public class TrappingRainWater {
     }
 
     class Solution2 {
+        // Use two pointers to optimize memory storage in one iteration
+        // height[i] xxxxxxxxx
+        //           i -> <- j
+        // TC = O(n), SC = O(1)
         public int trap(int[] height) {
-            // Use two pointers to optimize memory storage in one iteration
-            // height[i] xxxxxxxxx
-            //           i -> <- j
-            // TC = O(n), SC = O(1)
             if (height == null || height.length == 0) {
                 return 0;
             }

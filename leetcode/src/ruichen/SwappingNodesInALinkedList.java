@@ -1,22 +1,11 @@
 package ruichen;
 
+import ruichen.common.ListNode;
+
 public class SwappingNodesInALinkedList {
-
-    // #1721 https://leetcode.com/problems/swapping-nodes-in-a-linked-list/
-    // Linked list
+    // One pass: find position of two nodes using slow and fast pointer without computing length of linked list
     // TC = O(n), SC = O(1)
-
-    class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution {
-        // One pass: find position of two nodes using slow and fast pointer without computing length of linked list
         public ListNode swapNodes(ListNode head, int k) {
             // 1 <= k <= n
             if (head == null || head.next == null) {

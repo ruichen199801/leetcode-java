@@ -3,11 +3,7 @@ package ruichen;
 import java.util.List;
 
 public class MinimumTimeDifference {
-
-    // #539 https://leetcode.com/problems/minimum-time-difference/
-    // Array, Sorting
     // TC = O(n) (line 14), SC = O(1) (fixed-length bucket)
-
     class Solution {
         public int findMinDifference(List<String> timePoints) {
             boolean[] bucket = new boolean[60 * 24];

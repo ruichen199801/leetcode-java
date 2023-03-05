@@ -1,13 +1,14 @@
 package ruichen;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.Queue;
 
 public class CourseSchedule {
-
-    // #207 https://leetcode.com/problems/course-schedule/
-    // Graph, Breadth-first Search, Topological Sort
     // TC = O(E + V), SC = O(E + V) (E: number of dependencies, V: number of courses)
-
     class Solution {
         public boolean canFinish(int numCourses, int[][] prerequisites) {
             Map<Integer, List<Integer>> graph = new HashMap<>(); // <start, [end]>

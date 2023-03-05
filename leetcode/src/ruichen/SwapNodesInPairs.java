@@ -1,22 +1,11 @@
 package ruichen;
 
+import ruichen.common.ListNode;
+
 public class SwapNodesInPairs {
-
-    // #24 https://leetcode.com/problems/swap-nodes-in-pairs/
-    // Linked list
+    // See #25
     // TC = O(n), SC = O(1)
-
-    class ListNode {
-        int val;
-        ListNode next;
-
-        public ListNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution {
-        // based on #25
         public ListNode swapPairs(ListNode head) {
             if (head == null || head.next == null) {
                 return head;

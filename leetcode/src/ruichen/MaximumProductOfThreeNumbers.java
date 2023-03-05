@@ -1,11 +1,7 @@
 package ruichen;
 
 public class MaximumProductOfThreeNumbers {
-
-    // #628 https://leetcode.com/problems/maximum-product-of-three-numbers/
-    // Array, Math
     // TC = O(n), SC = O(1)
-
     class Solution {
         public int maximumProduct(int[] nums) {
             // min1 <= min2 <= max3 <= max2 <= max1

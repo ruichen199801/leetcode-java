@@ -1,27 +1,30 @@
 package ruichen;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Queue;
+import java.util.Set;
 
 public class JumpGameIV {
+    // BFS: reach end, return steps: automatically "minSteps"
+    // arr = [100,-23,-23,404,100,23,23,23,3,404]
+    // dict: {100: [0, 4]}, {-23: [1, 2]}, {404: [3, 9]}, {23: [5, 6, 7]}, {3: [8]}
+    // visited set (offer into queue and visited set at the same time)
+    // queue
+    // algorithm: initialize, check answer, expand neighbors (same value -> +1 / -1), update steps
 
-    // #1345 https://leetcode.com/problems/jump-game-iv/
-    // Array, Hash Table, Breadth-first Search
+    // steps 3
+    // dict: {100: []}, {-23: []}, {404: []}, {23: []}, {3: [8]}
+    // visited 0 4 1 3 5 2 6 7 9
+    // queue   9 6 7
+
     // TC = O(n), SC = O(n)
-
     class Solution {
         public int minJumps(int[] arr) {
-            // BFS: reach end, return steps: automatically "minSteps"
-            // arr = [100,-23,-23,404,100,23,23,23,3,404]
-            // dict: {100: [0, 4]}, {-23: [1, 2]}, {404: [3, 9]}, {23: [5, 6, 7]}, {3: [8]}
-            // visited set (offer into queue and visited set at the same time)
-            // queue
-            // algorithm: initialize, check answer, expand neighbors (same value -> +1 / -1), update steps
-
-            // steps 3
-            // dict: {100: []}, {-23: []}, {404: []}, {23: []}, {3: [8]}
-            // visited 0 4 1 3 5 2 6 7 9
-            // queue   9 6 7
-
             if (arr == null || arr.length <= 1) {
                 return 0;
             }

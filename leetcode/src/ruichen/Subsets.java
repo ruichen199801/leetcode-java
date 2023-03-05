@@ -4,12 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Subsets {
-
-    // #78 https://leetcode.com/problems/subsets/
-    // Depth-first Search
     // TC = O(2^n * n): for each layer, 2^n numbers of recursive calls * O(n) deep copy curr to result
     // SC = O(n): recursion call stack (if we ignore the memory used only to return result)
-
     public List<List<Integer>> subsets(int[] nums) {
         List<List<Integer>> result = new ArrayList<>();
         List<Integer> curr = new ArrayList<>();
@@ -22,6 +18,7 @@ public class Subsets {
             result.add(new ArrayList<>(curr)); // result.add(curr); -> [[], [], [], [], [], [], [], []]
             return;
         }
+
         // case 1: add the current element
         curr.add(nums[index]);
         helper(nums, index + 1, curr, result);
@@ -47,4 +44,4 @@ For b:                        {a, b}                 {a}                {b}     
                             /       \              /     \            /     \            /    \
 For c:                 {a, b, c}   {a, b}      {a, c}    {a}      {b, c}    {b}         {c}   { }
 
- */
+*/

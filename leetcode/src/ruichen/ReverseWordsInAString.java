@@ -1,11 +1,7 @@
 package ruichen;
 
 public class ReverseWordsInAString {
-
-    // #151 https://leetcode.com/problems/reverse-words-in-a-string/
-    // String, Two Pointers
     // TC = O(n), SC = O(n) to store results
-
     class Solution {
         public String reverseWords(String s) {
             // step 1: trim the input string

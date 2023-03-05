@@ -1,20 +1,9 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 public class FlattenBinaryTreeToLinkedList {
-
-    // #114 https://leetcode.com/problems/flatten-binary-tree-to-linked-list/
-    // Tree, Depth-first Search
     // TC = O(n), SC = O(n)
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
-
     public void flatten(TreeNode root) {
         if (root == null) {
             return;

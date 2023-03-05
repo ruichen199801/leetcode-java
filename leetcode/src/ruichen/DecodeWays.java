@@ -1,11 +1,7 @@
 package ruichen;
 
 public class DecodeWays {
-
-    // #91 https://leetcode.com/problems/decode-ways/
-    // Dynamic Programming
     // TC = O(n), SC = O(n)
-
     class Solution {
         public int numDecodings(String s) {
             int n = s.length();
@@ -28,5 +24,4 @@ public class DecodeWays {
             return dp[n];
         }
     }
-
 }

@@ -4,38 +4,31 @@ import java.util.HashMap;
 import java.util.Map;
 
 public class MinimumWindowSubstring {
+    //         0 1 2 3 4 5 6 7 8 9 10 11 12
+    //    s = "A D O B E C O D E B  A  N  C"
+    //         i -- slow pointer, move to contract found window to shave off unnecessary prefix
+    //         j -- fast pointer, move to expand new window that satisfies
 
-    // #76 https://leetcode.com/problems/minimum-window-substring/
-    // String, Sliding Window
+    //  count = 3 -- number of unique characters left to be found to include into the window substring
+    //            -- > 0: continue expanding
+    //            -- == 0: begin extracting
 
+    //  left = 0 -- left and right bound we've found of the min window substring that contains t
+    //  right = 12
+    //  minLength = 13 -- for convience, actually left and right are enough
+    //  isFound = false -- if t is nowhere to be found in s, return ""
+
+    // Map: t = "ABC"
+    // A: 1
+    // B: 1
+    // C: 1
+
+    // N: size of string s, M: size of string t
+    // Time complexity = O(2N + M) = O(N + M), m for creating hashmap and 2n for sliding window
+    // in worst case slow and fast pointer both sees all elements
+    // Space complexity = O(M) for hashmap storage
     class Solution {
-
         public String minWindow(String s, String t) {
-
-            //         0 1 2 3 4 5 6 7 8 9 10 11 12
-            //    s = "A D O B E C O D E B  A  N  C"
-            //         i -- slow pointer, move to contract found window to shave off unnecessary prefix
-            //         j -- fast pointer, move to expand new window that satisfies
-
-            //  count = 3 -- number of unique characters left to be found to include into the window substring
-            //            -- > 0: continue expanding
-            //            -- == 0: begin extracting
-
-            //  left = 0 -- left and right bound we've found of the min window substring that contains t
-            //  right = 12
-            //  minLength = 13 -- for convience, actually left and right are enough
-            //  isFound = false -- if t is nowhere to be found in s, return ""
-
-            // Map: t = "ABC"
-            // A: 1
-            // B: 1
-            // C: 1
-
-            // N: size of string s, M: size of string t
-            // Time complexity = O(2N + M) = O(N + M), m for creating hashmap and 2n for sliding window
-            // in worst case slow and fast pointer both sees all elements
-            // Space complexity = O(M) for hashmap storage
-
             if (s == null || t == null || s.length() == 0 || t.length() == 0) {
                 return "";
             }
@@ -87,7 +80,6 @@ public class MinimumWindowSubstring {
             }
 
             return isFound ? s.substring(left - 1, right) : ""; // [left - 1, right - 1]
-
         }
     }
 }

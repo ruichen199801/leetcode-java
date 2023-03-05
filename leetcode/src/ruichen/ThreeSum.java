@@ -5,19 +5,11 @@ import java.util.Arrays;
 import java.util.List;
 
 public class ThreeSum {
-
-    // #15 https://leetcode.com/problems/3sum/
-    // Array, Two Pointers
-
+    // Two Pointers: Wrap a for-loop around TwoSum (de-dup can be a little tricky)
+    // TC = O(n log n) (sorting) + O(n^2) (n * TwoSum) = O(n^2)
+    // SC = O(log n), depends on implementation of sorting
     class Solution {
         public List<List<Integer>> threeSum(int[] nums) {
-
-            // Two Pointers (Recommended)
-            // Wrap a for-loop around TwoSum (de-dup can be a little tricky)
-            // TC = O(n log n) (sorting) + O(n^2) (n * TwoSum) = O(n^2)
-            // SC = O(log n), depends on implementation of sorting
-            // For the purpose of complexity analysis, we ignore the memory required for the output
-
             List<List<Integer>> result = new ArrayList<>();
             Arrays.sort(nums);
             for (int i = 0; i < nums.length - 2; i++) {

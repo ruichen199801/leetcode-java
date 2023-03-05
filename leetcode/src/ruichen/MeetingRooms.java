@@ -3,14 +3,9 @@ package ruichen;
 import java.util.Arrays;
 
 public class MeetingRooms {
-
-    // #252 https://leetcode.com/problems/meeting-rooms/
-    // Array, Sorting
     // TC = O(n log n + n) (sorting + for loop), SC = O(log n) in average, O(n) worst case (sorting)
-
     class Solution {
         public boolean canAttendMeetings(int[][] intervals) {
-            // corner case
             if (intervals == null || intervals.length == 0) {
                 return true;
             }

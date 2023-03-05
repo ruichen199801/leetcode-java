@@ -1,16 +1,16 @@
 package ruichen;
 
-import java.util.*;
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Queue;
 
 public class AllPathsFromSourceToTarget {
-
-    // #797 https://leetcode.com/problems/all-paths-from-source-to-target/
-    // Breadth-first Search, Graph
     // TC = O(n^2 * 2^n): n: for (int neighbor : neighbors)
     //                    n: List<Integer> newPath = new ArrayList<>(path);
     //                   2^n: for every node, either add it in the path or not
     // SC = O(2^n): worst case enqueue all possible paths
-
     class Solution {
         public List<List<Integer>> allPathsSourceTarget(int[][] graph) {
             List<List<Integer>> result = new ArrayList<>();

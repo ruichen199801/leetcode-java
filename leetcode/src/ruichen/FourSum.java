@@ -5,11 +5,7 @@ import java.util.Arrays;
 import java.util.List;
 
 public class FourSum {
-
-    // #18 https://leetcode.com/problems/4sum/
-    // Array, Two Pointers
     // TC = O(n^3), SC = O(log n)
-
     class Solution {
         public List<List<Integer>> fourSum(int[] nums, int target) {
             List<List<Integer>> result = new ArrayList<>();

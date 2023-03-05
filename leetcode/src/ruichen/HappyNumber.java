@@ -4,14 +4,9 @@ import java.util.HashSet;
 import java.util.Set;
 
 public class HappyNumber {
-
-    // #202 https://leetcode.com/problems/happy-number/ -> #142
-    // Hash Table, Two Pointers
-
+    // See #142
     class Solution1 {
-
-        // Hash Table: TC = O(log n), SC (= TC) = O(log n)
-
+        // Hash Table: TC = O(log n), SC = O(log n)
         public boolean isHappy(int n) {
             Set<Integer> seen = new HashSet<>();
             while (n != 1 && !seen.contains(n)) {
@@ -33,9 +28,7 @@ public class HappyNumber {
     }
 
     class Solution2 {
-
         // Floyd's Cycle-Finding Algorithm: TC = O(log n), SC = O(1)
-
         public boolean isHappy(int n) {
             int slow = n, fast = getNext(n);
             while (slow != fast) {

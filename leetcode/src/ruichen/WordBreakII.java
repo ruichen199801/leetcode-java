@@ -6,24 +6,19 @@ import java.util.List;
 import java.util.Set;
 
 public class WordBreakII {
+    // DFS: TC = O(2^n * n^2 + m), SC = O(n + 2^n + m * l)
+    // n = length of the string, m = length of wordDict, l = average length of each word in wordDict
 
-    // #140 https://leetcode.com/problems/word-break-ii/
-    // String, Hash Table, Depth-first Search
+    // Time:
+    // 2^n: "do we need to put a char or put a space at each pos": two possible states
+    // n^2: for-loop * substring API
+    // m: one-time convert list to set
 
+    // Space:
+    // n: recursion stack
+    // 2^n: space on heap to store all states as results if all of them are valid
+    // m * l: space needed for the wordDict set
     class Solution {
-
-        // Elegant classic DFS solution
-        // Time = O(2^n * n^2 + m), Space = O(n + 2^n + m * l) (?)
-        // n = length of the string, m = length of wordDict, l = average length of each word in wordDict
-        // Time:
-        // 2^n: "do we need to put a char or put a space at each pos": two possible states
-        // n^2: for-loop * substring API
-        // m: one-time convert list to set
-        // Space:
-        // n: recursion stack
-        // 2^n: space on heap to store all states as results if all of them are valid
-        // m * l: space needed for the wordDict set
-
         public List<String> wordBreak(String s, List<String> wordDict) {
             Set<String> dict = new HashSet<>(wordDict);
             List<String> result = new ArrayList<>();

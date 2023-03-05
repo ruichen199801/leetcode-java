@@ -1,11 +1,7 @@
 package ruichen;
 
 public class SearchA2DMatrixII {
-
-    // #240 https://leetcode.com/problems/search-a-2d-matrix-ii/
-    // Array, Binary Search
     // TC = O(row + col), SC = O(1)
-
     class Solution {
         public boolean searchMatrix(int[][] matrix, int target) {
             if (matrix == null || matrix.length == 0) {

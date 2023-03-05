@@ -3,18 +3,15 @@ package ruichen;
 import java.util.Arrays;
 
 public class IsomorphicStrings {
+    // foo bar
+    // f-b, b-f
+    // o-a, a-o
+    // expect o-a, not o-r, return false
 
-    // #205 https://leetcode.com/problems/isomorphic-strings/
-    // String, Hash Table
     // TC = O(n), SC = O(1) (256 == 1)
-
     class Solution {
         public boolean isIsomorphic(String s, String t) {
-            // foo bar
-            // f-b, b-f
-            // o-a, a-o
-            // expect o-a, not o-r, return false
-            int[] sToT = new int[256]; // 256 ascii characters, 0 - 255
+            int[] sToT = new int[256]; // 256 ascii characters, 0-255
             Arrays.fill(sToT, -1);
             int[] tToS = new int[256];
             Arrays.fill(tToS, -1);

@@ -1,12 +1,8 @@
 package ruichen;
 
 public class FirstMissingPositive {
-
-    // #41 https://leetcode.com/problems/first-missing-positive/
-    // Array
-
+    // TC = O(n), SC = O(1)
     class Solution {
-        // TC = O(n), SC = O(1)
         public int firstMissingPositive(int[] nums) {
             int n = nums.length;
             for (int i = 0; i < n; i++) {
@@ -14,8 +10,6 @@ public class FirstMissingPositive {
                     nums[i] = n + 1;
                 }
             }
-            // hash table in situ: mark with negative sign
-            // positve integer: 1 - N -> index: 0 - N-1
             for (int i = 0; i < n; i++) {
                 int num = Math.abs(nums[i]);
                 if (num <= n) {

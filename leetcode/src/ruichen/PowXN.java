@@ -1,11 +1,7 @@
 package ruichen;
 
 public class PowXN {
-
-    // #50 https://leetcode.com/problems/powx-n/
-    // Math, Recursion
     // TC = O(log n), SC = O(log n)
-
     class Solution {
         public double myPow(double x, int n) {
             if (x == 0) {

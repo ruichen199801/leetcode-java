@@ -1,24 +1,13 @@
 package ruichen;
 
+import ruichen.common.Node;
+
 import java.util.ArrayList;
 import java.util.List;
 
 public class NaryTreePostorderTraversal {
-
-    // #590 https://leetcode.com/problems/n-ary-tree-postorder-traversal/
-    // Tree
-
-    class Node {
-        int val;
-        List<Node> children;
-        public Node(int val, List<Node> children) {
-            this.val = val;
-            this.children = children;
-        }
-    }
-
+    // Recursive Solution: TC = O(n), SC = O(n) at worst
     class Solution {
-        // Recursive Solution: TC = O(n), SC = O(n) at worst
         public List<Integer> postorder(Node root) {
             List<Integer> res = new ArrayList<>();
             helper(root, res);

@@ -1,11 +1,7 @@
 package ruichen;
 
 public class ReverseVowelsOfAString {
-
-    // #345 https://leetcode.com/problems/reverse-vowels-of-a-string/
-    // String, Two Pointers
     // TC = O(n), SC: this should be an in-place operation, but the toCharArray() and new String() method costs O(n)
-
     class Solution {
         public String reverseVowels(String s) {
             if (s == null || s.length() <= 1) {
@@ -30,7 +26,7 @@ public class ReverseVowelsOfAString {
 
         private boolean isVowel(char[] arr, int i) {
             char ch = Character.toLowerCase(arr[i]);
-            if (ch == 'a' || ch == 'e' || ch == 'i' || ch =='o' || ch == 'u') {
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
                 return true;
             }
             return false;

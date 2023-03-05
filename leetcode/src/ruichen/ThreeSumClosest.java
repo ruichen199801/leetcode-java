@@ -3,14 +3,9 @@ package ruichen;
 import java.util.Arrays;
 
 public class ThreeSumClosest {
-
-    // #16 https://leetcode.com/problems/3sum-closest/
-    // Array, Two Pointers
-
+    // Two Pointers: TC = O(log n + n^2) = O(n^2), SC = O(log n) (sorting)
     class Solution {
         public int threeSumClosest(int[] nums, int target) {
-            // Assumption: each input would have exactly one solution
-            // Two Pointers: TC = O(log n + n^2) = O(n^2), SC = O(log n) (sorting)
             Arrays.sort(nums);
             int diff = Integer.MAX_VALUE;
             // we can use sum here, but to initialize it with Integer.MAX_VALUE or Integer.MIN_VALUE could cause ambiguity or worse, integer overflow

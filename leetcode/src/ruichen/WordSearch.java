@@ -1,12 +1,8 @@
 package ruichen;
 
 public class WordSearch {
-
-    // #79 https://leetcode.com/problems/word-search/
-    // Array, Depth-first Search
     // TC = O(N * 3^L), N = # of cells on the board, L = word length
     // SC = O(L), maximum L recursion calls
-
     class Solution {
         public boolean exist(char[][] board, String word) {
             int m = board.length, n = board[0].length;

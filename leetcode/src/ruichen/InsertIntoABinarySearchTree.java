@@ -1,23 +1,11 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 public class InsertIntoABinarySearchTree {
-
-    // #701 https://leetcode.com/problems/insert-into-a-binary-search-tree/
-    // Tree, Binary Search Tree
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
-
     class Solution1 {
+        // Recursive: TC = O(h), SC = O(h), see #108
         public TreeNode insertIntoBST(TreeNode root, int val) {
-            // Recursive: TC = O(h), SC = O(h)
-            // #108
             if (root == null) {
                 return new TreeNode(val); // reach bottom, prepare to-be-inserted node to return to last level
             }
@@ -31,8 +19,8 @@ public class InsertIntoABinarySearchTree {
     }
 
     class Solution2 {
+        // Iterative: TC = O(h), SC = O(1)
         public TreeNode insertIntoBST(TreeNode root, int val) {
-            // Iterative: TC = O(h), SC = O(1)
             TreeNode cur = root; // don't lose control of root
             while (cur != null) {
                 if (cur.val > val) {

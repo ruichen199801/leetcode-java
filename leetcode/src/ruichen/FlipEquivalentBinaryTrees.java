@@ -1,22 +1,10 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 public class FlipEquivalentBinaryTrees {
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode(int val) {
-            this.val = val;
-        }
-    }
-
+    // TC = O(min(N1, N2)), SC = O(min(H1, H2))
     class Solution {
-
-        // #951 https://leetcode.com/problems/flip-equivalent-binary-trees/
-        // Tree, Depth-first Search
-        // TC = O(min(N1, N2)), SC = O(min(H1, H2))
-
         public boolean flipEquiv(TreeNode root1, TreeNode root2) {
             if (root1 == null && root2 == null) {
                 return true;
@@ -24,7 +12,8 @@ public class FlipEquivalentBinaryTrees {
             if (root1 == null || root2 == null || root1.val != root2.val) {
                 return false;
             }
-            return (flipEquiv(root1.left, root2.left) && flipEquiv(root1.right, root2.right)) || (flipEquiv(root1.left, root2.right) && flipEquiv(root1.right, root2.left));
+            return (flipEquiv(root1.left, root2.left) && flipEquiv(root1.right, root2.right))
+                    || (flipEquiv(root1.left, root2.right) && flipEquiv(root1.right, root2.left));
         }
     }
 }

@@ -1,26 +1,9 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 public class ValidateBinarySearchTree {
-
-    // #98 https://leetcode.com/problems/validate-binary-search-tree/
-    // Tree, Binary Search Tree, Depth-first Search
     // TC = O(n), SC = O(height)
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) {
-            this.val = val;
-        }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
     class Solution {
         public boolean isValidBST(TreeNode root) {
             return isValidBSTHelper(root, null, null);

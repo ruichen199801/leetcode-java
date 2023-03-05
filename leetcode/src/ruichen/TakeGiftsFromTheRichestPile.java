@@ -3,10 +3,6 @@ package ruichen;
 import java.util.PriorityQueue;
 
 public class TakeGiftsFromTheRichestPile {
-
-    // #2558 https://leetcode.com/problems/take-gifts-from-the-richest-pile/
-    // Array, Heap
-
     class Solution1 {
         // TC = O(kn), SC = O(1)
         public long pickGifts(int[] gifts, int k) {
@@ -33,6 +29,7 @@ public class TakeGiftsFromTheRichestPile {
             return maxIdx;
         }
     }
+
     class Solution2 {
         // TC = O(k log n + n log n), SC = O(n)
         public long pickGifts(int[] gifts, int k) {

@@ -1,11 +1,7 @@
 package ruichen;
 
 public class ReverseOnlyLetters {
-
-    // #917 https://leetcode.com/problems/reverse-only-letters/
-    // String, Two Pointers
     // TC = O(n), SC = O(n)
-
     class Solution {
         public String reverseOnlyLetters(String s) {
             char[] arr = s.toCharArray();

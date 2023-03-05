@@ -1,17 +1,8 @@
 package ruichen;
 
 public class IntegerToRoman {
-
-    // #12 https://leetcode.com/problems/integer-to-roman/
-    // Math
-
+    // TC = O(n), SC = O(1)
     class Solution {
-
-        // Time complexity = O(n), n = number of roman numerals in result
-        // The loop over the numerals array does NOT count into total time, for
-        // it's fixed size do not grow as our input size grows
-        // Space complexity = O(1) for fixed-size numerals array
-
         private Numeral[] numerals = {
                 new Numeral("M", 1000),
                 new Numeral("CM", 900),
@@ -29,7 +20,6 @@ public class IntegerToRoman {
         };
 
         public String intToRoman(int num) {
-            // 1 <= num <= 3999
             StringBuilder result = new StringBuilder();
             while (num > 0) {
                 for (Numeral numeral : numerals) {
@@ -46,6 +36,7 @@ public class IntegerToRoman {
         class Numeral {
             public String symbol;
             public int value;
+
             public Numeral(String symbol, int value) {
                 this.symbol = symbol;
                 this.value = value;

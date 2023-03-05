@@ -1,30 +1,11 @@
 package ruichen;
 
+import ruichen.common.TreeNode;
+
 public class DiameterOfBinaryTree {
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) {
-            this.val = val;
-        }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
+    // TC = O(n), SC = O(height)
     class Solution {
-
-        // #543 https://leetcode.com/problems/diameter-of-binary-tree/
-        // Tree
-        // TC = O(n), SC = O(height)
-
         public int diameterOfBinaryTree(TreeNode root) {
-            // Diameter = max number of nodes in a path - 1
             int[] max = {0};
             helper(root, max);
             return max[0];

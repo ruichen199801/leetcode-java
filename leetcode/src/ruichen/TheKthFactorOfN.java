@@ -4,12 +4,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TheKthFactorOfN {
-
-    // #1492 https://leetcode.com/problems/the-kth-factor-of-n/
-    // Math
-
     class Solution1 {
-        // Method 1: TC = O(n), SC = O(1)
+        // TC = O(n), SC = O(1)
         public int kthFactor(int n, int k) {
             for (int i = 1; i <= n / 2; i++) { // minor improvement: n -> n/2
                 if (n % i == 0) {
@@ -24,7 +20,7 @@ public class TheKthFactorOfN {
     }
 
     class Solution2 {
-        // Method 2: TC = O(sqrt(n)), SC = O(min(sqrt(n), k))
+        // TC = O(sqrt(n)), SC = O(min(sqrt(n), k))
         public int kthFactor(int n, int k) {
             // n = 12, k = 2, sqrtN = 3
             // list = [1, 2, 3]

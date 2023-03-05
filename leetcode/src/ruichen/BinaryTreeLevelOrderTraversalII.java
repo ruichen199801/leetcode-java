@@ -1,30 +1,16 @@
 package ruichen;
 
-import java.util.*;
+import ruichen.common.TreeNode;
+
+import java.util.ArrayDeque;
+import java.util.ArrayList;
+import java.util.Deque;
+import java.util.List;
+import java.util.Queue;
 
 public class BinaryTreeLevelOrderTraversalII {
-
-    // #107 https://leetcode.com/problems/binary-tree-level-order-traversal-ii/
-    // Tree, Breadth-first Search
     // TC = O(n), SC = O(m), where n = # of nodes, m = max # of nodes at any level in the input tree
-
-    class TreeNode {
-        int val;
-        TreeNode left;
-        TreeNode right;
-        TreeNode() {}
-        TreeNode(int val) {
-            this.val = val;
-        }
-        TreeNode(int val, TreeNode left, TreeNode right) {
-            this.val = val;
-            this.left = left;
-            this.right = right;
-        }
-    }
-
     class Solution {
-        // BFS's iterative implementation
         public List<List<Integer>> levelOrderBottom(TreeNode root) {
             List<List<Integer>> result = new ArrayList<>();
             if (root == null) {

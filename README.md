@@ -1,13 +1,9 @@
 # Leetcode Solutions
 
-In this repo I'll share my solutions to various leetcode questions using Java, as well as analysis of the time and space complexity.
-
-You can click on the question number to be taken to the original question. To see my solution, click on the name of the question.
-
-I hope this repository helps you on your algorithm learning journey. Happy coding!
+In this repository I'll share my solutions to various leetcode questions using Java, along with analysis of the time and space complexity. You can click on the question number to be taken to the original question. To see my solution, click on the name of the question.<br>
 
 | No. | Question Name | Difficulty | Tags |
-| :----: | :----: | :----: | :----: |
+| :---- | :---- | :---- | :---- |
 | [1](https://leetcode.com/problems/two-sum/) | [Two Sum](leetcode/src/ruichen/TwoSum.java) | Easy | Array, Hash Table |
 | [2](https://leetcode.com/problems/add-two-numbers/) | [Add Two Numbers](leetcode/src/ruichen/AddTwoNumbers.java) | Medium | Math, Linked List |
 | [3](https://leetcode.com/problems/longest-substring-without-repeating-characters/) | [Longest Substring Without Repeating Characters](leetcode/src/ruichen/LongestSubstringWithoutRepeatingCharacters.java) | Medium | String, Sliding Window |
@@ -252,7 +248,7 @@ I hope this repository helps you on your algorithm learning journey. Happy codin
 | [841](https://leetcode.com/problems/keys-and-rooms/) | [Keys and Rooms](leetcode/src/ruichen/KeysAndRooms.java) | Medium | Graph, Depth-first Search, Breadth-first Search |
 | [872](https://leetcode.com/problems/leaf-similar-trees/) | [Leaf-Similar Trees](leetcode/src/ruichen/LeafSimilarTrees.java) | Easy | Tree, Depth-first Search |
 | [875](https://leetcode.com/problems/koko-eating-bananas/) | [Koko Eating Bananas](leetcode/src/ruichen/KokoEatingBananas.java) | Medium | Binary Search |
-| [876](https://leetcode.com/problems/middle-of-the-linked-list/) | [Middle of the Linked List](leetcode/src/ruichen/MiddleoftheLinkedList.java) | Easy | Linked List |
+| [876](https://leetcode.com/problems/middle-of-the-linked-list/) | [Middle of the Linked List](leetcode/src/ruichen/MiddleOfTheLinkedList.java) | Easy | Linked List |
 | [885](https://leetcode.com/problems/spiral-matrix-iii/) | [Spiral Matrix III](leetcode/src/ruichen/SpiralMatrixIII.java) | Medium | Array, Simulation |
 | [917](https://leetcode.com/problems/reverse-only-letters/) | [Reverse Only Letters](leetcode/src/ruichen/ReverseOnlyLetters.java) | Easy | String, Two Pointers |
 | [926](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | [Flip String to Monotone Increasing](leetcode/src/ruichen/FlipStringToMonotoneIncreasing.java) | Medium | String, Dynamic Programming |

@@ -1,15 +1,11 @@
 package ruichen;
 
 public class SqrtX {
-
-    // #69 https://leetcode.com/problems/sqrtx/
-    // Binary Search
+    // 0 <= x <= 2^31 - 1
+    // We need to avoid overflow: mid * mid could be 2^31/2 * 2^31/2.
     // TC = O(log n), SC = O(1)
-
     class Solution {
         public int mySqrt(int x) {
-            // 0 <= x <= 2^31 - 1
-            // avoid overflow: mid * mid could be 2^31/2 * 2^31/2
             if (x < 2) {
                 return x;
             }

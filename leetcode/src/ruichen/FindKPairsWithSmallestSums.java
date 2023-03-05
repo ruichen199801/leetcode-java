@@ -5,17 +5,21 @@ import java.util.List;
 import java.util.PriorityQueue;
 
 public class FindKPairsWithSmallestSums {
+    // Very similar to merge k sorted lists
 
-    // #373 https://leetcode.com/problems/find-k-pairs-with-smallest-sums/
-    // Heap
+    // What's wrong this solving this using two pointers?
+    // Won't work for this case:
+    // nums1: [1, 1, 11]
+    //            i
+    // nums2: [2, 4, 6]
+    //               j
+    // k = 4
+    // add [1,2] [1,2] [1,4] [1,6] (won't detect [1,4] since the first 1 is used)
+    // expected result [1,2] [1,2] [1,4] [1,4]
 
+    // TC = O(log k * k), SC = O(k)
     class Solution {
-
         public List<List<Integer>> kSmallestPairs(int[] nums1, int[] nums2, int k) {
-
-            // Very similar to merge k sorted lists
-            // TC = O(log k * k), SC = O(k)
-
             List<List<Integer>> pairs = new ArrayList<>();
             if (nums1.length == 0 || nums2.length == 0 || k == 0) {
                 return pairs;
@@ -51,13 +55,3 @@ public class FindKPairsWithSmallestSums {
         }
     }
 }
-
-// What's wrong this solving this using two pointers?
-// Won't work for this case:
-// nums1: [1, 1, 11]
-//            i
-// nums2: [2, 4, 6]
-//               j
-// k = 4
-// add [1,2] [1,2] [1,4] [1,6] (won't detect [1,4] since the first 1 is used)
-// expected result [1,2] [1,2] [1,4] [1,4]

@@ -4,15 +4,11 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PascalsTriangleII {
-
-    // #119 https://leetcode.com/problems/pascals-triangle-ii/
-    // Dynamic Programming
+    // 1 ... cur[i] = prev[i - 1] + prev[i] ... 1
+    // we only maintain a single cur list and keep updating it
     // TC = O(n^2), SC = O(n)
-
     class Solution {
-        public List<Integer> getRow(int rowIndex) { // 0-indexed!!!
-            // 1 ... cur[i] = prev[i - 1] + prev[i] ... 1
-            // we only maintain a single cur list and keep updating it
+        public List<Integer> getRow(int rowIndex) { // 0-indexed!
             List<Integer> cur = new ArrayList<>();
             cur.add(1);
             for (int i = 0; i <= rowIndex; i++) {

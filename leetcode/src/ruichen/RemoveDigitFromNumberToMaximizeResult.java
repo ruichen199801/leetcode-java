@@ -5,10 +5,6 @@ import java.util.Collections;
 import java.util.List;
 
 public class RemoveDigitFromNumberToMaximizeResult {
-
-    // #2259 https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/
-    // String
-
     class Solution1 {
         // Method 1: Add all possible results to a list, then sort (space is terrible)
         // TC = O(n), SC = O(n^2)

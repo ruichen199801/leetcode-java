@@ -4,13 +4,8 @@ import java.util.Collections;
 import java.util.PriorityQueue;
 
 public class FindMedianFromDataStream {
-
-    // #295 https://leetcode.com/problems/find-median-from-data-stream/
-    // Heap, Design
     // TC: addNum: O(log n), findMedian: O(1); SC = O(n)
-
     class MedianFinder {
-
         // [a,b,c,d,e]
         private PriorityQueue<Integer> left; // [a,b,c]
         private PriorityQueue<Integer> right; // [d,e]
