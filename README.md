@@ -37,7 +37,7 @@ I hope this repository helps you on your algorithm learning journey. Happy codin
 | [28](https://leetcode.com/problems/implement-strstr/) | [Implement strStr()](leetcode/src/ruichen/ImplementStrStr.java) | Easy | String, Two Pointers |
 | [31](https://leetcode.com/problems/next-permutation/) | [Next Permutation](leetcode/src/ruichen/NextPermutation.java) | Medium | Array, Two Pointers |
 | [32](https://leetcode.com/problems/longest-valid-parentheses/) | [Longest Valid Parentheses](leetcode/src/ruichen/LongestValidParentheses.java) | Hard | String, Dynamic Programming |
-| [33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Search in Rotated Sorted Array](leetcode/src/SearchInRotatedSortedArray.java) | Medium | Array, Binary Search |
+| [33](https://leetcode.com/problems/search-in-rotated-sorted-array/) | [Search in Rotated Sorted Array](leetcode/src/ruichen/SearchInRotatedSortedArray.java) | Medium | Array, Binary Search |
 | [34](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/) | [Find First and Last Position of Element in Sorted Array](leetcode/src/ruichen/FindFirstAndLastPositionOfElementInSortedArray.java) | Medium | Array, Binary Search |
 | [35](https://leetcode.com/problems/search-insert-position/) | [Search Insert Position](leetcode/src/ruichen/SearchInsertPosition.java) | Easy | Array, Binary Search |
 | [38](https://leetcode.com/problems/count-and-say/) | [Count and Say](leetcode/src/ruichen/CountAndSay.java) | Easy | String |
@@ -51,10 +51,11 @@ I hope this repository helps you on your algorithm learning journey. Happy codin
 | [49](https://leetcode.com/problems/group-anagrams/) | [Group Anagrams](leetcode/src/ruichen/GroupAnagrams.java) | Medium | Hash Table, String, Sorting |
 | [50](https://leetcode.com/problems/powx-n/) | [Pow(x, n)](leetcode/src/ruichen/PowXN.java) | Medium | Math, Recursion |
 | [51](https://leetcode.com/problems/n-queens/) | [N Queens](leetcode/src/ruichen/NQueens.java) | Hard | Depth-first Search |
-| [53](https://leetcode.com/problems/maximum-subarray/) | [Maximum Subarray](leetcode/src/ruichen/MaximumSubarray.java) | Easy | Dynamic Programming |
+| [53](https://leetcode.com/problems/maximum-subarray/) | [Maximum Subarray](leetcode/src/ruichen/MaximumSubarray.java) | Medium | Dynamic Programming |
 | [54](https://leetcode.com/problems/spiral-matrix/) | [Spiral Matrix](leetcode/src/ruichen/SpiralMatrix.java) | Medium | Array, Simulation |
 | [55](https://leetcode.com/problems/jump-game/) | [Jump Game](leetcode/src/ruichen/JumpGame.java) | Medium | Dynamic Programming |
 | [56](https://leetcode.com/problems/merge-intervals/) | [Merge Intervals](leetcode/src/ruichen/MergeIntervals.java) | Medium | Array |
+| [57](https://leetcode.com/problems/insert-interval) | [Insert Interval](leetcode/src/ruichen/InsertInterval.java) | Medium | Array |
 | [58](https://leetcode.com/problems/length-of-last-word/) | [Length of Last Word](leetcode/src/ruichen/LengthOfLastWord.java) | Easy | String |
 | [59](https://leetcode.com/problems/spiral-matrix-ii/) | [Spiral Matrix II](leetcode/src/ruichen/SpiralMatrixII.java) | Medium | Array, Simulation |
 | [61](https://leetcode.com/problems/rotate-list/) | [Rotate List](leetcode/src/ruichen/RotateList.java) | Medium | Linked List, Two Pointers |
@@ -83,6 +84,7 @@ I hope this repository helps you on your algorithm learning journey. Happy codin
 | [94](https://leetcode.com/problems/binary-tree-inorder-traversal/) | [Binary Tree Inorder Traversal](leetcode/src/ruichen/BinaryTreeInorderTraversal.java) | Easy | Stack, Tree |
 | [95](https://leetcode.com/problems/unique-binary-search-trees-ii/) | [Unique Binary Search Trees II](leetcode/src/ruichen/UniqueBinarySearchTreesII.java) | Medium | Tree, Depth-first Search, Dynamic Programming |
 | [96](https://leetcode.com/problems/unique-binary-search-trees/) | [Unique Binary Search Trees](leetcode/src/ruichen/UniqueBinarySearchTrees.java) | Medium | Dynamic Programming |
+| [98](https://leetcode.com/problems/validate-binary-search-tree/) | [Validate Binary Search Tree](leetcode/src/ruichen/ValidateBinarySearchTree.java) | Medium | Tree, Binary Search Tree, Depth-first Search |
 | [100](https://leetcode.com/problems/same-tree/) | [Same Tree](leetcode/src/ruichen/SameTree.java) | Easy | Tree, Depth-first Search |
 | [101](https://leetcode.com/problems/symmetric-tree/) | [Symmetric Tree](leetcode/src/ruichen/SymmetricTree.java) | Easy | Tree, Depth-first Search |
 | [102](https://leetcode.com/problems/binary-tree-level-order-traversal/) | [Binary Tree Level Order Traversal](leetcode/src/ruichen/BinaryTreeLevelOrderTraversal.java) | Medium | Tree, Breadth-first Search |
@@ -118,9 +120,10 @@ I hope this repository helps you on your algorithm learning journey. Happy codin
 | [144](https://leetcode.com/problems/binary-tree-preorder-traversal/) | [Binary Tree Preorder Traversal](leetcode/src/ruichen/BinaryTreePreorderTraversal.java) | Medium | Stack, Tree |
 | [145](https://leetcode.com/problems/binary-tree-postorder-traversal/) | [Binary Tree Postorder Traversal](leetcode/src/ruichen/BinaryTreePostorderTraversal.java) | Easy | Stack, Tree |
 | [146](https://leetcode.com/problems/lru-cache/) | [LRU Cache](leetcode/src/ruichen/LRUCache.java) | Medium | Linked List, Hash Table, Design |
+| [150](https://leetcode.com/problems/evaluate-reverse-polish-notation/) | [Evaluate Reverse Polish Notation](leetcode/src/ruichen/EvaluateReversePolishNotation.java) | Medium | Array, Math, Stack |
 | [151](https://leetcode.com/problems/reverse-words-in-a-string/) | [Reverse Words in a String](leetcode/src/ruichen/ReverseWordsInAString.java) | Medium | String, Two Pointers |
 | [152](https://leetcode.com/problems/maximum-product-subarray/) | [Maximum Product Subarray](leetcode/src/ruichen/MaximumProductSubarray.java) | Medium | Array, Dynamic Programming |
-| [155](https://leetcode.com/problems/min-stack/) | [Min Stack](leetcode/src/ruichen/MinStack.java) | Easy | Stack, Design |
+| [155](https://leetcode.com/problems/min-stack/) | [Min Stack](leetcode/src/ruichen/MinStack.java) | Medium | Stack, Design |
 | [159](https://leetcode.com/problems/longest-substring-with-at-most-two-distinct-characters/) | [Longest Substring with At Most Two Distinct Characters](leetcode/src/ruichen/LongestSubstringWithAtMostTwoDistinctCharacters.java) | Medium | String, Sliding Window |
 | [160](https://leetcode.com/problems/intersection-of-two-linked-lists/) | [Intersection of Two Linked Lists](leetcode/src/ruichen/IntersectionOfTwoLinkedLists.java) | Easy | Linked List, Hash Table, Two Pointers |
 | [161](https://leetcode.com/problems/one-edit-distance/) | [One Edit Distance](leetcode/src/ruichen/OneEditDistance.java) | Medium | String, Two Pointers |
@@ -172,6 +175,7 @@ I hope this repository helps you on your algorithm learning journey. Happy codin
 | [295](https://leetcode.com/problems/find-median-from-data-stream/) | [Find Median from Data Stream](leetcode/src/ruichen/FindMedianFromDataStream.java) | Hard | Heap, Design |
 | [300](https://leetcode.com/problems/longest-increasing-subsequence/) | [Longest Increasing Subsequence](leetcode/src/ruichen/LongestIncreasingSubsequence.java) | Medium | Dynamic Programming |
 | [314](https://leetcode.com/problems/binary-tree-vertical-order-traversal/) | [Binary Tree Vertical Order Traversal](leetcode/src/ruichen/BinaryTreeVerticalOrderTraversal.java) | Medium | Tree, Breadth-first Search, Hash Table |
+| [322](https://leetcode.com/problems/coin-change/) | [Coin Change](leetcode/src/ruichen/CoinChange.java) | Medium | Dynamic Programming |
 | [323](https://leetcode.com/problems/number-of-connected-components-in-an-undirected-graph/) | [Number of Connected Components in an Undirected Graph](leetcode/src/ruichen/NumberOfConnectedComponentsInAnUndirectedGraph.java) | Medium | Graph, Depth-first Search, Breadth-first Search, Union Find |
 | [326](https://leetcode.com/problems/power-of-three/) | [Power of Three](leetcode/src/ruichen/PowerOfThree.java) | Easy | Math |
 | [328](https://leetcode.com/problems/odd-even-linked-list/) | [Odd Even Linked List](leetcode/src/ruichen/OddEvenLinkedList.java) | Medium | Linked List |
@@ -194,6 +198,7 @@ I hope this repository helps you on your algorithm learning journey. Happy codin
 | [389](https://leetcode.com/problems/find-the-difference/) | [Find the Difference](leetcode/src/ruichen/FindTheDifference.java) | Easy | Bit Manipulation, Hash Table |
 | [394](https://leetcode.com/problems/decode-string/) | [Decode String](leetcode/src/ruichen/DecodeString.java) | Medium | Stack, String |
 | [404](https://leetcode.com/problems/sum-of-left-leaves/) | [Sum of Left Leaves](leetcode/src/ruichen/SumOfLeftLeaves.java) | Easy | Tree |
+| [409](https://leetcode.com/problems/longest-palindrome) | [Longest Palindrome](leetcode/src/ruichen/LongestPalindrome.java) | Easy | Hash Table, String |
 | [415](https://leetcode.com/problems/add-strings/) | [Add Strings](leetcode/src/ruichen/AddStrings.java) | Easy | Math, String |
 | [429](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [N-ary Tree Level Order Traversal](leetcode/src/ruichen/NaryTreeLevelOrderTraversal.java) | Medium | Tree, Breadth-first Search |
 | [437](https://leetcode.com/problems/path-sum-iii/) | [Path Sum III](leetcode/src/ruichen/PathSumIII.java) | Medium | Tree, Depth-first Search, Prefix Sum |
@@ -208,6 +213,7 @@ I hope this repository helps you on your algorithm learning journey. Happy codin
 | [523](https://leetcode.com/problems/continuous-subarray-sum/) | [Continuous Subarray Sum](leetcode/src/ruichen/ContinuousSubarraySum.java) | Medium | Array, Math, Prefix Sum |
 | [539](https://leetcode.com/problems/minimum-time-difference/) | [Minimum Time Difference](leetcode/src/ruichen/MinimumTimeDifference.java) | Medium | Array, Sorting |
 | [541](https://leetcode.com/problems/reverse-string-ii/) | [Reverse String II](leetcode/src/ruichen/ReverseStringII.java) | Easy | String, Two Pointers |
+| [542](https://leetcode.com/problems/01-matrix/) | [0 1 Matrix](leetcode/src/ruichen/OneZeroMatrix.java) | Medium | Breadth-first Search |
 | [543](https://leetcode.com/problems/diameter-of-binary-tree/) | [Diameter of Binary Tree](leetcode/src/ruichen/DiameterOfBinaryTree.java) | Easy | Tree |
 | [547](https://leetcode.com/problems/number-of-provinces/) | [Number of Provinces](leetcode/src/ruichen/NumberOfProvinces.java) | Medium | Graph, Depth-first Search, Breath-first Search |
 | [557](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Reverse Words in a String III](leetcode/src/ruichen/ReverseWordsInAStringIII.java) | Easy | String, Two Pointers |
@@ -306,10 +312,3 @@ I hope this repository helps you on your algorithm learning journey. Happy codin
 | [2259](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | [Remove Digit From Number to Maximize Result](leetcode/src/ruichen/RemoveDigitFromNumberToMaximizeResult.java) | Easy | String |
 | [2558](https://leetcode.com/problems/take-gifts-from-the-richest-pile/) | [Take Gifts From the Richest Pile](leetcode/src/ruichen/TakeGiftsFromTheRichestPile.java) | Easy | Array, Heap |
 | [-](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | [Straight in Poker](leetcode/src/ruichen/StraightInPoker.java) | - | - |
-
-
-
-
-
-
-

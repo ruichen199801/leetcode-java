@@ -1,6 +1,9 @@
 package ruichen;
 
-import java.util.*;
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.PriorityQueue;
 
 public class TopKFrequentElements {
 
@@ -15,16 +18,7 @@ public class TopKFrequentElements {
             for (int num : nums) {
                 map.put(num, map.getOrDefault(num, 0) + 1);
             }
-            PriorityQueue<Integer> minHeap = new PriorityQueue<>(new Comparator<Integer>() {
-                @Override
-                public int compare(Integer i1, Integer i2) { // not "int"!
-                    int freq1 = map.get(i1), freq2 = map.get(i2);
-                    if (freq1 == freq2) {
-                        return 0;
-                    }
-                    return freq1 - freq2;
-                }
-            });
+            PriorityQueue<Integer> minHeap = new PriorityQueue<>((a, b) ->  map.get(a) - map.get(b));
             for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
                 minHeap.offer(entry.getKey());
                 if (minHeap.size() > k) {
@@ -44,55 +38,60 @@ public class TopKFrequentElements {
         // TC = O(n) in average, O(n^2) at worst (we only care about top k half instead of processing both parts of the array, so O(n) not O(n log n))
         // SC = O(n)
         public int[] topKFrequent(int[] nums, int k) {
-            Map<Integer, Integer> map = new HashMap<>();
+            Map<Integer, Integer> freqMap = new HashMap<>();
             for (int num : nums) {
-                map.put(num, map.getOrDefault(num, 0) + 1);
+                if (!freqMap.containsKey(num)) {
+                    freqMap.put(num, 0);
+                }
+                freqMap.put(num, freqMap.get(num) + 1);
             }
-            int[] arr = new int[map.size()];
-            int i = 0;
-            for (Map.Entry<Integer, Integer> entry : map.entrySet()) {
-                arr[i++] = entry.getKey();
+
+            int[] arr = new int[freqMap.size()];
+            int index = 0;
+            for (Map.Entry<Integer, Integer> entry : freqMap.entrySet()) {
+                arr[index++] = entry.getKey();
             }
-            quickSelect(arr, 0, arr.length - 1, k - 1, map);
-            return Arrays.copyOf(arr, k); // return in any order
+
+            quickSelect(arr, 0, arr.length - 1, k, freqMap);
+            return Arrays.copyOf(arr, k);
         }
 
-        private void quickSelect(int[] arr, int left, int right, int target, Map<Integer, Integer> map) {
-            if (left == right) {
+        private void quickSelect(int[] arr, int left, int right, int k, Map<Integer, Integer> freqMap) {
+            if (left >= right) {
                 return;
             }
-            int p = partition(arr, left, right, map);
-            if (p == target) {
+
+            int pivotIndex = partition(arr, left, right, freqMap);
+            int numLarger = pivotIndex - left + 1;
+
+            if (numLarger == k) {
                 return;
-            } else if (p > target) {
-                quickSelect(arr, left, p - 1, target, map);
+            } else if (numLarger > k) {
+                quickSelect(arr, left, pivotIndex - 1, k, freqMap);
             } else {
-                quickSelect(arr, p + 1, right, target, map);
+                quickSelect(arr, pivotIndex + 1, right, k - numLarger, freqMap);
             }
         }
 
-        private int partition(int[] arr, int left, int right, Map<Integer, Integer> map) {
+        private int partition(int[] arr, int left, int right, Map<Integer, Integer> freqMap) {
             int pivot = arr[right];
             int i = left;
-            int j = right - 1;
-            // sort in decreasing order (we want k biggest)
-            while (i <= j) {
-                if (map.get(arr[i]) > map.get(pivot)) {
+
+            for (int j = i; j < right; j++) {
+                if (freqMap.get(arr[j]) >= freqMap.get(pivot)) { // sort in decreasing order (we want k biggest)
+                    swap(arr, i, j);
                     i++;
-                } else if (map.get(arr[j]) <= map.get(pivot)) {
-                    j--;
-                } else {
-                    swap(arr, i++, j--);
                 }
             }
+
             swap(arr, i, right);
             return i;
         }
 
-        private void swap(int[] arr, int a, int b) {
-            int tmp = arr[a];
-            arr[a] = arr[b];
-            arr[b] = tmp;
+        private void swap(int[] arr, int i, int j) {
+            int temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
         }
     }
 }

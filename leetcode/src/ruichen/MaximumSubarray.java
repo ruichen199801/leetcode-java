@@ -25,9 +25,4 @@ public class MaximumSubarray {
 	// decide whether "worth" adding into the result or not: > 0
     // use a result and cur variable instead of int[] dp to save memory
 
-    //       [-2  1 -3  4 -1  2  1 -5  4]
-    // index   0  1  2  3  4  5  6  7  8
-    // cur    -2  1 -2  4  3  5  6  1  5
-    // result -2  1  1  4  4  5  6  6  6
-
 }

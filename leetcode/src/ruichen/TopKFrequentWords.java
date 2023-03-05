@@ -1,6 +1,11 @@
 package ruichen;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
+import java.util.PriorityQueue;
 
 public class TopKFrequentWords {
 
@@ -22,14 +27,12 @@ public class TopKFrequentWords {
             for (String word : words) {
                 map.put(word, map.getOrDefault(word, 0) + 1);
             }
-            PriorityQueue<String> minHeap = new PriorityQueue<>(new Comparator<String>() {
-                @Override
-                public int compare(String s1, String s2) {
-                    // less frequency or greater alphabetical order comes first
-                    if (map.get(s1) == map.get(s2)) {
-                        return s2.compareTo(s1); // reverse the default alphabetical order
-                    }
-                    return map.get(s1) - map.get(s2);
+            PriorityQueue<String> minHeap = new PriorityQueue<>((s1, s2) -> {
+                int freq1 = map.get(s1), freq2 = map.get(s2);
+                if (freq1 == freq2) {
+                    return s2.compareTo(s1); // since we'll reverse output, we reverse the lexicographical order here
+                } else {
+                    return freq1 - freq2;
                 }
             });
             for (Map.Entry<String, Integer> entry : map.entrySet()) {

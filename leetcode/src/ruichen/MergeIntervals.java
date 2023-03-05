@@ -8,6 +8,8 @@ public class MergeIntervals {
 
     // #56 https://leetcode.com/problems/merge-intervals/
     // Array
+    // TC: depends on sorting, O(n log n) for Java
+    // SC: O(n) for sorting (O(n) for storing output, may not count)
 
     class Solution {
         public int[][] merge(int[][] intervals) {
@@ -23,14 +25,10 @@ public class MergeIntervals {
             //            e.g. [1,3], [2,6] -> [1,6], [1, 4] [2, 3] -> [1, 4]
             // }
 
-            // Time complexity: depends on sorting, O(n log n) for Java
-            // Space complexity: O(n) for sorting (O(n) for storing output, may not count)
-
             if (intervals == null || intervals.length == 0) {
                 return null;
             }
-            Arrays.sort(intervals, (a, b) -> Integer.compare(a[0], b[0]));
-            // sort(T[] a, Comparator<? super T> c), override the inner compare method
+            Arrays.sort(intervals, (a, b) -> a[0] - b[0]);
             List<int[]> result = new ArrayList<>();
             for (int[] curr : intervals) {
                 if (result.isEmpty()) {
@@ -39,6 +37,7 @@ public class MergeIntervals {
                 int[] prev = result.get(result.size() - 1);
                 if (prev[1] >= curr[0]) { // overlap: merge
                     prev[1] = Math.max(prev[1], curr[1]); // e.g. [[1,4],[2,3]] -> [1,4]
+                    // we can modify int[] reference directly, do not need to remove then add
                 } else {
                     result.add(curr);
                 }

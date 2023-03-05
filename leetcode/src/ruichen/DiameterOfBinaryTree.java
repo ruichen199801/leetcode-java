@@ -24,20 +24,22 @@ public class DiameterOfBinaryTree {
         // TC = O(n), SC = O(height)
 
         public int diameterOfBinaryTree(TreeNode root) {
-            // diameter = max number of nodes in a path - 1
-            int[] max = {Integer.MIN_VALUE};
-            getHeight(root, max);
-            return max[0] - 1;
+            // Diameter = max number of nodes in a path - 1
+            int[] max = {0};
+            helper(root, max);
+            return max[0];
         }
 
-        private int getHeight(TreeNode root, int[] max) {
-            // update max and recursively get height at the same time
+        private int helper(TreeNode root, int[] max) {
             if (root == null) {
                 return 0;
             }
-            int left = getHeight(root.left, max);
-            int right = getHeight(root.right, max);
-            max[0] = Math.max(max[0], left + right + 1);
+            // Step 1: ask for children nodes
+            int left = helper(root.left, max);
+            int right = helper(root.right, max);
+            // Step 2: what to do at the current layer
+            max[0] = Math.max(max[0], left + right);
+            // Step 3: what to return/pass to parent nodes
             return Math.max(left, right) + 1;
         }
     }
