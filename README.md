@@ -40,6 +40,7 @@ In this repository I'll share my solutions to various leetcode questions using J
 | [41](https://leetcode.com/problems/first-missing-positive/) | [First Missing Positive](leetcode/src/ruichen/FirstMissingPositive.java) | Hard | Array |
 | [42](https://leetcode.com/problems/trapping-rain-water/) | [Trapping Rain Water](leetcode/src/ruichen/TrappingRainWater.java) | Hard | Dynamic Programming, Two Pointers |
 | [43](https://leetcode.com/problems/multiply-strings/) | [Multiply Strings](leetcode/src/ruichen/MultiplyStrings.java) | Medium | Math, String |
+| [44](https://leetcode.com/problems/wildcard-matching/) | [Wildcard Matching](leetcode/src/ruichen/WildcardMatching.java) | Hard | String, Dynamic Programming |
 | [45](https://leetcode.com/problems/jump-game-ii/) | [Jump Game II](leetcode/src/ruichen/JumpGameII.java) | Medium | Dynamic Programming |
 | [46](https://leetcode.com/problems/permutations/) | [Permutations](leetcode/src/ruichen/Permutations.java) | Medium | Depth-first Search |
 | [47](https://leetcode.com/problems/permutations-ii/) | [Permutations II](leetcode/src/ruichen/PermutationsII.java) | Medium | Depth-first Search |
@@ -203,6 +204,7 @@ In this repository I'll share my solutions to various leetcode questions using J
 | [448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Find All Numbers Disappeared in an Array](leetcode/src/ruichen/FindAllNumbersDisappearedInAnArray.java) | Easy | Array |
 | [455](https://leetcode.com/problems/assign-cookies/) | [Assign Cookies](leetcode/src/ruichen/AssignCookies.java) | Easy | Array, Greedy, Sorting |
 | [463](https://leetcode.com/problems/island-perimeter/) | [Island Perimeter](leetcode/src/ruichen/IslandPerimeter.java) | Easy | Array |
+| [485](https://leetcode.com/problems/max-consecutive-ones/) | [Max Consecutive Ones](leetcode/src/ruichen/MaxConsecutiveOnes.java) | Easy | Dynamic Programming |
 | [486](https://leetcode.com/problems/predict-the-winner/) | [Predict the Winner](leetcode/src/ruichen/PredictTheWinner.java) | Medium | Minimax, Dynamic Programming |
 | [490](https://leetcode.com/problems/the-maze/) | [The Maze](leetcode/src/ruichen/TheMaze.java) | Medium | Breadth-first Search |
 | [509](https://leetcode.com/problems/fibonacci-number/) | [Fibonacci Number](leetcode/src/ruichen/FibonacciNumber.java) | Easy | Array |
@@ -270,6 +272,7 @@ In this repository I'll share my solutions to various leetcode questions using J
 | [1123](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | [Lowest Common Ancestor of Deepest Leaves](leetcode/src/ruichen/LowestCommonAncestorOfDeepestLeaves.java) | Medium | Tree, Depth-first Search |
 | [1137](https://leetcode.com/problems/n-th-tribonacci-number/) | [N-th Tribonacci Number](leetcode/src/ruichen/NthTribonacciNumber.java) | Easy | Dynamic Programming |
 | [1143](https://leetcode.com/problems/longest-common-subsequence/) | [Longest Common Subsequence](leetcode/src/LongestCommonSubsequence.java) | Medium | String, Dynamic Programming |
+| [1167](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) | [Minimum Cost to Connect Sticks](leetcode/src/ruichen/MinimumCostToConnectSticks.java) | Medium | Greedy, Heap |
 | [1189](https://leetcode.com/problems/maximum-number-of-balloons/) | [Maximum Number of Balloons](leetcode/src/ruichen/MaximumNumberOfBalloons.java) | Easy | Hash Table, String, Counting |
 | [1207](https://leetcode.com/problems/unique-number-of-occurrences/) | [Unique Number of Occurrences](leetcode/src/ruichen/UniqueNumberOfOccurrences.java) | Easy | Array, Hash Table |
 | [1209](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string-ii/) | [Remove All Adjacent Duplicates in String II](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInStringII.java) | Medium | Stack |
@@ -279,6 +282,7 @@ In this repository I'll share my solutions to various leetcode questions using J
 | [1260](https://leetcode.com/problems/shift-2d-grid/) | [Shift 2D Grid](leetcode/src/ruichen/Shift2DGrid.java) | Easy | Array |
 | [1290](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | [Convert Binary Number in a Linked List to Integer](leetcode/src/ruichen/ConvertBinaryNumberInALinkedListToInteger.java) | Easy | Linked List, Math |
 | [1306](https://leetcode.com/problems/jump-game-iii/) | [Jump Game III](leetcode/src/ruichen/JumpGameIII.java) | Medium | Array, Depth-first Search, Breadth-first Search |
+| [1312](https://leetcode.com/problems/minimum-insertion-steps-to-make-a-string-palindrome/) | [Minimum Insertion Steps to Make a String Palindrome](leetcode/src/ruichen/MinimumInsertionStepsToMakeAStringPalindrome.java) | Hard | Dynamic Programming |
 | [1313](https://leetcode.com/problems/decompress-run-length-encoded-list/) | [Decompress Run-Length Encoded List](leetcode/src/ruichen/DecompressRunLengthEncodedList.java) | Easy | Array |
 | [1324](https://leetcode.com/problems/print-words-vertically/) | [Print Words Vertically](leetcode/src/ruichen/PrintWordsVertically.java) | Medium | String |
 | [1340](https://leetcode.com/problems/jump-game-v/) | [Jump Game V](leetcode/src/ruichen/JumpGameV.java) | Hard | Array, Depth-first Search |
@@ -308,3 +312,14 @@ In this repository I'll share my solutions to various leetcode questions using J
 | [2259](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | [Remove Digit From Number to Maximize Result](leetcode/src/ruichen/RemoveDigitFromNumberToMaximizeResult.java) | Easy | String |
 | [2558](https://leetcode.com/problems/take-gifts-from-the-richest-pile/) | [Take Gifts From the Richest Pile](leetcode/src/ruichen/TakeGiftsFromTheRichestPile.java) | Easy | Array, Heap |
 | [-](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | [Straight in Poker](leetcode/src/ruichen/StraightInPoker.java) | - | - |
+
+
+
+
+
+
+
+
+
+
+

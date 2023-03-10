@@ -1,7 +1,5 @@
 package ruichen.common;
 
-import ruichen.AverageOfLevelsInBinaryTree;
-
 public class TreeNode {
     public int val;
     public TreeNode left;
