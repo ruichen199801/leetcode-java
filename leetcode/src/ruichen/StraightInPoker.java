@@ -6,7 +6,8 @@ import java.util.Set;
 
 public class StraightInPoker {
     /*
-    Original question link: https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/
+    https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/
+
     Randomly draw 5 cards from a deck of cards and decide whether they are a straight (consecutive) or not.
     A == 1, J == 11, Q == 12, K == 13, Jokers == 0 (seen as wildcard)
     Example input: [1,2,3,4,5], output: True
