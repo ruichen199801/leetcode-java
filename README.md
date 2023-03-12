@@ -1,6 +1,8 @@
 # Leetcode Solutions
 
-In this repository I'll share my solutions to various leetcode questions using Java, along with analysis of the time and space complexity. You can click on the question number to be taken to the original question. To see my solution, click on the name of the question.<br>
+[My Leetcode Cheatsheet](./Leetcode-Cheatsheet.md)
+
+In this repository I'll share my solutions to various leetcode questions using Java, including time and space complexity analysis. You can click on the question number to be taken to the original question. To see my solution, click on the name of the question.<br>
 
 | No. | Question Name | Difficulty | Tags |
 | :---- | :---- | :---- | :---- |
