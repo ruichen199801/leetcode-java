@@ -244,6 +244,7 @@ In this repository I'll share my solutions to various leetcode questions using J
 | [733](https://leetcode.com/problems/flood-fill/) | [Flood Fill](leetcode/src/ruichen/FloodFill.java) | Easy | Breadth-first Search, Depth-first Search |
 | [735](https://leetcode.com/problems/asteroid-collision/) | [Asteroid Collision](leetcode/src/ruichen/AsteroidCollision.java) | Medium | Stack |
 | [746](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Min Cost Climbing Stairs](leetcode/src/ruichen/MinCostClimbingStairs.java) | Easy | Dynamic Programming |
+| [783](https://leetcode.com/problems/minimum-distance-between-bst-nodes/) | [Minimum Distance Between BST Nodes](leetcode/src/ruichen/MinimumDistanceBetweenBSTNodes.java) | Easy | Tree, Binary Search Tree |
 | [785](https://leetcode.com/problems/is-graph-bipartite/) | [Is Graph Bipartite?](leetcode/src/ruichen/IsGraphBipartite.java) | Medium | Graph, Breadth-first Search |
 | [796](https://leetcode.com/problems/rotate-string/) | [Rotate String](leetcode/src/ruichen/RotateString.java) | Easy | String |
 | [797](https://leetcode.com/problems/all-paths-from-source-to-target/) | [All Paths From Source to Target](leetcode/src/ruichen/AllPathsFromSourceToTarget.java) | Medium | Breadth-first Search, Graph |
@@ -293,6 +294,7 @@ In this repository I'll share my solutions to various leetcode questions using J
 | [1367](https://leetcode.com/problems/linked-list-in-binary-tree/) | [Linked List in Binary Tree](leetcode/src/ruichen/LinkedListInBinaryTree.java) | Medium | Tree, Linked List, Depth-first Search, Breadth-first Search |
 | [1396](https://leetcode.com/problems/design-underground-system/) | [Design Underground System](leetcode/src/ruichen/DesignUndergroundSystem.java) | Medium | Hash Table, Design |
 | [1446](https://leetcode.com/problems/consecutive-characters/) | [Consecutive Characters](leetcode/src/ruichen/ConsecutiveCharacters.java) | Easy | String, Counting |
+| [1469](https://leetcode.com/problems/find-all-the-lonely-nodes/) | [Find All the Lonely Nodes](leetcode/src/ruichen/FindAllTheLonelyNodes.java) | Easy | Tree |
 | [1470](https://leetcode.com/problems/shuffle-the-array/) | [Shuffle the Array](leetcode/src/ruichen/ShuffleTheArray.java) | Easy | Array |
 | [1474](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/) | [Delete N Nodes after M Nodes of a Linked List](leetcode/src/ruichen/DeleteNNodesAfterMNodesOfALinkedList.java) | Easy | Linked List |
 | [1492](https://leetcode.com/problems/the-kth-factor-of-n/) | [The kth Factor of n](leetcode/src/ruichen/TheKthFactorOfN.java) | Medium | Math |
@@ -312,8 +314,11 @@ In this repository I'll share my solutions to various leetcode questions using J
 | [2074](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/) | [Reverse Nodes in Even Length Groups](leetcode/src/ruichen/ReverseNodesInEvenLengthGroups.java) | Medium | Linked List |
 | [2181](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | [Merge Nodes in Between Zeros](leetcode/src/ruichen/MergeNodesInBetweenZeros.java) | Medium | Linked List |
 | [2259](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | [Remove Digit From Number to Maximize Result](leetcode/src/ruichen/RemoveDigitFromNumberToMaximizeResult.java) | Easy | String |
+| [2331](https://leetcode.com/problems/evaluate-boolean-binary-tree/) | [Evaluate Boolean Binary Tree](leetcode/src/ruichen/EvaluateBooleanBinaryTree.java) | Easy | Tree |
 | [2558](https://leetcode.com/problems/take-gifts-from-the-richest-pile/) | [Take Gifts From the Richest Pile](leetcode/src/ruichen/TakeGiftsFromTheRichestPile.java) | Easy | Array, Heap |
 | [-](https://leetcode-cn.com/problems/bu-ke-pai-zhong-de-shun-zi-lcof/) | [Straight in Poker](leetcode/src/ruichen/StraightInPoker.java) | - | - |
+
+
 
 
 

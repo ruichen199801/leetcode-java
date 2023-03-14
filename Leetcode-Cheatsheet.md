@@ -1,6 +1,6 @@
 # Leetcode Cheatsheet
 
-Created by Ruichen in March 2023.
+Created by Ruichen in March 2023. Last updated in March 2023.
 
 ## Table of Contents
 
@@ -332,7 +332,19 @@ Created by Ruichen in March 2023.
 
 ## Algorithm Tricks
 
-1. Always use recursion to attempt tree problems.
+1. Tree problems
+
+- Always use recursion to attempt tree problems.
+
+- If the original function is difficult to use for our recursive solution, we can add more parameters to the signature, e.g. in [Symmetric tree](https://leetcode.com/problems/symmetric-tree/).
+
+- If we need to pass or store **intermediate states** between nodes, we should change the return type to int or boolean, otherwise use void.
+
+    ```
+    void func(TreeNode root) { ... }    // Original function
+    
+    int dfs(TreeNode root, int[] max);  // DFS function
+    ```
 
 2. Do we need a visited set in BFS/DFS?
 
@@ -387,7 +399,7 @@ Created by Ruichen in March 2023.
 
     // Sum from i to j (inclusive)
 
-    Sum(i...j) = prefixSum[j] - prefixSum[i] + nums[i]; 
+    Sum[i...j] = prefixSum[j] - prefixSum[i] + nums[i]; 
     ```
 
 ## Complexity Analysis
