@@ -37,6 +37,10 @@ Created by Ruichen in March 2023. Last updated in March 2023.
     boolean[][] IS NOT int[][]
 
     long IS NOT int
+    
+    TreeNode IS NOT Integer
+    
+    node.val IS NOT node
     ```
 
 4. Do not mix notations.
@@ -183,7 +187,27 @@ Created by Ruichen in March 2023. Last updated in March 2023.
     s.charAt(i) - 'a'  // 0-25 (int), for lowercase letters
     ```
 
-6. Pass comparators to heaps, custom classes, and sort functions.
+6. Join and split string.
+
+- Join string
+
+    ```
+    String[] words = {"Java", "is", "awesome"};
+    String sentence = String.join(" ", words);   // Java is awesome
+    
+    List<String> words = Arrays.asList("Java", "is", "awesome");
+    String sentence = String.join(" ", words);   // Java is awesome
+    ```
+    
+- Split string
+
+    ```
+    String[] parts = s.split(" ");
+    
+    String[] parts = s.split("\\.");  // ESCAPE SPECIAL CHARACTERS
+    ```
+
+7. Pass comparators to heaps, custom classes, and sort functions.
 
     ```
     Arrays.sort(array, (a, b) -> a[0] - b[0]);  // Ascending order
@@ -193,7 +217,7 @@ Created by Ruichen in March 2023. Last updated in March 2023.
     PriorityQueue<Node> minHeap = new PriorityQueue<>((a, b) -> a.val - b.val);
     ```
 
-7. Conversion between string and value.
+8. Conversion between string and value.
 
     ```
     int val = Integer.parseInt(str);  // Convert String to int
@@ -337,6 +361,8 @@ Created by Ruichen in March 2023. Last updated in March 2023.
 - Always use recursion to attempt tree problems.
 
 - If the original function is difficult to use for our recursive solution, we can add more parameters to the signature, e.g. in [Symmetric tree](https://leetcode.com/problems/symmetric-tree/).
+
+- Avoid using global variables for shared states, such as the result/sum/max/min array. Add them to the DFS function signature instead.
 
 - If we need to pass or store **intermediate states** between nodes, we should change the return type to int or boolean, otherwise use void.
 
