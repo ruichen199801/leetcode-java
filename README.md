@@ -1,8 +1,8 @@
 # Leetcode Solutions
 
-[My Leetcode Cheatsheet](./Leetcode-Cheatsheet.md)
+Created by Ruichen in 1/2021. Last updated in 4/2023.<br>
 
-In this repository I'll share my solutions to various leetcode questions using Java, including time and space complexity analysis. You can click on the question number to be taken to the original question. To see my solution, click on the name of the question.<br>
+My leetcode solutions in Java. Click on the question number to see the question. Click on the name of the question to see my solution. I also created [my leetcode cheatsheet](./Leetcode-Cheatsheet.md) to help me brush up on my algorithmic skills after taking a break from solving leetcode problems.
 
 | No. | Question Name | Difficulty | Tags |
 | :---- | :---- | :---- | :---- |

@@ -1,7 +1,5 @@
 # Leetcode Cheatsheet
 
-Created by Ruichen in March 2023. Last updated in March 2023.
-
 ## Table of Contents
 
 - [Common Mistakes](#Common-Mistakes)
@@ -133,6 +131,12 @@ Created by Ruichen in March 2023. Last updated in March 2023.
 
     ```
     if (Arrays.equals(arr1, arr2)) { ... }
+    ```
+    
+- compareTo()
+
+    ```
+    "apple".compareTo("banana") < 0  // b is lexicographically greater than a
     ```
 
 2. Given `row * col` matrix, where `matrix[r][c]` represents a point on the 2D grid.
@@ -354,6 +358,20 @@ Created by Ruichen in March 2023. Last updated in March 2023.
     if (curr == minHeap.peek()) { ... }
     ```
 
+- HashMap
+
+    ```
+    Map<String, Integer> map = new HashMap<>();
+    
+    int count = map.getOrDefault(word, 0) + 1;
+    map.put(word, count);
+    
+    for (Map.Entry<String, Integer> entry : map.entrySet()) {
+      String key = entry.getKey();
+      Integer val = entry.getValue();
+    }
+    ```
+    
 ## Algorithm Tricks
 
 1. Tree problems
@@ -467,3 +485,5 @@ Created by Ruichen in March 2023. Last updated in March 2023.
 - Merge sort: O(n log n) 
 
   - The total array size is always n each run, for log n times recursive calls.
+
+5. We often can optimize the space complexity of a dynamic programming solution from O(n^2) to O(n), and even O(1), if the recursive equation only depends on the previous state.
