@@ -1,5 +1,7 @@
 # Leetcode Cheatsheet
 
+A cheatsheet that I overfit from solved questions and mistakes I made.
+
 ## Table of Contents
 
 - [Common Mistakes](#Common-Mistakes)
@@ -28,8 +30,16 @@
 
     int max = Integer.MIN_VALUE;  // 0, -1
     ```
+    
+3. Be careful with comparing init values.
 
-3. Be careful with data types.
+	```
+	Integer.MAX_VALUE + 1  // OVERFLOW
+	
+	Integer.MIN_VALUE - 1  // UNDERFLOW
+	```
+
+4. Be careful with data types.
 
     ```
     boolean[][] IS NOT int[][]
@@ -41,7 +51,7 @@
     node.val IS NOT node
     ```
 
-4. Do not mix notations.
+5. Do not mix notations.
 
     ```
     dp[i][j] IS NOT matrix[i][j]
@@ -53,7 +63,7 @@
     curr IS NOT root, DO NOT update root in a loop
     ```
 
-5. Do not mix variables.
+6. Do not mix variables.
 
     ```
     nums[i] IS NOT i
@@ -63,7 +73,7 @@
     a    IS NOT b
     ```
 
-6. Do not forget new keyword.
+7. Do not forget new keyword.
 
     ```
     int[] arr = new int[] {1, 2, 3};
@@ -73,7 +83,7 @@
     return new int[] {1, 2, 3};       // NOT {1, 2, 3}
     ```
 
-7. Length and index are different.
+8. Length and index are different.
 
     ```
     int[][] dp = new int[m + 1][n + 1]; 
@@ -87,13 +97,24 @@
     //          or s.charAt(i), t.charAt(j)
     ```
 
-8. Deep copy DFS results.
+9. Deep copy DFS results.
 
    ```
    List<Integer> curr = new ArrayList<>();
    ...
    result.add(new ArrayList<>(curr));  // NOT result.add(curr)
    ```
+  
+10. Java's pass by value mechanism.
+
+	```
+	void dfs(TreeNode root, TreeNode prev) {
+		...
+		prev = root;                    // WRONG
+		prev = new TreeNode(root.val);  // WRONG
+		prev.val = 1;                   // CORRECT
+	}
+	```
 
 ## Java Tricks
 
@@ -486,4 +507,14 @@
 
   - The total array size is always n each run, for log n times recursive calls.
 
-5. We often can optimize the space complexity of a dynamic programming solution from O(n^2) to O(n), and even O(1), if the recursive equation only depends on the previous state.
+5. Something about DP
+
+- We often can optimize the space complexity of a dynamic programming solution from O(n^2) to O(n), and even O(1), if the recursive equation only depends on the previous state.
+
+6. Something about DFS
+
+- TC: O(branch^layer), such as O(2^n)
+
+- SC: O(layer), such as O(n)
+
+- Whether we need a loop in DFS depends on the branching factor. If it's just add vs not add (Subset, Permutation), we don't necessarily need a loop; if there are more than 2 branches (Coin change, N queens), we need a loop to iterate over every branch.

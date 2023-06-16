@@ -13,7 +13,8 @@ public class MergeIntervals {
     // }
     // else if (overlap: previous interval's second index >= current interval's first index) {
     //     merge: set previous interval's second index to max(the two intervals' second index)
-    //            e.g. [1,3], [2,6] -> [1,6], [1, 4] [2, 3] -> [1, 4]
+    //            e.g. [1,3], [2,6] -> [1,6]
+    //                 [1,4], [2,3] -> [1,4]
     // }
 
     // TC: depends on sorting, O(n log n) for Java
