@@ -27,7 +27,7 @@ public class HouseRobber {
     }
 
     class Solution2 {
-        // Optimized DP: TC = O(n), SC = O(n)
+        // Optimized DP: TC = O(n), SC = O(1)
         public int rob(int[] nums) {
             if (nums == null || nums.length == 0) {
                 return 0;

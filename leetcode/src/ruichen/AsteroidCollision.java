@@ -6,11 +6,11 @@ import java.util.Deque;
 public class AsteroidCollision {
     // case 1: positive number
     // case 1.1: all positive numbers: no collision, push()
-    // case 1.2: [negative, positive]: no collision, push()
+    // case 1.2: [negative, positive]: [<-, ->], no collision, push()
 
     // case 2: negative number
     // case 2.1: all negative numbers: no collision, push()
-    // case 2.2: [positive, negative]
+    // case 2.2: [positive, negative]: [->, <-]
     // case 2.3.1: positive < negative: collision, pop() then push()
     // case 2.3.2: positive = negative: collision, pop() (canceled out)
     // case 2.3.3: positive > negative: collision, do nothing
@@ -23,13 +23,13 @@ public class AsteroidCollision {
                 if (asteroid > 0) {
                     stack.offerFirst(asteroid);
                 } else {
-                    while (!stack.isEmpty() && stack.peek() > 0 && stack.peek() < -asteroid) {
+                    while (!stack.isEmpty() && stack.peekFirst() > 0 && stack.peekFirst() < Math.abs(asteroid)) {
                         stack.pollFirst();
                     }
                     // why the while loop ends? -> terminate condition 1 or 2
-                    if (stack.isEmpty() || stack.peek() < 0) {
+                    if (stack.isEmpty() || stack.peekFirst() < 0) {
                         stack.offerFirst(asteroid);
-                    } else if (stack.peek() == -asteroid) {  // terminate condition 3
+                    } else if (stack.peekFirst() == Math.abs(asteroid)) {  // terminate condition 3
                         stack.pollFirst();
                     }
                 }

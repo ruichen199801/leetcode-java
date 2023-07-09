@@ -1,8 +1,10 @@
 # Leetcode Solutions
 
-Created by Ruichen in 1/2021. Last updated in 6/2023.<br>
+Created by Ruichen in 1/2021. Last updated in 7/2023.<br>
 
-My leetcode solutions in Java. Click on the question number to see the question. Click on the name of the question to see my solution. I also created [my leetcode cheatsheet](./Leetcode-Cheatsheet.md) to help me brush up on my algorithmic skills after taking a break from solving leetcode problems.
+My leetcode solutions in Java. Click on the question number to see the question. Click on the name of the question to see my solution. 
+
+I also created [my leetcode cheatsheet](./Leetcode-Cheatsheet.md) to help me brush up on my algorithmic skills after taking a break from solving leetcode problems.
 
 | No. | Question Name | Difficulty | Tags |
 | :---- | :---- | :---- | :---- |
@@ -150,6 +152,7 @@ My leetcode solutions in Java. Click on the question number to see the question.
 | [210](https://leetcode.com/problems/course-schedule-ii/) | [Course Schedule II](leetcode/src/ruichen/CourseScheduleII.java) | Medium | Graph, Breadth-first Search, Topological Sort |
 | [213](https://leetcode.com/problems/house-robber-ii/) | [House Robber II](leetcode/src/ruichen/HouseRobberII.java) | Medium | Dynamic Programming |
 | [216](https://leetcode.com/problems/combination-sum-iii/) | [Combination Sum III](leetcode/src/ruichen/CombinationSumIII.java) | Medium | Depth-first Search |
+| [225](https://leetcode.com/problems/implement-stack-using-queues/) | [Implement Stack using Queues](leetcode/src/ruichen/ImplementStackUsingQueues.java) | Easy | Stack, Queue, Design |
 | [226](https://leetcode.com/problems/invert-binary-tree/) | [Invert Binary Tree](leetcode/src/ruichen/InvertBinaryTree.java) | Easy | Tree |
 | [230](https://leetcode.com/problems/kth-smallest-element-in-a-bst/) | [Kth Smallest Element in a BST](leetcode/src/ruichen/KthSmallestElementInABST.java) | Medium | Tree, Binary Search Tree, Depth-first Search |
 | [231](https://leetcode.com/problems/power-of-two/) | [Power of Two](leetcode/src/ruichen/PowerOfTwo.java) | Easy | Bit Manipulation, Math |
@@ -191,6 +194,7 @@ My leetcode solutions in Java. Click on the question number to see the question.
 | [344](https://leetcode.com/problems/reverse-string/) | [Reverse String](leetcode/src/ruichen/ReverseString.java) | Easy | String, Two Pointers |
 | [345](https://leetcode.com/problems/reverse-vowels-of-a-string/) | [Reverse Vowels of a String](leetcode/src/ruichen/ReverseVowelsOfAString.java) | Easy | String, Two Pointers |
 | [347](https://leetcode.com/problems/top-k-frequent-elements/) | [Top K Frequent Elements](leetcode/src/ruichen/TopKFrequentElements.java) | Medium | Hash Table, Heap, Quick Select |
+| [362](https://leetcode.com/problems/design-hit-counter/) | [Design Hit Counter](leetcode/src/ruichen/DesignHitCounter.java) | Medium | Binary Search, Design |
 | [367](https://leetcode.com/problems/valid-perfect-square/) | [Valid Perfect Square](leetcode/src/ruichen/ValidPerfectSquare.java) | Easy | Binary Search |
 | [370](https://leetcode.com/problems/range-addition/) | [Range Addition](leetcode/src/ruichen/RangeAddition.java) | Medium | Array, Prefix Sum |
 | [371](https://leetcode.com/problems/sum-of-two-integers/) | [Sum of Two Integers](leetcode/src/ruichen/SumOfTwoIntegers.java) | Medium | Bit Manipulation |
@@ -206,17 +210,21 @@ My leetcode solutions in Java. Click on the question number to see the question.
 | [404](https://leetcode.com/problems/sum-of-left-leaves/) | [Sum of Left Leaves](leetcode/src/ruichen/SumOfLeftLeaves.java) | Easy | Tree |
 | [409](https://leetcode.com/problems/longest-palindrome) | [Longest Palindrome](leetcode/src/ruichen/LongestPalindrome.java) | Easy | Hash Table, String |
 | [415](https://leetcode.com/problems/add-strings/) | [Add Strings](leetcode/src/ruichen/AddStrings.java) | Easy | Math, String |
+| [416](https://leetcode.com/problems/partition-equal-subset-sum/) | [Partition Equal Subset Sum](leetcode/src/ruichen/PartitionEqualSubsetSum.java) | Medium | Dynamic Programming |
 | [429](https://leetcode.com/problems/n-ary-tree-level-order-traversal/) | [N-ary Tree Level Order Traversal](leetcode/src/ruichen/NaryTreeLevelOrderTraversal.java) | Medium | Tree, Breadth-first Search |
 | [437](https://leetcode.com/problems/path-sum-iii/) | [Path Sum III](leetcode/src/ruichen/PathSumIII.java) | Medium | Tree, Depth-first Search, Prefix Sum |
 | [442](https://leetcode.com/problems/find-all-duplicates-in-an-array/) | [Find All Duplicates in an Array](leetcode/src/ruichen/FindAllDuplicatesInAnArray.java) | Medium | Array |
+| [443](https://leetcode.com/problems/string-compression/) | [String Compression](leetcode/src/ruichen/StringCompression.java) | Medium | Two Pointers, String |
 | [445](https://leetcode.com/problems/add-two-numbers-ii/) | [Add Two Numbers II](leetcode/src/ruichen/AddTwoNumbersII.java) | Medium | Math, Linked List |
 | [448](https://leetcode.com/problems/find-all-numbers-disappeared-in-an-array/) | [Find All Numbers Disappeared in an Array](leetcode/src/ruichen/FindAllNumbersDisappearedInAnArray.java) | Easy | Array |
+| [451](https://leetcode.com/problems/sort-characters-by-frequency/) | [Sort Characters by Frequency](leetcode/src/ruichen/SortCharactersByFrequency.java) | Medium | Hash Table, Heap, String |
 | [455](https://leetcode.com/problems/assign-cookies/) | [Assign Cookies](leetcode/src/ruichen/AssignCookies.java) | Easy | Array, Greedy, Sorting |
 | [463](https://leetcode.com/problems/island-perimeter/) | [Island Perimeter](leetcode/src/ruichen/IslandPerimeter.java) | Easy | Array |
 | [485](https://leetcode.com/problems/max-consecutive-ones/) | [Max Consecutive Ones](leetcode/src/ruichen/MaxConsecutiveOnes.java) | Easy | Dynamic Programming |
 | [486](https://leetcode.com/problems/predict-the-winner/) | [Predict the Winner](leetcode/src/ruichen/PredictTheWinner.java) | Medium | Minimax, Dynamic Programming |
 | [490](https://leetcode.com/problems/the-maze/) | [The Maze](leetcode/src/ruichen/TheMaze.java) | Medium | Breadth-first Search |
 | [509](https://leetcode.com/problems/fibonacci-number/) | [Fibonacci Number](leetcode/src/ruichen/FibonacciNumber.java) | Easy | Array |
+| [518](https://leetcode.com/problems/coin-change-ii/) | [Coin Change II](leetcode/src/ruichen/CoinChangeII.java) | Medium | Dynamic Programming |
 | [523](https://leetcode.com/problems/continuous-subarray-sum/) | [Continuous Subarray Sum](leetcode/src/ruichen/ContinuousSubarraySum.java) | Medium | Array, Math, Prefix Sum |
 | [530](https://leetcode.com/problems/minimum-absolute-difference-in-bst/) | [Minimum Absolute Difference in BST](leetcode/src/ruichen/MinimumAbsoluteDifferenceInBST.java) | Easy | Tree, Binary Search Tree, Depth-first Search |
 | [532](https://leetcode.com/problems/k-diff-pairs-in-an-array/) | [K-diff Pairs in an Array](leetcode/src/ruichen/KDiffPairsInAnArray.java) | Medium | Array, Hash Table |
@@ -228,12 +236,15 @@ My leetcode solutions in Java. Click on the question number to see the question.
 | [557](https://leetcode.com/problems/reverse-words-in-a-string-iii/) | [Reverse Words in a String III](leetcode/src/ruichen/ReverseWordsInAStringIII.java) | Easy | String, Two Pointers |
 | [559](https://leetcode.com/problems/maximum-depth-of-n-ary-tree/) | [Maximum Depth of N-ary Tree](leetcode/src/ruichen/MaximumDepthOfNaryTree.java) | Easy | Tree, Depth-first Search |
 | [560](https://leetcode.com/problems/subarray-sum-equals-k/) | [Subarray Sum Equals K](leetcode/src/ruichen/SubarraySumEqualsK.java) | Easy | Array, Hash Table, Prefix Sum |
+| [567](https://leetcode.com/problems/permutation-in-string/) | [Permutation in String](leetcode/src/ruichen/PermutationInString.java) | Medium | String, Sliding Window |
 | [583](https://leetcode.com/problems/delete-operation-for-two-strings/) | [Delete Operation for Two Strings](leetcode/src/ruichen/DeleteOperationForTwoStrings.java) | Medium | String, Dynamic Programming |
 | [589](https://leetcode.com/problems/n-ary-tree-preorder-traversal/) | [N-ary Tree Preorder Traversal](leetcode/src/ruichen/NaryTreePreorderTraversal.java) | Easy | Tree |
 | [590](https://leetcode.com/problems/n-ary-tree-postorder-traversal/) | [N-ary Tree Postorder Traversal](leetcode/src/ruichen/NaryTreePostorderTraversal.java) | Easy | Tree |
 | [599](https://leetcode.com/problems/minimum-index-sum-of-two-lists/) | [Minimum Index Sum of Two Lists](leetcode/src/ruichen/MinimumIndexSumOfTwoLists.java) | Easy | Array, Hash Table |
+| [604](https://leetcode.com/problems/design-compressed-string-iterator/) | [Design Compressed String Iterator](leetcode/src/ruichen/DesignCompressedStringIterator.java) | Easy | String, Hash Table, Design |
 | [605](https://leetcode.com/problems/can-place-flowers/) | [Can Place Flowers](leetcode/src/ruichen/CanPlaceFlowers.java) | Easy | Array |
 | [617](https://leetcode.com/problems/merge-two-binary-trees/) | [Merge Two Binary Trees](leetcode/src/ruichen/MergeTwoBinaryTrees.java) | Easy | Tree, Depth-first Search |
+| [621](https://leetcode.com/problems/task-scheduler/) | [Task Scheduler](leetcode/src/ruichen/TaskScheduler.java) | Medium | Greedy, Heap |
 | [628](https://leetcode.com/problems/maximum-product-of-three-numbers/) | [Maximum Product of Three Numbers](leetcode/src/ruichen/MaximumProductOfThreeNumbers.java) | Easy | Array, Math |
 | [637](https://leetcode.com/problems/average-of-levels-in-binary-tree/) | [Average of Levels in Binary Tree](leetcode/src/ruichen/AverageOfLevelsInBinaryTree.java) | Easy | Tree, Breadth-first Search |
 | [653](https://leetcode.com/problems/two-sum-iv-input-is-a-bst/) | [Two Sum IV - Input is a BST](leetcode/src/ruichen/TwoSumIV.java) | Easy | Hash Table, Tree, Depth-first Search |
@@ -264,6 +275,7 @@ My leetcode solutions in Java. Click on the question number to see the question.
 | [875](https://leetcode.com/problems/koko-eating-bananas/) | [Koko Eating Bananas](leetcode/src/ruichen/KokoEatingBananas.java) | Medium | Binary Search |
 | [876](https://leetcode.com/problems/middle-of-the-linked-list/) | [Middle of the Linked List](leetcode/src/ruichen/MiddleOfTheLinkedList.java) | Easy | Linked List |
 | [885](https://leetcode.com/problems/spiral-matrix-iii/) | [Spiral Matrix III](leetcode/src/ruichen/SpiralMatrixIII.java) | Medium | Array, Simulation |
+| [895](https://leetcode.com/problems/maximum-frequency-stack/) | [Maximum Frequency Stack](leetcode/src/ruichen/MaximumFrequencyStack.java) | Hard | Stack, Hash Table, Design |
 | [917](https://leetcode.com/problems/reverse-only-letters/) | [Reverse Only Letters](leetcode/src/ruichen/ReverseOnlyLetters.java) | Easy | String, Two Pointers |
 | [926](https://leetcode.com/problems/flip-string-to-monotone-increasing/) | [Flip String to Monotone Increasing](leetcode/src/ruichen/FlipStringToMonotoneIncreasing.java) | Medium | String, Dynamic Programming |
 | [937](https://leetcode.com/problems/reorder-data-in-log-files/) | [Reorder Data in Log Files](leetcode/src/ruichen/ReorderDataInLogFiles.java) | Easy | Array, Sorting |
@@ -284,6 +296,7 @@ My leetcode solutions in Java. Click on the question number to see the question.
 | [1123](https://leetcode.com/problems/lowest-common-ancestor-of-deepest-leaves/) | [Lowest Common Ancestor of Deepest Leaves](leetcode/src/ruichen/LowestCommonAncestorOfDeepestLeaves.java) | Medium | Tree, Depth-first Search |
 | [1137](https://leetcode.com/problems/n-th-tribonacci-number/) | [N-th Tribonacci Number](leetcode/src/ruichen/NthTribonacciNumber.java) | Easy | Dynamic Programming |
 | [1143](https://leetcode.com/problems/longest-common-subsequence/) | [Longest Common Subsequence](leetcode/src/ruichen/LongestCommonSubsequence.java) | Medium | String, Dynamic Programming |
+| [1166](https://leetcode.com/problems/design-file-system/) | [Design File System](leetcode/src/ruichen/DesignFileSystem.java) | Medium | Trie, Hash Table, Design |
 | [1167](https://leetcode.com/problems/minimum-cost-to-connect-sticks/) | [Minimum Cost to Connect Sticks](leetcode/src/ruichen/MinimumCostToConnectSticks.java) | Medium | Greedy, Heap |
 | [1189](https://leetcode.com/problems/maximum-number-of-balloons/) | [Maximum Number of Balloons](leetcode/src/ruichen/MaximumNumberOfBalloons.java) | Easy | Hash Table, String, Counting |
 | [1200](https://leetcode.com/problems/minimum-absolute-difference/) | [Minimum Absolute Difference](leetcode/src/ruichen/MinimumAbsoluteDifference.java) | Easy | Array, Sorting |
@@ -292,6 +305,7 @@ My leetcode solutions in Java. Click on the question number to see the question.
 | [1219](https://leetcode.com/problems/path-with-maximum-gold/) | [Path with Maximum Gold](leetcode/src/ruichen/PathWithMaximumGold.java) | Medium | Depth-first Search |
 | [1221](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [Split a String in Balanced Strings](leetcode/src/ruichen/SplitAStringInBalancedStrings.java) | Easy | String, Counting |
 | [1232](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [Check If It Is a Straight Line](leetcode/src/ruichen/CheckIfItIsAStraightLine.java) | Easy | Array, Math |
+| [1244](https://leetcode.com/problems/design-a-leaderboard/) | [Design A Leaderboard](leetcode/src/ruichen/DesignALeaderboard.java) | Medium | Hash Table, Heap, Design |
 | [1260](https://leetcode.com/problems/shift-2d-grid/) | [Shift 2D Grid](leetcode/src/ruichen/Shift2DGrid.java) | Easy | Array |
 | [1290](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | [Convert Binary Number in a Linked List to Integer](leetcode/src/ruichen/ConvertBinaryNumberInALinkedListToInteger.java) | Easy | Linked List, Math |
 | [1306](https://leetcode.com/problems/jump-game-iii/) | [Jump Game III](leetcode/src/ruichen/JumpGameIII.java) | Medium | Array, Depth-first Search, Breadth-first Search |
@@ -307,7 +321,7 @@ My leetcode solutions in Java. Click on the question number to see the question.
 | [1469](https://leetcode.com/problems/find-all-the-lonely-nodes/) | [Find All the Lonely Nodes](leetcode/src/ruichen/FindAllTheLonelyNodes.java) | Easy | Tree |
 | [1470](https://leetcode.com/problems/shuffle-the-array/) | [Shuffle the Array](leetcode/src/ruichen/ShuffleTheArray.java) | Easy | Array |
 | [1474](https://leetcode.com/problems/delete-n-nodes-after-m-nodes-of-a-linked-list/) | [Delete N Nodes after M Nodes of a Linked List](leetcode/src/ruichen/DeleteNNodesAfterMNodesOfALinkedList.java) | Easy | Linked List |
-| [1492](https://leetcode.com/problems/the-kth-factor-of-n/) | [The kth Factor of n](leetcode/src/ruichen/TheKthFactorOfN.java) | Medium | Math |
+| [1492](https://leetcode.com/problems/the-kth-factor-of-n/) | [The Kth Factor of N](leetcode/src/ruichen/TheKthFactorOfN.java) | Medium | Math |
 | [1556](https://leetcode.com/problems/thousand-separator/) | [Thousand Separator](leetcode/src/ruichen/ThousandSeparator.java) | Easy | String |
 | [1592](https://leetcode.com/problems/rearrange-spaces-between-words/) | [Rearrange Spaces Between Words](leetcode/src/ruichen/RearrangeSpacesBetweenWords.java) | Easy | String |
 | [1603](https://leetcode.com/problems/design-parking-system/) | [Design Parking System](leetcode/src/ruichen/DesignParkingSystem.java) | Easy | Design |
@@ -322,6 +336,8 @@ My leetcode solutions in Java. Click on the question number to see the question.
 | [1881](https://leetcode.com/problems/maximum-value-after-insertion/) | [Maximum Value after Insertion](leetcode/src/ruichen/MaximumValueAfterInsertion.java) | Medium | String |
 | [1971](https://leetcode.com/problems/find-if-path-exists-in-graph/) | [Find if Path Exists in Graph](leetcode/src/ruichen/FindIfPathExistsInGraph.java) | Easy | Graph, Depth-first Search, Breadth-first Search, Union Find |
 | [1995](https://leetcode.com/problems/count-special-quadruplets/) | [Count Special Quadruplets](leetcode/src/ruichen/CountSpecialQuadruplets.java) | Easy | Array, Hash Table |
+| [2006](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | [Count Number of Pairs with Absolute Difference K](leetcode/src/ruichen/CountNumberOfPairsWithAbsoluteDifferenceK.java) | Easy | Array, Hash Table |
+| [2034](https://leetcode.com/problems/stock-price-fluctuation/) | [Stock Price Fluctuation](leetcode/src/ruichen/StockPriceFluctuation.java) | Medium | Hash Table, Heap, Design |
 | [2074](https://leetcode.com/problems/reverse-nodes-in-even-length-groups/) | [Reverse Nodes in Even Length Groups](leetcode/src/ruichen/ReverseNodesInEvenLengthGroups.java) | Medium | Linked List |
 | [2181](https://leetcode.com/problems/merge-nodes-in-between-zeros/) | [Merge Nodes in Between Zeros](leetcode/src/ruichen/MergeNodesInBetweenZeros.java) | Medium | Linked List |
 | [2259](https://leetcode.com/problems/remove-digit-from-number-to-maximize-result/) | [Remove Digit From Number to Maximize Result](leetcode/src/ruichen/RemoveDigitFromNumberToMaximizeResult.java) | Easy | String |

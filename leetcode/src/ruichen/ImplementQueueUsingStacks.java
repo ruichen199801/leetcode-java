@@ -6,7 +6,7 @@ import java.util.Deque;
 public class ImplementQueueUsingStacks {
     /*
     Stack 1: take input  [  <- 1 2 3
-    Stack 2: output      [  ->  3 2 1
+    Stack 2: output      [  ->  a3 2 1
     shuffle once (stack 1 -> stack 2): reverse order
     queue.add(x): stack1.add(x)
     queue.pop():  case 1: if stack2.size() > 0, stack2.pop()
@@ -14,8 +14,9 @@ public class ImplementQueueUsingStacks {
                           then stack2.pop()
 
     poll(), peek(): TC: amortized = O(1), worst case O(n)  SC: O(1)
-    offer(): TC = O(1)  SC = O(n)
+    offer(): TC = O(1)  SC = O(1)
     size(), isEmpty(): TC = O(1)  SC = O(1)
+    MyQueue: SC = O(n)
      */
     class MyQueue {
         Deque<Integer> stack1;
