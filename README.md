@@ -261,6 +261,7 @@ I also created [my leetcode cheatsheet](./Leetcode-Cheatsheet.md) to help me bru
 | [709](https://leetcode.com/problems/to-lower-case/) | [To Lower Case](leetcode/src/ruichen/ToLowerCase.java) | Easy | String |
 | [716](https://leetcode.com/problems/max-stack/) | [Max Stack](leetcode/src/ruichen/MaxStack.java) | Easy | Stack, Design |
 | [725](https://leetcode.com/problems/split-linked-list-in-parts/) | [Split Linked List in Parts](leetcode/src/ruichen/SplitLinkedListInParts.java) | Medium | Linked List |
+| [729](https://leetcode.com/problems/my-calendar-i/) | [My Calendar I](leetcode/src/ruichen/MyCalendarI.java) | Medium | Array, Design |
 | [733](https://leetcode.com/problems/flood-fill/) | [Flood Fill](leetcode/src/ruichen/FloodFill.java) | Easy | Breadth-first Search, Depth-first Search |
 | [735](https://leetcode.com/problems/asteroid-collision/) | [Asteroid Collision](leetcode/src/ruichen/AsteroidCollision.java) | Medium | Stack |
 | [746](https://leetcode.com/problems/min-cost-climbing-stairs/) | [Min Cost Climbing Stairs](leetcode/src/ruichen/MinCostClimbingStairs.java) | Easy | Dynamic Programming |
@@ -288,6 +289,7 @@ I also created [my leetcode cheatsheet](./Leetcode-Cheatsheet.md) to help me bru
 | [988](https://leetcode.com/problems/smallest-string-starting-from-leaf/) | [Smallest String Starting from Leaf](leetcode/src/ruichen/SmallestStringStartingFromLeaf.java) | Medium | Tree, String, Depth-first Search |
 | [989](https://leetcode.com/problems/add-to-array-form-of-integer/) | [Add to Array-Form of Integer](leetcode/src/ruichen/AddToArrayFormOfInteger.java) | Easy | Math, String |
 | [1023](https://leetcode.com/problems/camelcase-matching/) | [Camelcase Matching](leetcode/src/ruichen/CamelcaseMatching.java) | Medium | Two Pointers, String |
+| [1029](https://leetcode.com/problems/two-city-scheduling/) | [Two City Scheduling](leetcode/src/ruichen/TwoCityScheduling.java) | Medium | Array, Greedy, Sorting |
 | [1041](https://leetcode.com/problems/robot-bounded-in-circle/) | [Robot Bounded in Circle](leetcode/src/ruichen/RobotBoundedInCircle.java) | Medium | Math, Simulation |
 | [1047](https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/) | [Remove All Adjacent Duplicates in String](leetcode/src/ruichen/RemoveAllAdjacentDuplicatesInString.java) | Easy | Stack |
 | [1089](https://leetcode.com/problems/duplicate-zeros/) | [Duplicate Zeros](leetcode/src/ruichen/DuplicateZeros.java) | Easy | Array, Two Pointers |
@@ -306,6 +308,7 @@ I also created [my leetcode cheatsheet](./Leetcode-Cheatsheet.md) to help me bru
 | [1221](https://leetcode.com/problems/split-a-string-in-balanced-strings/) | [Split a String in Balanced Strings](leetcode/src/ruichen/SplitAStringInBalancedStrings.java) | Easy | String, Counting |
 | [1232](https://leetcode.com/problems/check-if-it-is-a-straight-line/) | [Check If It Is a Straight Line](leetcode/src/ruichen/CheckIfItIsAStraightLine.java) | Easy | Array, Math |
 | [1244](https://leetcode.com/problems/design-a-leaderboard/) | [Design A Leaderboard](leetcode/src/ruichen/DesignALeaderboard.java) | Medium | Hash Table, Heap, Design |
+| [1249](https://leetcode.com/problems/minimum-remove-to-make-valid-parentheses/) | [Minimum Remove to Make Valid Parentheses](leetcode/src/ruichen/MinimumRemoveToMakeValidParentheses.java) | Medium | String, Stack |
 | [1260](https://leetcode.com/problems/shift-2d-grid/) | [Shift 2D Grid](leetcode/src/ruichen/Shift2DGrid.java) | Easy | Array |
 | [1290](https://leetcode.com/problems/convert-binary-number-in-a-linked-list-to-integer/) | [Convert Binary Number in a Linked List to Integer](leetcode/src/ruichen/ConvertBinaryNumberInALinkedListToInteger.java) | Easy | Linked List, Math |
 | [1306](https://leetcode.com/problems/jump-game-iii/) | [Jump Game III](leetcode/src/ruichen/JumpGameIII.java) | Medium | Array, Depth-first Search, Breadth-first Search |
@@ -317,6 +320,7 @@ I also created [my leetcode cheatsheet](./Leetcode-Cheatsheet.md) to help me bru
 | [1353](https://leetcode.com/problems/maximum-number-of-events-that-can-be-attended/) | [Maximum Number of Events That Can Be Attended](leetcode/src/ruichen/MaximumNumberOfEventsThatCanBeAttended.java) | Medium | Array, Greedy, Heap |
 | [1367](https://leetcode.com/problems/linked-list-in-binary-tree/) | [Linked List in Binary Tree](leetcode/src/ruichen/LinkedListInBinaryTree.java) | Medium | Tree, Linked List, Depth-first Search, Breadth-first Search |
 | [1396](https://leetcode.com/problems/design-underground-system/) | [Design Underground System](leetcode/src/ruichen/DesignUndergroundSystem.java) | Medium | Hash Table, Design |
+| [1436](https://leetcode.com/problems/destination-city/) | [Destination City](leetcode/src/ruichen/DestinationCity.java) | Easy | String, Hash Table |
 | [1446](https://leetcode.com/problems/consecutive-characters/) | [Consecutive Characters](leetcode/src/ruichen/ConsecutiveCharacters.java) | Easy | String, Counting |
 | [1469](https://leetcode.com/problems/find-all-the-lonely-nodes/) | [Find All the Lonely Nodes](leetcode/src/ruichen/FindAllTheLonelyNodes.java) | Easy | Tree |
 | [1470](https://leetcode.com/problems/shuffle-the-array/) | [Shuffle the Array](leetcode/src/ruichen/ShuffleTheArray.java) | Easy | Array |
@@ -334,6 +338,7 @@ I also created [my leetcode cheatsheet](./Leetcode-Cheatsheet.md) to help me bru
 | [1721](https://leetcode.com/problems/swapping-nodes-in-a-linked-list/) | [Swapping Nodes in a Linked List](leetcode/src/ruichen/SwappingNodesInALinkedList.java) | Medium | Linked List |
 | [1822](https://leetcode.com/problems/sign-of-the-product-of-an-array/) | [Sign of the Product of an Array](leetcode/src/ruichen/SignOfTheProductOfAnArray.java) | Easy | Array, Math |
 | [1881](https://leetcode.com/problems/maximum-value-after-insertion/) | [Maximum Value after Insertion](leetcode/src/ruichen/MaximumValueAfterInsertion.java) | Medium | String |
+| [1963](https://leetcode.com/problems/minimum-number-of-swaps-to-make-the-string-balanced/) | [Minimum Number of Swaps to Make the String Balanced](leetcode/src/ruichen/MinimumNumberOfSwapsToMakeTheStringBalanced.java) | Medium | String, Stack, Two Pointers, Greedy |
 | [1971](https://leetcode.com/problems/find-if-path-exists-in-graph/) | [Find if Path Exists in Graph](leetcode/src/ruichen/FindIfPathExistsInGraph.java) | Easy | Graph, Depth-first Search, Breadth-first Search, Union Find |
 | [1995](https://leetcode.com/problems/count-special-quadruplets/) | [Count Special Quadruplets](leetcode/src/ruichen/CountSpecialQuadruplets.java) | Easy | Array, Hash Table |
 | [2006](https://leetcode.com/problems/count-number-of-pairs-with-absolute-difference-k/) | [Count Number of Pairs with Absolute Difference K](leetcode/src/ruichen/CountNumberOfPairsWithAbsoluteDifferenceK.java) | Easy | Array, Hash Table |
