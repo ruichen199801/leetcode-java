@@ -1,10 +1,6 @@
 # Leetcode Solutions
 
-Created by Ruichen in 1/2021. Last updated in 7/2023.<br>
-
 My leetcode solutions in Java. Click on the question number to see the question. Click on the name of the question to see my solution. 
-
-I also created [my leetcode cheatsheet](./Leetcode-Cheatsheet.md) to help me brush up on my algorithmic skills after taking a break from solving leetcode problems.
 
 | No. | Question Name | Difficulty | Tags |
 | :---- | :---- | :---- | :---- |
